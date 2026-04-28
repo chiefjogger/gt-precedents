@@ -19,7 +19,7 @@
 ## Section structure (8 sections + presenter mode shell)
 
 ### Section 0: Title shell (sticky top bar)
-- Left: small caps "WinX // graveyard" + version date.
+- Left: small caps "GT // graveyard" + version date.
 - Right: section index (Roman numerals I-VIII), presenter mode toggle.
 - Drops opacity on scroll into hero, returns at section II.
 
@@ -53,8 +53,7 @@
 ### Section V: Four-assets matrix (the central chart)
 - Companies on Y axis, four assets on X axis (MT density, GT wedge, first-party FMCG brands, identified POS receipts).
 - Dot grid: full dot (yes), half dot (partial), empty (no).
-- WinX row at the top, highlighted in amber, shows full dots across all four. The cohort below shows the gaps.
-- Annotation arrow: "First Vietnamese platform with all four."
+- The cohort shows the gaps; almost no company has more than two of the four assets.
 
 ### Section VI: Geographic footprint
 - Map of Asia (D3 geographic projection, simple geometry).
@@ -70,15 +69,11 @@
 - At least 8 quotes: Phong (Telio), Mehra (Ula), Menon (Lummo), Gupta (Udaan), VnExpress on VinShop, ex-Telio LinkedIn, journalist commentary, Mehra's "letting go" line.
 - Subtle animation: quote fades in as it enters viewport, holds, fades on exit.
 
-### Section VIII: WinX delta (thesis-supportive)
-- Left column: 5 bullets of structural differentiators (compliance forcing function, Zalo-native channel, captive demand, partner-bank credit, attribution-first design).
-- Right column: the four-assets matrix WinX row (visual emphasis).
-- Below: 4 open operational questions (the EOY FY26 review gates).
-- Final line: "The graveyard is the strongest argument for WinX, not against it."
-
-### Section IX (presenter mode only): IC summary
-- One-screen TL;DR appears only when presenter mode is on.
-- 5 numbers, 5 sentences, recommendation.
+### Section VIII: What it would take to win
+- Left column: 5 bullets of structural conditions an entrant would need to meet (compliance forcing function, native messaging channel, captive demand, partner-bank credit, attribution-first design).
+- Right column: visual emphasis of the four-assets gap visible in the cohort.
+- Below: 4 open operational questions any future entrant would face.
+- Final line: "The graveyard is the strongest argument for what does not work."
 
 ## Presenter mode behaviour
 - Keyboard: P toggles, J/K next/prev section, F fullscreen.
@@ -111,7 +106,7 @@
 5. Sections IV, V matrix and dot grid (D3 or pure SVG).
 6. Section VI map (D3 with simple geometry).
 7. Section VII voice (HTML, no JS heavy).
-8. Section VIII WinX delta (HTML).
+8. Section VIII conditions-to-win (HTML).
 9. Presenter mode toggle and shortcuts.
 10. Mobile responsive pass.
 11. Performance pass (particle count, lazy WebGL init below the fold).

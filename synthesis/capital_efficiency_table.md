@@ -1,6 +1,6 @@
 # Capital efficiency: dollars in vs dollars produced
 
-The single most decisive piece of evidence on whether GT digitization works as a venture-return business. Priced venture capital deployed across the failed cohort (India, Indonesia, Vietnam) totals approximately $4.0bn (sum of disclosed rounds across the 23 companies). Strategic corporate capital from Reliance Retail, Walmart-Flipkart, Amazon, and Vingroup-Techcombank adds an estimated additional $1bn to $2bn that is not separately disclosed by the parents. The aggregate is approximately $5bn to $6bn against negligible aggregate revenue and zero clean venture-return exits.
+The single most decisive piece of evidence on whether GT digitization works as a venture-return business. Priced venture capital deployed across the failed cohort (India, Indonesia, Vietnam) totals approximately $4.0bn (sum of disclosed rounds across the 23 companies). Strategic corporate capital from Reliance Retail, Walmart-Flipkart, Amazon, and Vingroup-affiliated vehicles adds an estimated additional $1bn to $2bn that is not separately disclosed by the parents. The aggregate is approximately $5bn to $6bn against negligible aggregate revenue and zero clean venture-return exits.
 
 ## How to read this
 
@@ -80,11 +80,9 @@ Approximate plot positions (ratios from the table above):
 
 Caveat: revenue is run-rate at peak, not lifetime cumulative. The aggregated capital efficiency at the cohort level is what matters: ~$5.5bn deployed across India, Indonesia, and Vietnam, less than $3bn aggregate annual revenue at peak across all surviving ventures combined, with the largest single contributor (Udaan at $1.2bn) operating at -37% EBITDA margin. The aggregate is approximately 1.85x equity / peak revenue at the surface read; net of the marked-down and shut ventures, the genuinely venture-return-grade outcomes are zero.
 
-## Implication for WinX capital ask
+## What the cohort spent before shutting
 
-The IC memo asks for $3.8m FY26 incremental ($7m total) and a cumulative $63m through FY30, against a forecast of $35.4m FY30 revenue and $1.8m FY30 EBITDA, scaling to $73m EBITDA by FY32.
-
-The cohort benchmarks place this in context:
+The cohort capital benchmarks are the right anchor for any future GT digitization business case:
 
 | Benchmark | Capital | Outcome |
 |---|---|---|
@@ -93,8 +91,5 @@ The cohort benchmarks place this in context:
 | Lummo cumulative | $140m | Liquidated, $70m returned |
 | BukuWarung cumulative | $80m | Plateaued at $1.7m revenue |
 | GudangAda cumulative | $137m | VC buyback at markdown |
-| WinX cumulative through FY30 (proposed) | $63m ($47m incremental above BAU) | Forecast: $35.4m revenue, $1.8m EBITDA |
 
-The numerical comparison alone is favourable. The capital ask is below what most failed ventures consumed before shutting, and the WinX revenue trajectory does not depend on wholesale margin (Stream 1 is retail media, Stream 2 is bank-balance-sheet credit referrals, Stream 3 is data subscriptions). The FY30 revenue/cumulative-equity ratio (35.4 / 47 = 0.75x on incremental, or 35.4 / 63 = 0.56x on total) places WinX above the y=x line if the operational forecasts deliver. That is the right way for the Committee to read the comparison.
-
-The principal risk is not that the capital ask is too high. It is that the operational delivery (closed-loop POS attribution at GT scale, identified-receipt density above 50%, brand willingness to participate) has to actually happen. The cohort data establishes that no Asian venture has done this; the WinX delta document tests whether Masan's structural assets make Masan the first.
+The principal risk for any new entrant is not the size of the capital ask. It is whether the operational delivery (closed-loop POS attribution at GT scale, identified-receipt density above 50%, brand willingness to participate) actually happens. The cohort data establishes that no Asian venture has done this.

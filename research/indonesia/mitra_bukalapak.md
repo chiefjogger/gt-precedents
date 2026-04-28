@@ -45,8 +45,3 @@ Mitra is not separately funded. Bukalapak parent IPO'd on IDX in August 2021 at 
 - DealStreetAsia analyst (FY2024 coverage): "Bukalapak sees restructuring paying off from Q1 2025 but macro uncertainty looms." [source: DealStreetAsia, "Bukalapak sees restructuring paying off from Q1 2025 but macro uncertainty looms", https://www.dealstreetasia.com/stories/bukalapak-q4-2024-earnings-analysis-435339]
 - 500 Global memo (2022): "to gauge Bukalapak's value, look at its Mitra strategy." This was the early bet that the warung programme not the marketplace was the durable franchise. Has aged correctly. [source: 500 Global, https://500.co/content/to-gauge-bukalapak-s-value-look-at-its-mitra-strategy]
 
-## Read-through for Masan
-Mitra Bukalapak is the "this works" comp. Three lessons:
-1. The warung programme survives because it sits on top of an existing customer-side marketplace; CAC was zero. Masan's analogue is WinCommerce footprint and Reddi/MoMo cross-base.
-2. Digital goods (PPOB equivalent: phone top-up, electricity, water) are the highest-margin lowest-capex layer. Start there.
-3. Public-market accountability forced cost discipline that private peers (Lummo, Ula) avoided until too late. If WinX is owned by a listed parent (MSN), use that as a feature, not a constraint.

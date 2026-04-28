@@ -89,18 +89,3 @@ Capital recovery: investors offered roughly 30% on the dollar redemption or roll
 
 The thinness of warung-side voice for Ula contrasts with the rich Bahasa coverage of Mitra Bukalapak partner stories on the Bukalapak Medium and DealStreetAsia partner content. The single most important customer-side reading: warungs treated Ula as a transaction layer (cheaper sourcing + credit), not a partner identity. When Ula shrank the SKU set and geography in 2023, warungs simply switched back to incumbent distributors.
 
-## 6. IC clearance read (Dr. Quang's six gates)
-
-Ula is the most expensive instructive case in the cohort. Consumer truth: Indonesian warungs valued credit and consolidated sourcing, but not enough to pay a margin sufficient to fund a startup balance sheet. Product truth: the product worked operationally (500,000 orders/month, $200m to $300m ARR) but never reached positive contribution margin. Equity transferability: the inventory-plus-credit playbook does not transfer to a captive FMCG conglomerate context unless the parent already has the working capital and brand portfolio (which Masan does, through MCH and MEATLife). Value creation sizing: $140m in, ~$50m back in cash, peak valuation roughly $600m, terminal recovery ~30% to 35% on the dollar; the most dilutive lesson available. Competitive dynamics: incumbent distributors with sunk relationships and a permanent working capital advantage. Learnability: the highest-quality lesson in the whole dossier. Three rules transfer to Masan: (a) do not extend credit through a startup balance sheet, use a regulated banking partner (Techcombank, BTPN, OJK-licensed P2P), (b) do not subsidize SKUs to win merchants, since the discount is the gross margin, (c) do not chase ARR by absorbing distributor working capital. Mehra's discipline to shut early and return capital is the post-mortem signal worth respecting most. The willingness of Lightspeed and Peak XV to back his next venture at $10m seed validates the founder; it does not validate the warung-tech thesis.
-
-Sources:
-- [Startup Playbook Ep218, Mehra on Ula](https://startupplaybook.co/2025/08/ep218-nipun-mehra-co-founder-ceo-ula-on-ulas-hypergrowth-bezos-backing-the-hard-call-to-shut-down/)
-- [TheRunway, "Why Ula Shut Down With $50M Still in the Bank"](https://www.therunway.ventures/p/ula)
-- [Fintechnews Singapore, Ula shutdown coverage](https://fintechnews.sg/107515/indonesia/indonesia-ula-shutdown-investor-payout/)
-- [DealStreetAsia, Ula layoff Nov 2022](https://www.dealstreetasia.com/stories/ula-staff-layoffs-319247)
-- [DealStreetAsia, Mehra second act Neoflo](https://www.dealstreetasia.com/stories/ula-nipun-mehra-new-startup-449476)
-- [TNGlobal, Ula BNPL scale-up 2021](https://technode.global/2021/10/14/bezos-backed-ula-to-scale-up-pay-later-options-for-underserved-small-retailers-in-indonesia/)
-- [KrAsia, Ula Startup Stories](https://kr-asia.com/with-big-name-backing-ula-digitizes-indonesias-small-retailers-startup-stories)
-- [The Ken, Ula deep dive](https://the-ken.com/story/small-retailers-are-the-big-opportunity-for-indonesias-ula/)
-- [LinkedIn, Riky Tenggara](https://www.linkedin.com/in/rikytenggara/)
-- [LinkedIn, Mehra shutdown letter](https://www.linkedin.com/posts/nipunmehra_dear-ula-family-partners-friends-what-activity-7364992729434517505-5djX)

@@ -44,5 +44,3 @@ What broke:
 - DealStreetAsia 2021 coverage characterised the Series C effort as "challenging" given competitive intensity from Mitra Bukalapak and the GoTo merger announcement.
 - East Ventures partner Willson Cuaca (LP letter excerpts): described Warung Pintar as a "lessons learned" exit, with the SIRCLO consolidation as the right outcome rather than a chase for a Series C at a flat or down round.
 
-## Read-through for Masan
-Warung Pintar is the cautionary tale on hardware-first warung digitization. Branded kiosks look like an ecosystem moat, but the unit-cost math of putting a tablet, signage and a router into 5 million stores does not work at any plausible take rate. The Mitra app pivot then collided with the platform giants. Conclusion: hardware-driven GT modernisation only pencils when the parent has a captive distribution capex motivation (i.e., owns the brands and uses the kiosks for visibility and routing), not as a standalone venture-funded business. This is structurally relevant to Masan, which does have that captive motivation through MCH.

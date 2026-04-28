@@ -43,8 +43,3 @@ Mitra is not separately funded. GoTo (parent) IPO'd on IDX in April 2022 at IDR 
 - KBValbury equity research (Apr 2025): GoTo's go-forward operating focus is GoPay + Gojek mobility / food + on-demand financial services; Mitra Tokopedia is not in the GoTo standalone story anymore. [source: KBValbury, https://www.kbvalbury.com/cfind/source/files/goto_20250424a.pdf]
 - 36Kr Focus Analysis (2025): Indonesian local unicorns "can't hold up" against Chinese cross-border competition; Tokopedia merger with TikTok is presented as the response. [source: 36Kr EU, "Chinese cross-border e-commerce is taking over Indonesia, and the local unicorns can't hold up", https://eu.36kr.com/en/p/3131238103866112]
 
-## Read-through for Masan
-Mitra Tokopedia is the second working comp, but with a complicating asterisk: the warung programme survives only as part of a larger ecosystem (Gojek + Tokopedia + GoPay), and even the parent could not afford to keep operating it as a controlled asset. Lessons:
-1. Warung programmes work when they are layered on top of an existing two-sided platform that already does customer-side acquisition. They do not work as standalone ventures.
-2. Even super-app parents cannot run them at standalone profit; the path was to fold under TikTok Shop, where content and discovery feed the merchant side.
-3. For Masan, this maps directly onto WinCommerce + MoMo + MCH + Phuc Long: a captive ecosystem can support a warung programme that no standalone venture-backed peer can. But: do not expect the GT layer to stand alone profitably without the full ecosystem stack.

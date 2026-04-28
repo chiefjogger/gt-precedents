@@ -80,15 +80,3 @@ Capital recovery: the SIRCLO acquisition was all-stock and undisclosed. With $41
 
 - No public Tempo, Detik, Jakarta Post field report tracks Warung Pintar warung owners with depth post-acquisition. The brand consolidation closed the editorial cycle; the SIRCLO Group story is now told through principal-side / B2B narratives, not warung-side.
 
-## 6. IC clearance read (Dr. Quang's six gates)
-
-Warung Pintar is the cautionary tale on hardware-first warung digitization. Consumer truth: warungs valued the kiosk visibility but did not pay enough for the software stack. Product truth: hardware functioned but the unit economics never scaled. Equity transferability: the hardware-first model only pencils when the parent has a captive distribution capex motivation (i.e., owns the brands and uses the kiosks for visibility and routing), not as a standalone venture. This is structurally relevant to Masan, which has that captive motivation through MCH. Value creation sizing: $41.5m raised, intra-portfolio acquisition at undisclosed terms, recovery on the dollar in the low- to mid-double-digit percent range. Competitive dynamics: collided with Mitra Bukalapak and Mitra Tokopedia in the software layer, with no defensible advantage. Learnability: hardware-driven GT modernisation only works as a captive parent's distribution play, not as a standalone venture-funded business. Bezharie's career rotation to Antler (operator to investor) is the canonical post-failure exit ladder.
-
-Sources:
-- [TechCrunch, Warung Pintar Series B](https://techcrunch.com/2019/01/21/warung-pintar-raises-27-5m/)
-- [TechNode Global, SIRCLO acquires Warung Pintar](https://technode.global/2022/01/26/indonesian-ecommerce-enabler-sirclo-acquires-retail-platform-warung-pintar-to-strengthens-omnichannel-services-for-msmes-to-principals/)
-- [TechNode Global, Antler appoints Bezharie](https://technode.global/2023/07/06/antler-appoints-agung-bezharie-hadinegoro-as-partner-to-lead-30-investments-in-indonesia-in-2023/)
-- [DealStreetAsia, Warung Pintar Series C talks](https://www.dealstreetasia.com/stories/warung-pintar-funding-253702)
-- [Antler, Bezharie spokesperson](https://www.antler.co/spokesperson/agung-bezharie-hadinegoro)
-- [Medium, Hadiwijaya on startup failure](https://medium.com/purwadhikaconnect/startup-chat-3-membahas-kenapa-startup-gagal-bersama-sofian-hadiwijaya-co-founder-warung-pintar-6c206282452)
-- [MLDSPOT, Hadiwijaya feature](https://www.mldspot.com/trending/sofian-hadiwijaya-sulap-warung-tradisional-indonesia-menjadi-warung-pintar)

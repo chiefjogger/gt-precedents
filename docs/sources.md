@@ -1,6 +1,6 @@
 # Master bibliography
 
-All sources cited across the 23 company post-mortems, three synthesis documents, the MSN AGM 2026 extract, and the Techcombank 2026 strategy memo. Total unique URLs: 165.
+All sources cited across the 23 company post-mortems and the cross-cohort synthesis documents.
 
 ## How to read this
 
@@ -190,31 +190,16 @@ Sources are grouped by company file. Each entry is the article title, year, and 
 - https://acv.vc/insights/acv-portfolio-news/jeff-bezos-backed-indonesian-startup-ula-rakes-in-us23-1m-from-tiger-global-flipkart-co-founder/ (). https://acv.vc/insights/acv-portfolio-news/jeff-bezos-backed-indonesian-startup-ula-rakes-in-us23-1m-from-tiger-global-flipkart-co-founder/
 - https://www.linkedin.com/in/rikytenggara/ (). https://www.linkedin.com/in/rikytenggara/
 
-## vinid_predivest
-
-- Masan tiep quan VinMart, quyen loi chu the VinID nhu the nao? (1923). https://infonet.vietnamnet.vn/thi-truong/masan-tiep-quan-vinmart-quyen-loi-chu-the-vinid-nhu-the-nao-19238.html
-- Masan's acquisition of VinCommerce, VinEco tops M&A deals in Vietnam in 2009-2023 (2009). https://theinvestor.vn/masans-acquisition-of-vincommerce-vineco-tops-ma-deals-in-vietnam-in-2009-2023-d7619.html
-- What is VinID and how to register for benefits? (). https://mytour.vn/en/blog/bai-viet/understanding-vinid-what-is-it-and-how-to-register-for-benefits.html
-- https://en.wikipedia.org/wiki/Vingroup (). https://en.wikipedia.org/wiki/Vingroup
-
 ## vinshop
 
-- 5 năm vốn tăng 30 lần, Vingroup rút lui... (3369). https://www.dnse.com.vn/senses/tin-tuc/5-nam-von-tang-30-lan-vingroup-rut-lui-ai-dang-nam-giu-he-sinh-thai-bat-dong-san-onehousing-33699213
 - Digital platform One Mount Group restructures shares (2022). https://e.vnexpress.net/news/companies/digital-platform-one-mount-group-restructures-shares-4444896.html
 - FM Logistic Awarded Contract from Vietnamese Technology Company VinShop (4785). https://www.dcvelocity.com/articles/47859-fm-logistic-awarded-contract-from-vietnamese-technology-company-vinshop
-- Former Techcombank exec appointed CEO of technology major One Mount Group (2025). https://theinvestor.vn/former-techcombank-exec-appointed-ceo-of-technology-major-one-mount-group-d16525.html
 - Nikkei Deal Street Asia: VinShop đang đi đúng hướng khi nhắm vào thị trường màu mỡ (). https://galaxy.one/news/nikkei-deal-street-asia-vinshop-dang-di-dung-huong-khi-nham-vao-thi-truong-mau-mo-7.html
 - One Mount đầu tư 200 - 500 triệu USD xây dựng mạng Blockchain Layer 1 của Việt Nam (2025). https://thanhnien.vn/one-mount-dau-tu-200-500-trieu-usd-xay-dung-mang-blockchain-layer-1-cua-viet-nam-185250115155946827.htm
 - OneShop launches modern digital commerce platform for Vietnamese small retailers (2025). https://en.vietnamplus.vn/oneshop-launches-modern-digital-commerce-platform-for-vietnamese-small-retailers-post331423.vnp
 - OneU dừng dịch vụ ví điện tử VinID Pay (2025). https://vietnambiz.vn/oneu-dung-dich-vu-vi-dien-tu-vinid-pay-2025526152928408.htm
-- Sếp cũ Techcombank làm Tổng giám đốc One Mount Group (2025). https://vnexpress.net/sep-cu-techcombank-lam-tong-giam-doc-one-mount-group-4921672.html
-- Techcombank - One Mount luân chuyển lãnh đạo, tối ưu sức mạnh hệ sinh thái (2025). https://baodautu.vn/techcombank---one-mount-luan-chuyen-lanh-dao-toi-uu-suc-manh-he-sinh-thai-d346031
 - VinID nâng cấp thành OneU - nền tảng phong cách sống chất lượng (2024). https://dantri.com.vn/kinh-doanh/vinid-nang-cap-thanh-oneu-nen-tang-phong-cach-song-chat-luong-20240907143652496.htm
-- VinShop shook hands with Techcombank to launch a capital support service for food owners during the new year 2021 (2021). https://fleej.com/vietnam/vinshop-shook-hands-with-techcombank-to-launch-a-capital-support-service-for-food-owners-during-the-new-year-2021/
 - Vingroup launches B2B2C e-commerce platform VinShop in Vietnam (2020). https://www.dealstreetasia.com/stories/vingroup-vinshop-209918
-- Vingroup nhượng mảng Vincommerce và VinEco cho Masan (2019). https://tuoitre.vn/vingroup-nhuong-mang-vincommerce-va-vineco-cho-masan-20191203104021049.htm
-- Vingroup rút lui, One Mount Group đang thuộc về ai? (2022). https://viettimes.vn/vingroup-rut-lui-one-mount-group-dang-thuoc-ve-ai-post185645.html
-- https://vietnambusinessinsider.vn/one-mount-group-tap-doan-cong-nghe-do-techcombank-va-vingroup-hau-thuan-co-gi-a30374.html (3037). https://vietnambusinessinsider.vn/one-mount-group-tap-doan-cong-nghe-do-techcombank-va-vingroup-hau-thuan-co-gi-a30374.html
 - https://vinid.net/tin-tong-hop/vinid-nang-cap-thanh-oneu/ (2024). https://vinid.net/tin-tong-hop/vinid-nang-cap-thanh-oneu/
 - https://www.digitimes.com/news/a20211029PD209.html (2021). https://www.digitimes.com/news/a20211029PD209.html
 
@@ -239,7 +224,7 @@ Sources are grouped by company file. Each entry is the article title, year, and 
 
 ## Synthesis sources
 
-The three synthesis files (`four_failure_modes.md`, `capital_efficiency_table.md`, `winx_delta.md`) draw on the per-company sources above plus the IC memo v17 (April 2026, internal). No external sources unique to the synthesis files.
+The cross-cohort synthesis files (`four_failure_modes.md`, `capital_efficiency_table.md`) draw on the per-company sources above. No external sources unique to the synthesis files.
 
 ## Methodology notes
 

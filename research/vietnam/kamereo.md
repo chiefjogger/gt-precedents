@@ -1,6 +1,6 @@
 # Kamereo: the B2B foodservice supply platform that survived
 
-Reference period: June 2018 (incorporation) to early 2025 (Hanoi launch under Series B). Built for the WinX IC memo. Kamereo is the only Vietnamese GT digitization play of the cohort still operating, raising in the public markets, and growing through the down cycle. The IC memo paragraph misses it entirely. This file explains why and what the model implies.
+Reference period: June 2018 (incorporation) to early 2025 (Hanoi launch under Series B). Cross-market market research. Kamereo is the only Vietnamese GT digitization play of the cohort still operating, raising in the public markets, and growing through the down cycle. The IC memo paragraph misses it entirely. This file explains why and what the model implies.
 
 ## 1. Founding
 
@@ -76,15 +76,6 @@ Five reasons, in order of importance:
 - **Taku Tanaka, VIR profile**: "Vietnam's immense potential" framing; the long-form profile [source: VIR, op cit] ties the platform thesis to Vietnam's restaurant boom rather than to the kirana / mom-and-pop story that defined Telio.
 - **Genesia Ventures interview**, 2024: "Beyond Price Competition: KAMEREO's Growth Strategy in Vietnam's B2B Market" [source: Genesia Ventures, Orbit Workshop 02, https://www.genesiaventures.com/en/orbit-workshop-02/]. Tanaka argued the marketplace battle is fought on quality, freshness, and reliability of cold chain, not on price.
 - **DealStreetAsia, December 2024**: characterised the Series B raise as "to expand operations" with explicit reference to "multiple cities across the country" [source: DealStreetAsia, Series B, 2024, op cit].
-
-## 7. Read-across for WinX
-
-What Kamereo proves about the Vietnamese GT digitization opportunity:
-
-1. **Margin and customer mix matter more than capital.** The successful Vietnamese B2B distribution player is in foodservice with cold chain, not in dry FMCG into mom-and-pop. WinX should weight foodservice as a separate and higher-quality TAM than the long-tail GT mom-and-pop base.
-2. **Japanese strategic capital is the natural buyer pool in Vietnam B2B foodtech.** Sumitomo, Mitsubishi UFJ, SMBC, CPF (Thailand), and Reazon together form a coherent strategic syndicate. WinCommerce / Masan have a built-in advantage in this segment because of MEATLife and the existing cold-chain infrastructure; the Kamereo case argues the asset profile WinX needs is exactly what MEATLife already has.
-3. **Capital discipline beats capital availability.** Seven years, four rounds, $15m total, still operating. The cohort-wide pattern is consistent: under-capitalisation and slow scaling outperform fast scaling on overcapitalisation.
-4. **Founder background predicts outcome.** Operator-founders with sector pain experience win in low-margin distribution; finance founders chasing the venture comp set lose.
 
 ## 8. Thin-research flags
 

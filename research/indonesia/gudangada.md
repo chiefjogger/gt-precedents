@@ -47,5 +47,3 @@ What broke:
 - DealStreetAsia analyst note (Jan 2026): "the $137m B2B model unwinds." Investors took marked-down exits. [source: DealStreetAsia, 2026, URL above]
 - Peak XV (ex-Sequoia India) public commentary: GudangAda referenced anonymously in their post-2022 reflections as part of the "B2B marketplace winter" alongside Khatabook, BharatPe and others.
 
-## Read-through for Masan
-GudangAda is the textbook case for why a pure FMCG B2B marketplace funded with venture capital does not pencil in Indonesia or Vietnam. The take rate is structurally capped by the underlying margin pool (3% to 5%), the working-capital intensity grows once inventory is internalised, and the competitive set is unfair (incumbent distributors with sunk relationships and platform giants with cross-subsidisation). The buyback at marked-down preference shares is the cleanest possible signal that this thesis is dead. Masan's GT digitization should not be a marketplace; if anything, it must monetize through brand activation, lending or own-distribution capex, not on the wholesale spread.

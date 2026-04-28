@@ -4,7 +4,7 @@
 
 Founded 2012 in Bengaluru (legal entity LocalCube Commerce Pvt. Ltd.) by Sridhar Gundaiah (CEO) and Govardhan Krishnappa. Original thesis: rural kirana stores in tier-3, tier-4 and village India lacked access to e-commerce SKUs; turn the kirana into an "assisted commerce" point-of-sale where the storekeeper helps a walk-in customer order from a 50,000+ SKU catalog, with delivery routed to the store.
 
-[source: YourStory, "StoreKing ;  a Rs 100 crore e-commerce company that million South Indian villagers buy from", May 2015, https://yourstory.com/2015/05/storeking-e-commerce-company]
+[source: YourStory, "StoreKing ; a Rs 100 crore e-commerce company that million South Indian villagers buy from", May 2015, https://yourstory.com/2015/05/storeking-e-commerce-company]
 
 ## Capital stack
 

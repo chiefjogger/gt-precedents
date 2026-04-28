@@ -75,17 +75,3 @@ LinkedIn search signals on "ex-Wahyoo": thin. The company's small headcount (pea
 
 - The Coca-Cola Amatil X investment is the structural endorsement of warteg as an FMCG distribution channel. The Amatil-side voice is confined to the corporate venture announcement.
 
-## 6. IC clearance read (Dr. Quang's six gates)
-
-Wahyoo is the "small but alive" data point. Consumer truth: warteg owners value bulk ingredient sourcing and modest cash management; willingness to pay is real but small. Product truth: the operating model works at small scale within one city. Equity transferability: the playbook does not transfer to Masan at WinX scale, but it is a template for how an FMCG group could run a small, focused F&B services unit (e.g., wrapping micro-eateries that already buy MCH SKUs) without burning capital. Value creation sizing: $18m to $25m raised, no public valuation, no exit signal; the path is operating cash flow at small scale, not a venture return. Competitive dynamics: vertical narrowness (warteg + nasi padang + migas only) is both the survival mechanism and the growth ceiling. Learnability: vertical focus plus geographic discipline plus capital discipline is the survival recipe; the Wahyoo Ventures pivot in 2024 also reflects the reality that one-vertical operating businesses of this scale do not produce venture returns. The better outcome may be becoming the patient strategic investor for a smaller cohort below.
-
-Sources:
-- [TechCrunch, Wahyoo Series A](https://techcrunch.com/2020/08/05/jakarta-based-wahyoo-gets-5-million-series-a-to-help-small-eateries-digitize-their-operations/)
-- [Tracxn, Wahyoo profile](https://tracxn.com/d/companies/wahyoo/)
-- [PitchBook, Wahyoo Ventures](https://pitchbook.com/profiles/company/279571-06)
-- [WIPO, Wahyoo 2021 case study](https://www.wipo.int/pressroom/en/stories/wahyoo_2021.html)
-- [Tatler Asia, Peter Shearer profile](https://www.tatlerasia.com/people/peter-shearer-setiawan)
-- [The Merry Riana Show YouTube](https://www.youtube.com/watch?v=Vu7xXUAqQOw)
-- [Hidden Masters YouTube](https://www.youtube.com/watch?v=aMn27Gm8X1s)
-- [Gratyo, Peter Shearer feature](https://gratyo.com/3-kunci-hidup-sukses-dari-peter-shearer/)
-- [The Ken, Wahyoo deep dive](https://the-ken.com/story/wahyoo-indonesia-warteg-food-stalls/)

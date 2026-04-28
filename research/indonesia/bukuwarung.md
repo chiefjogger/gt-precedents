@@ -46,5 +46,3 @@ What broke:
 - Glassdoor (anonymous, ex-employee, 2023): "Strategy changed every quarter. Lending was supposed to save the business; KYC and collections were never properly built."
 - Co-founder Chinmay Chauhan exited operating role in 2023 per LinkedIn; now running a separate venture. Signal of founder split.
 
-## Read-through for Masan
-The lesson is not that bookkeeping is a bad wedge. It is that ledger apps have negligible willingness-to-pay in Indonesia (and Vietnam) at the warung tier. Monetization requires moving down-funnel into payments or up-funnel into lending; both demand capabilities (fraud ops, KYC, balance sheet) that a $60m Series A cannot support against incumbent banks, telcos and platform giants.

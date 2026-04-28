@@ -1,6 +1,6 @@
 # Telio: Post-mortem of Vietnam's first venture-funded GT digitization play
 
-Reference period: November 2018 (founding) to December 2024 (legal dissolution). Built for the WinX IC memo. The IC memo paragraph treats Telio as a single capital-efficiency cautionary tale; this file forensically reconstructs the rounds, the cap table fight, the unit economics, the wind-down sequence, and the destination of the team.
+Reference period: November 2018 (founding) to December 2024 (legal dissolution). Cross-market market research. The IC memo paragraph treats Telio as a single capital-efficiency cautionary tale; this file forensically reconstructs the rounds, the cap table fight, the unit economics, the wind-down sequence, and the destination of the team.
 
 ## 1. Founding and the founder's prior history
 
@@ -115,7 +115,7 @@ Direct LinkedIn scraping is not within reach of this research, but the public-re
 - **Pham My Linh** (Chief Strategy Officer): no public announcement; LinkedIn shows independent consulting.
 - **Nguyen Nhat Huy** (COO): no public announcement.
 - **India tech team (~40 engineers via KeyValue Systems)**: contractor relationship, not direct hires; KeyValue continues operating.
-- **Vietnam operating team**: anecdotal absorption into MoMo, Tiki, GHN, and Masan / WinCommerce based on LinkedIn presence patterns of Vietnamese FMCG/B2B alumni; no consolidated headcount placement disclosed. **Thin-research flag.**
+- **Vietnam operating team**: anecdotal absorption into MoMo, Tiki, GHN, and a Vietnamese FMCG holdco based on LinkedIn presence patterns of Vietnamese FMCG/B2B alumni; no consolidated headcount placement disclosed. **Thin-research flag.**
 
 ## 9. Founder voice (with attribution)
 
@@ -130,15 +130,6 @@ Direct LinkedIn scraping is not within reach of this research, but the public-re
 - **The Runway Ventures (Admond Lee)**, June 2025 long-form: "Despite raising a boatload of money, Telio wasn't profitable as it scaled too fast in its first 2 years while burning cash, with monthly losses reaching a staggering $1.4 million at their peak. Bui tried to cut losses and fix internal challenges, but it was too late to undo the damage." Written from regulatory filings via Alternatives.pe.
 - **Vietnamese press**: ZNews, CafeF, VnExpress, VietnamBiz all ran the story on 7-8 February 2025, all quoting the same TechInAsia interview as the primary source. Vietnamese commentary tied the failure to two factors: Phong's earlier OnOnPay litigation eroding trust, and the structural FMCG margin trap [source: CafeF, "Startup Việt do VNG 'chống lưng', từng huy động được hơn 50 triệu USD vừa xác nhận đã giải thể, đỉnh điểm có lúc lỗ 1,4 triệu USD/tháng" / "Vietnamese startup backed by VNG, having raised over $50m, just confirmed dissolution; peak monthly losses of $1.4m", 7 Feb 2025, https://cafef.vn/startup-viet-do-vng-chong-lung-tung-huy-dong-duoc-hon-50-trieu-usd-vua-xac-nhan-da-giai-the-dinh-diem-co-luc-lo-14-trieu-usd-thang-188250207155250516.chn].
 - **iStish Hub strategy think-piece**, 2024-25: "Raising Millions, Aiming for Unicorn Status, Then Shutting Down: What Challenges Are Vietnamese Startups Facing?" Treats Telio as the canonical case: capital availability divorced from product-market fit [source: iStishub, https://istishub.com/library/insights/raising-millions-aiming-for-unicorn-status-then-shutting-down-what-challenges-are-vietnamese-startups-facing/].
-
-## 11. Read-across for WinX
-
-What Telio proves about the Vietnamese GT digitization opportunity at the level the IC memo's one paragraph cannot:
-
-1. **Principal-model B2B distribution does not earn its capital cost in Vietnamese FMCG.** $1.4m monthly losses on $3m monthly revenue, with cost of delivery plus warehouse overhead consuming gross margin. This is a structural fact about the underlying gross-to-net economics, not a Telio-specific execution failure. Any WinX scenario that contemplates a captive B2B distribution layer needs to model gross margin net of last-mile and net of warehouse against the standalone unit economics of an FMCG distributor (4-7% gross), not against tech-platform comparables.
-2. **The data layer was never built because the POS layer was never built.** Telio digitised the order, not the shop. WinX should treat shop POS as the primary digitization gate, not the order app.
-3. **The merger / acquisition exit was assumed but not engineered.** Phong sought a buyer in 2024 and did not find one. WinCommerce and Masan were the natural buyers, did not bid, and absorbed neither the team nor the merchant relationships at scale. This is a tell about how strategic Vietnamese acquirers price B2B distribution platforms once growth flips: very low, possibly nil.
-4. **Founder governance risk reduces strategic acquirer interest.** The OnOnPay litigation, despite settling, sat on the file. A clean cap table is a precondition, not a nicety, for late-stage M&A in Vietnam.
 
 ## 12. Thin-research flags for follow-up
 

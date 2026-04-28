@@ -82,18 +82,3 @@ Senior leadership diaspora: a portion of the Tokopedia and Mitra Tokopedia comme
 
 - Post-deconsolidation, the Mitra Tokopedia partner voice migrates under the TikTok-Tokopedia joint entity. TikTok Shop's content layer (livestream, creator-led discovery) reorients the warung relationship from sourcing channel to content-driven retail. The structural shift means the historical partner-story layer (warung as PPOB and FMCG sourcing point) is being replaced by a content-discovery layer (warung as TikTok Shop fulfilment).
 
-## 6. IC clearance read (Dr. Quang's six gates)
-
-Mitra Tokopedia is the second working comp, with a complicating asterisk: the warung programme survives only as part of a larger ecosystem (Gojek + Tokopedia + GoPay), and even the parent could not afford to keep operating it as a controlled asset. Consumer truth: warungs valued PPOB and FMCG sourcing; the GoPay QRIS integration extended the relationship into payments. Product truth: the programme operates at scale but standalone economics are now opaque post-deconsolidation. Equity transferability: the playbook works only with a captive customer-side platform; a standalone venture cannot replicate it. Value creation sizing: the January 2024 TikTok deal valued Tokopedia at approximately $6bn for 75.01% (implying total enterprise value around $8bn pre-money), well below the IPO-era valuations. The Mitra programme is not separately valued. Competitive dynamics: TikTok Shop's content / discovery layer is the new front of competition; Mitra Tokopedia's role under the new owner may be deprioritised in favour of livestream-led D2C, where TikTok already wins. Learnability: warung programmes work when they are layered on top of an existing two-sided platform that already does customer-side acquisition. They do not work as standalone ventures. Even super-app parents cannot run them at standalone profit; the path was to fold under TikTok Shop, where content and discovery feed the merchant side. For Masan, this maps directly onto WinCommerce + MoMo + MCH + Phuc Long: a captive ecosystem can support a warung programme that no standalone venture-backed peer can. Caveat: do not expect the GT layer to stand alone profitably without the full ecosystem stack.
-
-Sources:
-- [GoTo annual report 2024](https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202504/7d1db75486_6290c470f5.pdf)
-- [Jakarta Post, Tokopedia warung digital divide](https://www.thejakartapost.com/news/2020/11/04/tokopedia-struggles-to-incorporate-warung-cites-digital-divide.html)
-- [Jakarta Post, 3rd Mitra Tokopedia anniversary](https://www.thejakartapost.com/news/2021/11/08/msmes-take-center-stage-at-3rd-mitra-tokopedia-anniversary.html)
-- [PYMNTS, TikTok-GoTo combination](https://www.pymnts.com/news/ecommerce/2024/tiktok-and-goto-combine-ecommerce-businesses-in-indonesia/)
-- [KBValbury, GoTo equity research](https://www.kbvalbury.com/cfind/source/files/goto_20250424a.pdf)
-- [36Kr EU, Indonesian unicorns and Chinese cross-border](https://eu.36kr.com/en/p/3131238103866112)
-- [YouGov, TikTok-Tokopedia analysis](https://business.yougov.com/content/48235-tiktok-tokopedia-partnership-game-changer-for-indonesia-e-commerce-market)
-- [Campaign Asia, TikTok-Tokopedia disruption](https://www.campaignasia.com/article/how-will-the-tiktok-tokopedia-alliance-disrupt-the-indonesian-e-commerce-space/493923)
-- [Medium / Life at Tokopedia, bridging](https://medium.com/life-at-tokopedia/how-tokopedia-bridges-offline-and-online-commerce-in-indonesia-2cab3c4e47c1)
-- [IDNFinancials, GoPay QRIS Mitra Tokopedia](https://www.idnfinancials.com/archive/41594/tokopedia-gopay-implement-qris-warung-mitra-tokopedia)

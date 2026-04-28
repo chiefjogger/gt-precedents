@@ -45,5 +45,3 @@ What constrained scale (rather than caused failure):
 - Tracxn / Crunchbase data: latest funding October 2022; nearly four years without a primary capital event suggests the company is operating on revenue and existing cash.
 - No public layoff announcements; this is rare in the cohort and itself a marker of the capital-discipline path.
 
-## Read-through for Masan
-Wahyoo is the "small but alive" data point. The lesson is that vertical focus (F&B kitchens specifically, not generic warungs) and geographic discipline (one city only) lets a small team survive without venture-scale outcomes. For Masan, this is not a model to replicate at WinX scale, but it is a template for how an FMCG group could run a small, focused F&B services unit (e.g., wrapping micro-eateries that already buy MCH SKUs) without burning capital. The Wahyoo Ventures pivot in 2024 also reflects the reality that one-vertical operating businesses of this scale do not produce venture returns; the better outcome may be becoming the patient strategic investor for a smaller cohort below.

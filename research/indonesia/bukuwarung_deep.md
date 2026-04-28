@@ -83,17 +83,3 @@ Capital recovery: not publicly disclosed. The Mekari acquisition signal, if conf
 
 - The BukuAgen Google Play page (bukuagen) carries cleaner reviews specific to the EDC / Mini ATM use case, with positive feedback on cash-in / cash-out fee economics. The agent-side identity is more durable than the warung-side identity for BukuWarung's product set.
 
-## 6. IC clearance read (Dr. Quang's six gates)
-
-BukuWarung is the survival case at marked-down scale. Consumer truth: warungs use the free ledger and PPOB but do not pay for it. Product truth: the ledger and PPOB hold; lending and payments did not converge to durable economics. Equity transferability: the playbook does not transfer to Masan because Masan does not need to build a ledger app; the WinCommerce + Reddi base already gives the merchant funnel. Value creation sizing: $80m to $100m raised, peak valuation $250m, FY2023 revenue $1.7m, FY2023 net loss roughly $6m; the recovery path is consolidation under Mekari at a markdown, not a venture-scale outcome. Competitive dynamics: against Mitra Bukalapak's 16.8m registered Mitra and GoTo's QRIS network, the standalone fintech-for-warungs position has no defensible moat. Learnability: the lesson is that ledger-only is a free utility, not a venture; payments and lending each require capabilities (fraud ops, KYC, credit decisioning, collections) that a SaaS-priced venture does not generate margin to fund. The November 2022 layoff and the 2023 profitability reset are the right managerial moves; the "abrupt" Glassdoor pattern is the cost of executing them late.
-
-Sources:
-- [DealStreetAsia, BukuWarung 2022 earnings](https://www.dealstreetasia.com/stories/bukuwarung-earnings-2022-363854)
-- [DealStreetAsia, BukuWarung 2023 earnings](https://www.dealstreetasia.com/stories/bukuwarung-earnings-2023-408041)
-- [StartupNews / DealStreetAsia, Nov 2022 layoff](https://startupnews.fyi/2023/10/03/bukuwarungs-losses-swell-33-in-2022/)
-- [TechCrunch, BukuWarung Series A](https://techcrunch.com/2021/06/09/bukuwarung-a-fintech-for-indonesian-msmes-scores-60m-series-a-led-by-valar-and-goodwater/)
-- [Glassdoor, BukuWarung reviews](https://www.glassdoor.co.in/Reviews/BukuWarung-Reviews-E4267421.htm)
-- [Tracxn, BukuWarung profile](https://tracxn.com/d/companies/bukuwarung/__7jaAXkPCvHwbBAMRLJ7Ud9XHKCTI8fnUIxbERbkQeUA)
-- [Google Play, BukuWarung app](https://play.google.com/store/apps/details?id=com.bukuwarung)
-- [Google Play, BukuAgen app](https://play.google.com/store/apps/details?id=com.bukuwarung.bukuagen&hl=en_US)
-- [BukuWarung official site](https://www.bukuwarung.com/)

@@ -80,17 +80,3 @@ Capital recovery: not publicly itemised by investor. The buyback of preference s
 
 - The Kaka Beauty pivot reorients the customer base toward end consumers in beauty retail, not warung owners. The warung-side voice for the post-pivot entity is therefore structurally not relevant; the question is whether beauty consumers find Kaka Beauty's value proposition durable.
 
-## 6. IC clearance read (Dr. Quang's six gates)
-
-GudangAda is the textbook case of why a pure FMCG B2B marketplace funded with venture capital does not pencil in Indonesia or Vietnam. Consumer truth: warungs valued lower-priced sourcing but not enough to switch durably from incumbent agen. Product truth: the marketplace functioned operationally but the take rate was capped by underlying margin pool. Equity transferability: the playbook does not transfer to Masan because Masan owns the brand portfolio and distribution muscle that GudangAda had to rent. Value creation sizing: $137m raised, peak valuation $750m to $800m, terminal recovery 30% to 50% on the dollar via investor buyback at markdowns; sized as a structural write-down. Competitive dynamics: incumbent distributors with sunk relationships and platform giants with cross-subsidisation. The competitive set is unfair. Learnability: the buyback at marked-down preference shares is the cleanest possible signal that the thesis is dead. The single founder's pivot to beauty (Kaka Beauty) is a credible category move (beauty 30% to 50% gross margin) but it is a different business from warung digitization. For Masan, GudangAda is not a model; it is a counter-model. If Masan wants to monetize the GT layer, it should do so through brand activation, lending fees through a regulated partner, or own-distribution capex, not on the wholesale spread.
-
-Sources:
-- [DealStreetAsia, "GudangAda revenue shrinks in 2024"](https://www.dealstreetasia.com/stories/gudangada-revenue-shrinks-2024-469730)
-- [DealStreetAsia, "GudangAda raises $100m signals warung enablers"](https://www.dealstreetasia.com/stories/gudangada-raises-100-million-252095)
-- [DealStreetAsia, Series A coverage](https://www.dealstreetasia.com/stories/gudangada-sequoia-alpha-jwc-187213)
-- [TechCrunch, GudangAda Series B](https://techcrunch.com/2021/07/21/indonesian-b2b-marketplace-gudangada-raises-more-than-100m-in-new-funding/)
-- [Peak XV Podcast, Stevensang interview](https://www.peakxv.com/podcast/gudangada-building-a-business-based-on-empowerment-vs-disruption/)
-- [Katadata D-Insights, Dec 2022 layoffs](https://dinsights.katadata.co.id/read/2022/12/20/the-layoffs-continue-tokocrypto-and-gudangada)
-- [Alpha JWC, GudangAda Series A](https://www.alphajwc.com/en/indonesias-largest-fmcg-b2b-marketplace-gudangada-raises-double-digit-millions-from-alpha-jwc-wavemaker-and-pavilion-capital/)
-- [Gunderson Dettmer, GudangAda Series B legal](https://www.gunder.com/en/news-insights/client-news/gudangada-announced-a-series-b-led-by-asia-partners)
-- [LinkedIn, Stevensang profile](https://www.linkedin.com/in/stevensang-2b467415b/)

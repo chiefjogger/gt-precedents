@@ -90,23 +90,3 @@ Mitra Bukalapak has the richest warung-side voice in the cohort. This is the sin
 
 - Government collaboration: Bukalapak has been collaborating with the Cooperatives and SMEs Ministry on warung digitization for three years. The public-sector legitimacy is part of the moat.
 
-## 6. IC clearance read (Dr. Quang's six gates)
-
-Mitra Bukalapak is the "this works" comp. Three lessons:
-
-Consumer truth: warungs value PPOB transactional volume and B2B sourcing access; the willingness to participate is high (16.8m registered Mitra), and the income uplift is real (3x company claim, partially survey-validated). Product truth: the programme operates at scale across the Indonesian archipelago. Equity transferability: the warung programme survives because it sits on top of an existing customer-side marketplace; CAC was zero. Masan's analogue is WinCommerce footprint plus Reddi/MoMo cross-base. Value creation sizing: BUKA market cap has fallen 85%+ from IPO, but the operating asset (Mitra) is now profitable in 2025. The relevant valuation is the Mitra-only valuation; the marketplace shutdown clarified this. Competitive dynamics: TikTok Shop and Shopee can bypass Mitra through livestream ordering, but the warung-as-physical-touchpoint defensibility remains. Learnability: highest in the cohort. Three transferable rules: (a) digital goods first, FMCG second, since PPOB has near-zero working capital and 1% to 3% take rate at scale; (b) take rate discipline matters more than top-line growth at peak; (c) public-market accountability forces honest accounting that private players (Lummo, Ula) deferred. If WinX is owned by a listed parent (MSN), use that as a feature, not a constraint.
-
-Sources:
-- [DealStreetAsia, Mitra Bukalapak warung tech](https://www.dealstreetasia.com/partner-content/mitra-bukalapak-warung-tech)
-- [DealStreetAsia, Howard Gani interview](https://www.dealstreetasia.com/partner-content/warung-tech-o2o-ecommerce-mitra-bukalapak-howard-gani)
-- [DealStreetAsia, BUKA FY2024 losses](https://www.dealstreetasia.com/stories/indonesian-e-commerce-firm-bukalapaks-losses-rise-12-in-2024-amid-spiralling-costs-435103)
-- [DealStreetAsia, BUKA FY2025 profit swing](https://www.dealstreetasia.com/stories/bukalapak-earnings-2025-475812)
-- [DealStreetAsia, BUKA Q4 2024 analyst note](https://www.dealstreetasia.com/stories/bukalapak-q4-2024-earnings-analysis-435339)
-- [KrAsia, BUKA marketplace shutdown](https://kr-asia.com/indonesias-bukalapak-pivots-to-digital-services-ends-physical-goods-sales)
-- [Medium / Inside Bukalapak, Howard Gani](https://medium.com/inside-bukalapak/how-mitra-bukalapak-helped-indonesias-warung-move-to-a-21st-century-business-model-6a993302446d)
-- [Medium / Inside Bukalapak, Teddy Oetomo](https://medium.com/inside-bukalapak/mitra-bukalapak-makes-more-sense-4070171bb385)
-- [500 Global memo](https://500.co/content/to-gauge-bukalapak-s-value-look-at-its-mitra-strategy)
-- [Marketing-Interactive, BUKA-Google partnership](https://www.marketing-interactive.com/bukalapak-and-google-partner-up-to-empower-indonesian-warungs-to-digitise)
-- [PR Newswire, Mitra Bukalapak press](https://en.prnasia.com/releases/apac/behind-mitra-bukalapak-s-success-in-harnessing-the-power-of-indonesia-s-micro-businesses-402408.shtml)
-- [Mitra Bukalapak Facebook reviews](https://www.facebook.com/mitrabukalapakindonesia/reviews/)
-- [Pissed Consumer, Bukalapak](https://bukalapak.pissedconsumer.com/review.html)

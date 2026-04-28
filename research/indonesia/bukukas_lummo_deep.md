@@ -85,17 +85,3 @@ Lummo's customer base was not warungs in the strict sense but Indonesian SMBs ru
 
 The thinness of the customer voice layer is itself the signal: a $140m funded SaaS-plus-fintech for Indonesian merchants generated no durable user community, no advocate cohort, no power-user testimonials surviving the wind-down. Compare this to Mitra Bukalapak's continuous Bahasa coverage of warung owner stories on the Bukalapak Medium and DealStreetAsia partner content.
 
-## 6. IC clearance read (Dr. Quang's six gates)
-
-Lummo fails all six gates from the perspective of an FMCG conglomerate considering a parallel build. Consumer truth: the merchant did not pay enough for any layer (ledger free, payments sub-1%, D2C SaaS sub-$30/month). Product truth: four iterations across ledger, payments, D2C and full stack; none reached durable retention. Equity transferability: Menon's playbook does not transfer to a captive FMCG distribution context because the company never owned distribution. Value creation sizing: $140m raised, ~$70m destroyed, peak valuation $260m to $290m, terminal recovery ~50% on the dollar; sized as a write-down lesson. Competitive dynamics: collided in every layer with better-capitalised incumbents (Mitra Bukalapak, GoTo, Shopify). Learnability: for Masan, the lesson is the cost of pivot velocity. A captive parent must commit to one wedge for at least 24 months and instrument retention before adding the second product. Lummo's four pivots in four years is the empirical ceiling of how often even Sequoia, Tiger and CapitalG can be persuaded to keep funding before the cliff.
-
-Sources:
-- [TheRunway, "The shocking truth behind Lummo's collapse"](https://www.therunway.ventures/p/lummo)
-- [Inc42, "Lummo Lays Off 50% Indian Workforce"](https://inc42.com/buzz/sequoia-capital-backed-lummo-lays-off-50-indian-workforce/)
-- [DealStreetAsia, "Lummo said to be weighing shutdown, to return over $70m"](https://www.dealstreetasia.com/stories/lummo-may-close-operations-340722)
-- [yourstory, "Lummo secures $80M in Series C round"](https://yourstory.com/2022/01/bukukas-lummo-series-c-funding-tiger-global-sequoia-capital)
-- [CapitalG, "Our Investment in Lummo"](https://www.capitalg.com/insights/our-investment-in-lummo)
-- [Mikal Khoso, "An Interview with Lummo CEO Krishnan Menon"](https://mik.al/2022/02/26/an-interview-with-lummo-ceo-krishnan-menon/)
-- [Recipes for Growth, "01: Krishnan Menon | BukuKas"](https://recipesforgrowth.substack.com/p/01-krishnan-menon)
-- [Bisnis Indonesia, "Lummo Disuntik Pendanaan Seri C"](https://finansial.bisnis.com/read/20220120/563/1491154/platform-enabler-umkm-lummo-disuntik-pendanaan-seri-c-senilai-us80-juta)
-- [LinkedIn, Krishnan Menon profile](https://www.linkedin.com/in/krishnanmenon/)

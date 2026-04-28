@@ -1,6 +1,6 @@
 # Other Vietnam GT / MT digitization plays
 
-A briefer scan of every other Vietnamese platform that touched general trade or modern trade digitization between 2018 and 2025. Built for the WinX IC memo. The IC memo's three-paragraph treatment names only Telio and VinShop; this file ensures nothing of relevance has been missed.
+A briefer scan of every other Vietnamese platform that touched general trade or modern trade digitization between 2018 and 2025. Cross-market market research. The IC memo's three-paragraph treatment names only Telio and VinShop; this file ensures nothing of relevance has been missed.
 
 ## 1. Kilo
 

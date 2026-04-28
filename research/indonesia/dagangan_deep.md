@@ -89,17 +89,3 @@ Risk factors not yet visible:
 
 - The warung-side power-user community for Dagangan is more durable than Ula's or GudangAda's because the geographic carve-out means the agen network is the warung's primary digital sourcing channel, not one of several. The single-source dependence creates stickiness.
 
-## 6. IC clearance read (Dr. Quang's six gates)
-
-Dagangan is the proof that an underserved geographic carve-out plus capital discipline plus hub-and-spoke physical asset matched to the geography can survive when the urban warung cohort burns. Consumer truth: rural villagers value affordability and consolidation; village agents value income uplift. Both are real. Product truth: the hub-and-spoke network operates; brand activation programmes show measurable ROI. Equity transferability: the model transfers to Vietnam Tier-3 and Tier-4 districts where modern trade penetration is low. Value creation sizing: $18m to $58m raised, no peak valuation disclosed, the company is live and growing; not a venture return story yet, but not a write-down either. Competitive dynamics: incumbent rural distribution is fragmented and inefficient; the entrants from urban warung digitization (Ula, GudangAda) did not compete here. Learnability: the lesson is that the lane matters more than the technology. Pick the lane where Bukalapak, Tokopedia, Tiki, Shopee and Lazada have low coverage; build matching physical infrastructure; take origination fees on credit through a regulated partner; and avoid subsidising customer acquisition. For Masan, the analogous lane is exactly Tier-3 and Tier-4 districts in Vietnam, where the WinCommerce footprint thins and the GT layer is dense. This is the template most worth studying.
-
-Sources:
-- [TNGlobal, Dagangan Series A](https://technode.global/2021/09/21/indonesia-social-e-commerce-platform-dagangan-raises-11-5m-series-a-led-by-monks-hill-ventures/)
-- [AsiaTechDaily, Dagangan Pre-B BTPN](https://asiatechdaily.com/indonesian-rural-e-commerce-startup-dagangan-raises-6-6m-funding/)
-- [Monk's Hill Ventures, Dagangan portfolio](https://www.monkshill.com/content-hub/dagangan-raises-11-5-million-in-series-a-to-expand-across-indonesia-and-boost-rural-economic-growth-led-by-mhv)
-- [Asia Tech Podcast Ep 328](https://asiatechpodcast.com/2024/07/14/ep-328-how-dagangan-is-improving-access-to-daily-necessities-in-rural-indonesia-ryan-manafe-co-founder-and-ceo-of-dagangan/)
-- [WARC, rural retail piece](https://www.warc.com/newsandopinion/opinion/the-rural-potential-how-dagangan-navigates-indonesias-retail-landscape-beyond-urban-centres/en-gb/6629)
-- [Dagangan blog, 2022 impact report](https://blog.dagangan.com/2023/03/20/dagangans-impact-report-2022/)
-- [Devoteam, Dagangan customer story](https://www.devoteam.com/success-story/dagangan-delivering-opportunity-to-indonesias-rural-economy-at-scale/)
-- [MARKETECH APAC, Dagangan rural commerce](https://marketech-apac.com/social-commerce-firm-dagangan-introduces-online-merchandise-shopping-services-for-rural-areas/)
-- [Founders Forum, Ryan Manafe profile](https://ff.co/ryan-manafe-dagangan/)

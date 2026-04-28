@@ -49,5 +49,3 @@ What broke:
 - Sequoia India (now Peak XV) internal: Lummo cited in Peak XV's own retro on the 2021 vintage as one of the bigger marks-down. Not publicly attributed.
 - Ex-employee LinkedIn (anonymous, India team, 2023): "Three product orgs in eighteen months. Each pivot meant the previous team's work was deprecated."
 
-## Read-through for Masan
-Lummo is the canonical "ledger company that could not find act two." The lesson for an FMCG conglomerate considering a similar bottom-up SaaS-then-fintech approach to GT digitization is that Indonesia's FMCG distribution problem is not solved by a software layer over the storekeeper. Lummo had Sequoia, Tiger and Bezos and still could not turn 6m registered ledger users into a payments or D2C franchise. The capital wasted across four pivots ($70m+) is a marker of how fast a low-margin warung wedge consumes runway.
