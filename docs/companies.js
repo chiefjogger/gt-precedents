@@ -1,0 +1,1417 @@
+window.COMPANY_DATA = {
+  "companies": [
+    {
+      "id": "telio",
+      "name": "Telio",
+      "country": "VN",
+      "city": "Hanoi",
+      "founded": 2018,
+      "shut": 2024,
+      "status": "shut",
+      "raised_usd_m": 64,
+      "peak_valuation_usd_m": 250,
+      "peak_revenue_usd_m": 36,
+      "merchants_peak": 60000,
+      "tagline": "Vietnam's first venture-funded GT digitization play. Dissolved Dec 2024 after burning $1.4m/month at peak against $3m/month revenue.",
+      "founders": [
+        {"name": "Bui Sy Phong", "role": "CEO", "prior": "IT studies in France; VIB and VPBank; founded OnOnPay (2015) and BonBonHub (2015)"},
+        {"name": "Nguyen Nhat Huy", "role": "COO", "prior": ""},
+        {"name": "Pham My Linh", "role": "Chief Strategy Officer", "prior": ""}
+      ],
+      "thesis_at_founding": "Vietnam FMCG fragmentation: 60% of urban and 90% of rural FMCG moves through 1.4m mom-and-pop shops. Centralise catalogue, prices, and logistics into a single smartphone app for shopkeepers.",
+      "rounds": [
+        {"date": "Mar 2019", "stage": "Surge / Convertible", "amount_usd_m": 1.5, "lead": "Sequoia India (Surge)", "post_money_usd_m": null},
+        {"date": "Dec 2019", "stage": "Series A", "amount_usd_m": 25, "lead": "Tiger Global", "post_money_usd_m": 100},
+        {"date": "Nov 2021", "stage": "Pre-Series B", "amount_usd_m": 22.5, "lead": "VNG Corporation", "post_money_usd_m": 250},
+        {"date": "Aug 2023", "stage": "Series B (down)", "amount_usd_m": 15, "lead": "Granite Oak", "post_money_usd_m": null}
+      ],
+      "experiments": [
+        {"name": "Telio Warehouse principal model", "year": 2020, "what": "Captive warehousing in HCMC and Hanoi; principal-model inventory with next-day delivery promise.", "outcome": "Became the largest single contributor to losses; cost of delivery plus warehouse overhead consumed gross margin."},
+        {"name": "Zalo Mini App pivot", "year": 2020, "what": "First B2B platform on Zalo's then-64m MAU stack; provincial reach without app downloads via VNG strategic partnership.", "outcome": "Channel scaled merchant onboarding; unit economics did not converge. VNG anchored Pre-Series B partly on this rail."},
+        {"name": "Vertical expansion: Lifestyle and Healthcare", "year": 2021, "what": "Layered cosmetics, fashion, pharma, medical devices on top of FMCG core.", "outcome": "No traction milestone announced. De-prioritised by mid-2022 as 'avoiding low-margin items.'"},
+        {"name": "Teliobooks bookkeeping app", "year": 2021, "what": "Bookkeeping app for shop-owners; debt and income tracking, SMS and Zalo reminders.", "outcome": "Adoption never disclosed. Did not integrate barcode scanning; the till-side data layer never closed."},
+        {"name": "Telio Care Fund", "year": 2020, "what": "VND 1bn (~$43,478) hardship fund providing VND 5m to 10m per month income replacement to shopkeepers experiencing medical events.", "outcome": "Honoured 600 of 15,000 active retailers. Roughly $3 per retailer of cumulative goodwill; never converted to working-capital credit."},
+        {"name": "Geographic expansion 10 to 26 provinces", "year": 2021, "what": "Pre-Series B capital deployed at roughly one new province every five weeks during 2021.", "outcome": "Merchant count plateaued at ~60,000 even as province count moved from 10 to 26. Per-province depth fell. Rolled back mid-2022."},
+        {"name": "Q3 2024 bridge and merger talks", "year": 2024, "what": "Cut burn 80% to $280k/month; sought $10-15m bridge; opened merger talks (counterparty undisclosed; speculated VinShop / One Mount).", "outcome": "Both bridge and merger collapsed. Operations ceased Nov 2024."}
+      ],
+      "pivots": [
+        {"year": 2020, "from": "Marketplace only", "to": "Captive warehousing principal model", "trigger": "Series A capital deployed; pandemic order velocity", "outcome": "Principal model became the burn engine"},
+        {"year": 2020, "from": "FMCG only", "to": "Add Lifestyle and Healthcare verticals", "trigger": "Merchant request signal", "outcome": "SKU expansion overstretched warehouse footprint; quietly de-prioritised by mid-2022"},
+        {"year": 2022, "from": "Growth mode", "to": "Capital efficiency mode", "trigger": "Burn at $1.4m/month visible to board", "outcome": "SKU pruning, low-margin de-listing, headcount cut, geographic consolidation; structural margin trap not solved"},
+        {"year": 2024, "from": "Standalone bridge", "to": "Sell to a strategic", "trigger": "Bridge fundraise failed", "outcome": "Merger collapsed; counterparty undisclosed; wind-down began"}
+      ],
+      "operating_arc": "Telio launched in late 2018 with a Surge-backed app for FMCG shopkeepers, scaling to a $25m Tiger-led Series A within twelve months. Through 2020 to 2021 it built captive warehouses in HCMC and Hanoi, layered Zalo Mini App distribution after VNG's Nov 2021 Pre-Series B, and expanded into Lifestyle and Healthcare verticals. By end-2022 it served ~60,000 cumulative merchants across 26 provinces with FY22 revenue of $158m and a Q4 quarterly loss of $13m. From mid-2022 the company entered cost mode: SKU pruning, headcount cuts from ~600, geographic consolidation. The Aug 2023 Granite Oak down round bridged twelve months. By Aug 2024 burn was cut 80% to $280k/month against $2.5-3m monthly revenue, but the bridge round and merger talks both failed in Q3 2024. Operations ceased end-Nov 2024; legal dissolution Dec 2024; ~400 employees laid off.",
+      "voice": [
+        {"who": "Bui Sy Phong, founder and CEO", "when": "Aug 2024", "context": "Tech in Asia interview before wind-down", "text": "Telio's scale wasn't big enough to make money selling small transactions at higher prices.", "source_url": "https://www.therunway.ventures/p/telio", "source_label": "The Runway Ventures"},
+        {"who": "Bui Sy Phong, founder and CEO", "when": "Dec 2024", "context": "LinkedIn farewell post on dissolution", "text": "After six years of dedication, the time has come to say goodbye to our brainchild, Telio. This decision was not made lightly, particularly given the trust and faith that Telio has earned from its employees, investors, partners, and many others. It is a challenging moment, but one that has been reached after much careful thought and consideration.", "source_url": "https://www.linkedin.com/in/buisyphong", "source_label": "LinkedIn"},
+        {"who": "Singapore High Court (Justice Audrey Lim)", "when": "Jun 2021", "context": "Ruling on the OOPA fiduciary duty dispute", "text": "Bui incorporated Telio as planned, and was its sole shareholder, pending the Plaintiff's decision on how the shares of Telio should be split. However, before such a decision was reached, without the knowledge or consent of the Plaintiff's other shareholders, the Defendant applied for Telio to enter into an accelerator program and signed a term sheet and a convertible note agreement with a venture capital firm Surge Ventures.", "source_url": "https://www.mondaq.com/shareholders/1104662/singapore-high-court-finds-a-director-of-a-holding-company-in-breach-of-his-fiduciary-duties-by-usurping-subsidiarys-business", "source_label": "Mondaq"},
+        {"who": "Tech in Asia editorial", "when": "Dec 2024", "context": "Facebook post on shutdown", "text": "Vietnam's B2B ecommerce pioneer Telio shut down in late 2024 after failing to secure new capital or a buyer.", "source_url": "https://www.facebook.com/techinasia/posts/-vietnams-b2b-ecommerce-pioneer-telio-shut-down-in-late-2024-after-failing-to-se/1079485950881077/", "source_label": "Tech in Asia"},
+        {"who": "DealStreetAsia editorial", "when": "Dec 2024", "context": "Companion piece on VNG's e-commerce position", "text": "Telio shuts, Tiki stumbles: Is VNG's e-commerce dream unravelling?", "source_url": "https://www.dealstreetasia.com/stories/vng-e-commerce-telio-tiki-430783", "source_label": "DealStreetAsia"},
+        {"who": "Pieter Kemps, Surge / Sequoia India partner", "when": "2019", "context": "Surge cohort note paraphrasing thesis", "text": "Vietnam's retail market is fragmented; over 60% of urban FMCG and 90% of rural FMCG move through small mom-and-pop stores. Telio centralises the catalogue, prices, and logistics into a single smartphone app.", "source_url": "https://www.surgeahead.com/telio-powering-vietnams-small-retailers/", "source_label": "Surge / Sequoia India"}
+      ],
+      "failure_mode": "Principal-model B2B FMCG distribution does not earn its capital cost in Vietnamese mom-and-pop economics. $1.4m monthly losses on $3m monthly revenue, with cost of delivery plus warehouse overhead consuming gross margin. The data layer was never built because the POS layer was never built: Telio digitised the order, not the till. A founder-governance overhang from the OnOnPay litigation, coupled with bridge and merger failures in Q3 2024, closed all exit options.",
+      "aftermath": "Founder Bui Sy Phong incorporated Kronia in early 2025, a Vietnamese AAA PC and console game development studio, with VNG committing $2.5m of in-kind support over five years; Project P debut title carries an estimated $10-12m development cost. The same VNG that wrote off Pre-Series B capital chose to back the operator on his next venture. Co-founder Pham My Linh shows on LinkedIn as still Chief Strategy Officer at Telio with no public next role; Nguyen Nhat Huy has no public destination announcement. The India tech team built around KeyValue Software Systems was contractor-only. Vietnam-side staff dispersed anecdotally into MoMo, Tiki, GHN, and Masan / WinCommerce. Dissolution was a member-led voluntary winding up; severance for ~400 employees was reportedly paid out of remaining cash; brand and supplier payables outstanding at cessation were the largest write-off. Tiger Global, Peak XV, GGV, RTP Global, VNG, and Granite Oak collectively wrote off the position; Granite Oak as sole Series B participant was the most-junior money in the cap table.",
+      "customer_voice": [
+        {"who": "Anonymous shopkeeper, HCMC", "when": "Jul 2020", "context": "Supply Chain Lab field visit to tap hoa stores", "text": "Customers can order anytime, anywhere through Telio Zalo and track order status to know when they'll receive their goods.", "source_url": "https://thesupplychainlab.blog/2020/07/20/vietnams-telio-ecommerce-for-mom-and-pop-groceries/", "source_label": "Supply Chain Lab"},
+        {"who": "Anonymous Telio Vietnam employee", "when": "2022-2024", "context": "ITviec review", "text": "Salary is really good, the manager always tries to increase my salary before I request. There are many training courses about soft skills, celebrated by the CEO, and self-training about technical.", "source_url": "https://itviec.com/companies/telio/review", "source_label": "ITviec"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Mom-and-pop shopkeepers will switch from existing distributors to a digital catalogue if next-day delivery, transparent pricing, and broader SKU breadth show up. The atomic demand is permanent; platform-margin capture is structurally constrained because per-transaction value is too small to amortise principal-warehouse and last-mile cost.",
+        "product_truth": "The product delivered B2B order capture and 24-hour fulfilment in 26 provinces. It did not deliver POS, financing, or trade-marketing measurement. Teliobooks shipped without barcode scanning. The structural absence of a closed loop is a product-truth failure.",
+        "equity_transferability": "Single-product B2B distribution. Vertical extensions into Lifestyle and Healthcare were de-prioritised. Teliobooks and Telio Care Fund were peripheral. The Zalo Mini App rail lived inside someone else's platform. Transfer value at cessation was warehouse footprint and merchant relationships, both depreciating assets.",
+        "value_creation_sizing": "TAM $30bn FMCG GT in Vietnam. Telio reached $36m run-rate revenue against $64m to $92m raised; never approached $500m to $1bn standalone EV.",
+        "competitive_dynamics": "Structural gap was real (existing distributor inefficiency); Telio had no defensible advantage beyond first-mover. Captive consumer brand, captive retail estate, captive financing, and captive logistics were all absent. VinShop with Techcombank and Vingroup-era assets reached only ~8.5% penetration over five years; the category is owned by structural balance sheets, not by venture capital.",
+        "learnability": "Masan's IC could develop conviction on building a B2B distribution layer onto existing structural advantages. The Telio post-mortem confirms Masan's IC could not develop conviction on backing a venture-funded standalone B2B distribution platform."
+      },
+      "logo_file": null,
+      "lat": 21.03,
+      "lng": 105.85,
+      "modes": [1,1,1,1,1,1,1,1,0,1],
+      "assets": [0,0.5,0,0]
+    },
+    {
+      "id": "vinshop",
+      "name": "VinShop / OneShop",
+      "country": "VN",
+      "city": "Hanoi",
+      "founded": 2020,
+      "shut": null,
+      "status": "plateau",
+      "raised_usd_m": 130,
+      "peak_valuation_usd_m": 1000,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 120000,
+      "tagline": "Captive corporate-backed Vietnamese GT play inside One Mount Group (Vingroup until Q1 2022, Techcombank-aligned thereafter). Plateaued at ~8.5% of 1.4m TAM; rebranded OneShop Oct 2025 with newly-added POS layer; OneShop now frames TAM as 5.2m small traders.",
+      "founders": [
+        {"name": "Nguyen Thi Diu", "role": "CEO of One Mount Group 2020-2025; now Permanent Vice Chair", "prior": "Deputy CEO of Vingroup 2014-2018"},
+        {"name": "Le Thiet Bao", "role": "CEO of One Mount Distribution (operating entity behind VinShop / OneShop)", "prior": ""},
+        {"name": "Phung Quang Hung", "role": "CEO of One Mount Group from 1 Aug 2025", "prior": "Permanent Deputy CEO of Techcombank 2018-2025"}
+      ],
+      "thesis_at_founding": "Digitise the Vietnamese FMCG long tail by directly connecting manufacturers and grocery store owners. The country has approximately 1.4m traditional grocery stores accounting for 75% of FMCG market share.",
+      "rounds": [
+        {"date": "Late 2019", "stage": "Parent equity (One Mount Group inception)", "amount_usd_m": 130, "lead": "Vingroup (51.22%) and Techcombank-aligned shareholders", "post_money_usd_m": null},
+        {"date": "Mid-2020", "stage": "Charter capital top-up", "amount_usd_m": null, "lead": "Same parent shareholders", "post_money_usd_m": null},
+        {"date": "Mid-2021", "stage": "Charter capital top-up", "amount_usd_m": null, "lead": "Same parent shareholders", "post_money_usd_m": null},
+        {"date": "Q1 2022", "stage": "Shareholder restructuring", "amount_usd_m": null, "lead": "Vingroup divests 51.22%; Techcombank-aligned absorb", "post_money_usd_m": null}
+      ],
+      "experiments": [
+        {"name": "Techcombank merchant working-capital pipe", "year": 2021, "what": "Tet 2021 launch of Techcombank-underwritten working-capital lending integrated into the VinShop order book.", "outcome": "The genuine moat in the One Mount stack and the only piece that has compounded across the OneShop rebrand."},
+        {"name": "FM Logistic 3PL contract", "year": 2022, "what": "FM Logistic took the largest external warehousing-and-distribution contract in northern Vietnam.", "outcome": "Reduced effective warehouse capex burden versus Telio's captive model; structural cost difference."},
+        {"name": "Sao Khue 2023 and 2024 awards", "year": 2023, "what": "Won Top 10 Sao Khue at the Vietnamese Software and IT Services Association's annual digital transformation prize, repeated in 2024.", "outcome": "Industry recognition decoupled from market-share economics; ~8.5% penetration ceiling against 1.4m addressable base."},
+        {"name": "Annual retailer recognition events", "year": 2023, "what": "Inaugural shopkeeper gratitude ceremony 25 Oct 2023; 100,000 affiliated retailers, ~45,000 monthly active across 19 provinces.", "outcome": "55% attrition rate from cumulative-onboarded base implied by 45k monthly active versus 100k onboarded."},
+        {"name": "Decree 70 e-invoicing readiness", "year": 2025, "what": "OneShop rebrand timed to Decree 70/2025/ND-CP (effective 1 Jun 2025) mandating POS-generated electronic invoices for retailers above VND 1bn revenue.", "outcome": "Regulatory wave forced POS feature ship five years after platform launch; the most important strategic datapoint for WinX timing."},
+        {"name": "OneShop addressable-base re-statement", "year": 2025, "what": "Reframed addressable base from 1.4m mom-and-pop to 5.2m tieu thuong (small retailers including foodservice, pharmacy, fashion).", "outcome": "Same vertical-extension move Telio attempted in 2021; OneShop attempts it from a cleaner structural base."},
+        {"name": "MM Mega Market partnership", "year": 2025, "what": "OneShop launch joint-keynoted with MM Mega Market Vietnam (TCC Group asset), 18,000 clearly sourced products on the rail.", "outcome": "Wholesale-cash-and-carry rail mitigates the principal-warehouse capex problem that killed Telio."}
+      ],
+      "pivots": [
+        {"year": 2022, "from": "Vingroup-Techcombank dual shareholder", "to": "Techcombank-aligned single anchor", "trigger": "Vingroup retail/tech retreat", "outcome": "Resolved control tension; platform sits inside Techcombank-flavoured holdco from Q1 2022"},
+        {"year": 2024, "from": "VinID consumer loyalty", "to": "OneU lifestyle platform; VinID Pay e-wallet discontinued May 2025", "trigger": "Brand fatigue; wallet monetisation review", "outcome": "Ratified abandonment of the consumer-side leg of the original closed-loop thesis"},
+        {"year": 2025, "from": "Vingroup operator lineage (Diu)", "to": "Techcombank operator lineage (Hung)", "trigger": "Strategic consolidation Aug 2025", "outcome": "One Mount under direct Techcombank operational lineage for the first time"},
+        {"year": 2025, "from": "VinShop B2B order app, no POS", "to": "OneShop with POS, voice ordering, e-invoicing, MM Mega Market goods rail", "trigger": "Decree 70 e-invoicing wave plus five-year mark", "outcome": "Just-launched late Oct 2025; outcome pending"}
+      ],
+      "operating_arc": "VinShop launched in October 2020 inside One Mount Distribution, the goods-trading sub-pillar of One Mount Group, with capital, leadership, brand, and the first 100,000 stores all corporate inputs from Vingroup and Techcombank. Through 2021 it added a Techcombank working-capital financing pipe (Tet 2021), expanded from 12 to 22 provinces, and signed FM Logistic for northern 3PL in 2022. By Q1 2022 it carried 100,000 stores in 22 provinces with ~2,000 SKUs and ~6,000 monthly merchant adds. Vingroup divested its 51.22% stake in Q1 2022; Techcombank-aligned shareholders absorbed it. The October 2023 retailer recognition ceremony surfaced a 45,000-active-monthly figure against the 100,000 cumulative-onboarded base. Penetration plateaued at ~8.5% of the 1.4m mom-and-pop TAM. Decree 70/2025 forced the platform to ship POS, e-invoicing, and voice ordering; OneShop relaunched late October 2025 with MM Mega Market as the wholesale rail and a re-stated 5.2m TAM. The August 2025 leadership rotation placed Phung Quang Hung from Techcombank into the One Mount CEO seat.",
+      "voice": [
+        {"who": "Nguyen Thi Diu, CEO 2020-2025", "when": "2021", "context": "VIR profile of One Mount Group", "text": "Our objective is to contribute to the development of Vietnam's economy by setting up the technological foundation for businesses. This is expected to help them add value to their customers' experience with products and services that are at a more competitive price.", "source_url": "https://vir.com.vn/a-closer-look-at-one-mount-group-and-the-vision-to-build-vietnams-largest-digital-ecosystem-80387.html", "source_label": "Vietnam Investment Review"},
+        {"who": "Phung Quang Hung, CEO from 1 Aug 2025", "when": "Aug 2025", "context": "Inaugural statement on Techcombank-One Mount rotation", "text": "Accepting the assignment at One Mount is not just a new position, but a call to serve at a higher level. My goal is to lead the group to develop its business on an excellent technology and data platform, ensuring seamless integration, turning One Mount into a solid launching pad, helping Techcombank and the entire HST to make a stronger breakthrough.", "source_url": "https://www.vietnam.vn/en/techcombank-one-mount-luan-chuyen-lanh-dao-toi-uu-suc-manh-he-sinh-thai", "source_label": "Vietnam.vn"},
+        {"who": "OneShop launch communication", "when": "Oct 2025", "context": "VietnamPlus coverage", "text": "Evolving from VinShop, which launched five years ago, OneShop now encompasses over 120,000 convenience stores nationwide, connecting more than 500 brands and suppliers and providing 10,000 genuine products.", "source_url": "https://en.vietnamplus.vn/oneshop-launches-modern-digital-commerce-platform-for-vietnamese-small-retailers-post331423.vnp", "source_label": "VietnamPlus"},
+        {"who": "Nguyen Duc Toan, CEO MM Mega Market Vietnam", "when": "Oct 2025", "context": "OneShop launch event", "text": "Strategic partnerships are essential for attracting consumers in the digital era; OneShop would strengthen connections with convenience stores and expand consumer reach online and offline, offering a transparent, modernised retail platform with 18,000 clearly sourced products.", "source_url": "https://en.vietnamplus.vn/oneshop-launches-modern-digital-commerce-platform-for-vietnamese-small-retailers-post331423.vnp", "source_label": "VietnamPlus"},
+        {"who": "TheInvestor editorial", "when": "Aug 2025", "context": "On the Hung appointment", "text": "The leadership rotation between the major units in the ecosystem is a strategic move to optimize management resources and enhance integration capability between finance, technology, and real estate.", "source_url": "https://theinvestor.vn/former-techcombank-exec-appointed-ceo-of-technology-major-one-mount-group-d16525.html", "source_label": "TheInvestor"}
+      ],
+      "failure_mode": "Five years of Vingroup-and-Techcombank capital reached 120,000 stores at most against an addressable base of 1.4m, an 8.5% penetration ceiling for a captive corporate platform with first-mover advantage and a banking pipe. The closed-loop data play was never built because VinShop digitised the order app, not the shop POS. The split between consumer (VinID/OneU) and merchant (VinShop/OneShop) systems was a corporate-structure failure: the December 2019 transfer of VinCommerce to Masan severed the supermarket POS access, the May 2025 VinID Pay shutdown ratified the wallet leg's abandonment.",
+      "aftermath": "VinShop is operating, rebranded as OneShop in late October 2025 on the same Google Play package ID com.vingroup.VinIDMerchantApp (a tell that this is a rebrand and feature extension, not a clean replatform). Nguyen Thi Diu rotated 1 August 2025 from CEO of One Mount Group to Permanent Vice Chair of the One Mount Board, plus Vice Chair seats at Techcom Securities and Masterise Group. Phung Quang Hung replaced her as CEO from Techcombank's Permanent Deputy CEO seat. Le Thiet Bao continues as CEO of One Mount Distribution. No public layoff notice has accompanied the rebrand. VinID Pay was discontinued in May 2025; end-user balances were reportedly migrated or refunded with no public creditor schedule. The blockchain Layer-1 commitment of $200-500m (Jan 2025 government tasking) and the OneShop rebrand together signal that One Mount is being repositioned as a state-aligned digital infrastructure vehicle rather than a venture-funded e-commerce play.",
+      "customer_voice": [
+        {"who": "Vietnam Investment Review (peak coverage)", "when": "2022", "context": "VIR profile at 100,000 stores in 22 provinces milestone", "text": "VinShop ranked first in online Fast Moving Consumer Goods distributors for grocery stores, with more than 200 small merchants choosing VinShop daily.", "source_url": "https://vir.com.vn/vinshop-became-the-top-online-fmcg-distributor-in-vietnam-93921.html", "source_label": "Vietnam Investment Review"},
+        {"who": "Google Play app description (current OneShop listing)", "when": "2025", "context": "Self-quote for shopkeepers", "text": "Sales feature to help store owners sell products and track daily revenue and profit; improved voice order creation feature; e-invoices instantly when needed, meeting tax authority requirements.", "source_url": "https://play.google.com/store/apps/details?id=com.vingroup.VinIDMerchantApp", "source_label": "Google Play"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Vietnamese mom-and-pop shopkeepers participate in a corporate-backed B2B platform when financing, transparent pricing, and SKU access show up. The OneShop October 2025 re-statement extends demand to 5.2m total small retailers across categories. Demand without integrated banking and integrated retail estate is hard to monetise above the FMCG distributor margin band.",
+        "product_truth": "Delivered B2B order capture, working-capital financing via Techcombank, and 24-province coverage at peak. Did not deliver closed-loop POS or unified consumer-merchant data layer for the entire 2020-2025 window. The OneShop rebrand is a five-years-late admission that the original product missed POS, voice ordering, and e-invoicing. Decree 70 (June 2025) is what forced the upgrade.",
+        "equity_transferability": "Single-pillar inside a four-pillar holdco. The cross-sell flywheel that would have justified the holdco architecture has not materialised. The OneU e-wallet shutdown in May 2025 confirms the asset is single-pillar, not platform.",
+        "value_creation_sizing": "No external priced round; 'next unicorn' framing in 2021 press never validated by a transaction. Closest sourced peak: $1bn implied, never confirmed. Five years of corporate capital reached 120k stores; OneShop now targets 5.2m. Parent shareholders hold at parent equity and do not need to mark.",
+        "competitive_dynamics": "The Techcombank financing pipe is the genuine moat. Masan-style structural advantage is asymmetrically present: WinCommerce plus MEATLife plus MCH brand portfolio plus a banking partner. WinX could compete with OneShop on the distribution rail, ride alongside (e.g., MCH SKUs through OneShop), or build independent shop POS rails through WinCommerce.",
+        "learnability": "Masan's IC could develop conviction on building shop POS that VinShop did not, leveraging WinCommerce point-of-sale data and MEATLife cold chain with a banking partner that is not Techcombank. Could not develop conviction on a clone-of-VinShop standalone B2B FMCG platform; the corporate-funded incumbent has run that play for five years and has not exited."
+      },
+      "logo_file": "vingroup.svg",
+      "lat": 21.0285,
+      "lng": 105.8542,
+      "modes": [1,1,1,0,0,1,1,0,1,0],
+      "assets": [0,1,0,0]
+    },
+    {
+      "id": "kamereo",
+      "name": "Kamereo",
+      "country": "VN",
+      "city": "HCMC",
+      "founded": 2018,
+      "shut": null,
+      "status": "live",
+      "raised_usd_m": 15,
+      "peak_valuation_usd_m": 35,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 4000,
+      "tagline": "B2B foodservice supply platform with three-temperature-zone cold chain. Only Vietnamese GT digitization play in the cohort still operating, raising, and growing through the down cycle. Hanoi launch Feb 2025.",
+      "founders": [
+        {"name": "Taku Tanaka", "role": "CEO", "prior": "COO at Pizza 4P's (Mekong Capital-backed restaurant chain) for three years before founding"},
+        {"name": "Hiroshi Tokaku", "role": "CTO and financial co-founder", "prior": "Technical anchor; runs warehouse-management system development"}
+      ],
+      "thesis_at_founding": "Foodservice procurement in Vietnam is functionally pre-digital. An aggregator can lift gross margin by 5-10 percentage points if it controls quality, logistics, and last-mile. Cold chain on temperature-controlled produce and meat carries 20-30% gross margin against the 4-7% in dry FMCG.",
+      "rounds": [
+        {"date": "Jan 2019", "stage": "Seed", "amount_usd_m": 0.5, "lead": "Genesia Ventures", "post_money_usd_m": null},
+        {"date": "Jul 2021", "stage": "Series A", "amount_usd_m": 4.6, "lead": "CPF Group, Quest Ventures, Genesia Ventures co-lead", "post_money_usd_m": null},
+        {"date": "Mar 2024", "stage": "Pre-Series B", "amount_usd_m": 2.1, "lead": "Quest Ventures plus existing investors", "post_money_usd_m": null},
+        {"date": "8 Dec 2024", "stage": "Series B", "amount_usd_m": 7.8, "lead": "Sumitomo Corporation", "post_money_usd_m": 35}
+      ],
+      "experiments": [
+        {"name": "Three-temperature-zone cold chain warehouse", "year": 2020, "what": "HCMC warehouse stack carries frozen, chilled, ambient zones simultaneously, allowing one consolidated delivery to a restaurant of all three temperature classes.", "outcome": "Single most important capex decision in Kamereo's history; the structural margin lever distinguishing it from marketplace-only B2B foodtech."},
+        {"name": "Pizza 4P's anchor customer", "year": 2018, "what": "Tanaka's prior relationship as Pizza 4P's COO seeded Kamereo's first major chain customer, providing early order volume and product feedback.", "outcome": "Compressed time-to-product-market-fit. Pizza 4P's grew from one HCMC store at Tanaka's COO start to ten stores three years later."},
+        {"name": "Pre-Series B internal extension", "year": 2024, "what": "$2.1m raise from Quest Ventures with existing investors during the cohort-wide funding crunch; intentionally small and internal.", "outcome": "Capital discipline; a continuation rather than a new lead. Inverse of Telio's $15m solo Granite Oak round."},
+        {"name": "Sumitomo-led Series B", "year": 2024, "what": "$7.8m led by Sumitomo with Inspire Co., SMBC Venture Capital, Mitsubishi UFJ Capital, Reazon Holdings; explicit operational reasoning around Sumitomo's FujiMart Hanoi expansion (13 stores at March 2024, target 50 by 2028).", "outcome": "Strategic-led round with cooperation potential, not a pure financial round."},
+        {"name": "Hanoi market entry", "year": 2025, "what": "Northern operations live February 2025; chain customers ported across regions including Sofitel Legend Metropole Hanoi, SOJO Hotels, FujiMart, Paris Baguette, Starbucks Vietnam, Habakuk (Michelin-recommended).", "outcome": "100+ clients added inside three months. Customer-acquisition motions repeatable across geographies."},
+        {"name": "Marketplace push", "year": 2024, "what": "Separate marketplace business added on top of core supply, leveraging organic web traffic and last-mile network for tail SKUs not stocked principal.", "outcome": "Extracts incremental gross profit from existing fixed last-mile cost base."},
+        {"name": "Customer mix expansion", "year": 2024, "what": "Customer base extended beyond restaurants to include supermarkets, convenience stores (Family Mart pattern), factories, schools, hospitals.", "outcome": "Stays within foodservice and institutional buyer pocket; deliberately does not cross into GT mom-and-pop FMCG."}
+      ],
+      "pivots": [],
+      "operating_arc": "Kamereo incorporated June 2018 in HCMC against the Pizza 4P's procurement pain point. Through 2019-2020 it built the marketplace v1 and a three-temperature-zone HCMC cold chain warehouse, the structural margin lever versus pure-marketplace plays. The Jul 2021 Series A ($4.6m, CPF Group anchor) funded geographic expansion across South Vietnam (Binh Duong, Vung Tau, Phan Thiet). Through 2022-2023 the customer mix tilted toward chains and high-end restaurants (Park Hyatt, El Gaucho, Family Mart, Pizza 4P's). The March 2024 pre-Series B ($2.1m, Quest-led internal) bridged the cohort funding crunch. The December 2024 Sumitomo-led Series B ($7.8m) coincided with Hanoi market entry; by Q1 2025 the company reported 100+ clients across various models and scales within three months of Hanoi operations. Headcount rose from ~50 at Series A to ~200 at Series B and 200+ post-Hanoi. The product evolution is additive, not pivot-driven; nothing has been wound down.",
+      "voice": [
+        {"who": "Taku Tanaka, founder and CEO", "when": "Vietcetera 'How I Manage' interview", "context": "On hiring philosophy", "text": "I'm not just looking for experience. I'm more into the mindset of the people we hire: people who have a clear understanding of the problems and are willing to solve them, people who think outside the box and are not afraid to make mistakes, people who are honest and transparent, people who see change as an opportunity.", "source_url": "https://vietcetera.com/en/how-i-manage-kamereos-ceo-taku-tanaka", "source_label": "Vietcetera"},
+        {"who": "Taku Tanaka, founder and CEO", "when": "VNI Ep.20", "context": "On automation and behaviour change in Vietnamese F&B", "text": "Considering that the industry is still dependent on manual processes, the road towards automation is still rocky and will take time. People aren't willing to change their habits. But once they start implementing technology into their operations, I believe it will change their lives. They won't want to go back to manual processes.", "source_url": "https://vietcetera.com/en/tech-solutions-for-restaurants-with-kamereos-taku-tanaka-vni-ep20-recap", "source_label": "Vietcetera"},
+        {"who": "Goh Yiping, Partner at Quest Ventures", "when": "2021", "context": "Series A press release", "text": "Very impressed by KAMEREO's execution, in-depth supply chain, and market knowledge in the farm to fork space in Vietnam. KAMEREO sits in one of the largest food production hubs of Southeast Asia, and there is much room to grow in solving many of the inefficiencies of the supply chain today, improving farmers' livelihood outcomes and procuring the best products for businesses and homes.", "source_url": "https://www.questventures.com/press/kamereo-bags-usd-4-6-million-in-series-a-funding-round/", "source_label": "Quest Ventures"},
+        {"who": "Manabu Fujimoto, Director at Inspire Investment", "when": "Dec 2024", "context": "Series B announcement", "text": "Kamereo's vertically integrated supply chain provides mutually beneficial value indispensable for business expansion, while staying attuned to the needs of customers and the market. Through the investment, we aim to create opportunities for cross-industry collaboration with the companies supported by our fund and strive to enhance business value by leveraging synergistic effects.", "source_url": "https://kamereo.vn/blog/en/kamereo-secures-us7-8m-in-series-b-to-accelerate-growth-in-vietnams-b2b-food-e-commerce-market/", "source_label": "Kamereo"},
+        {"who": "Motohiro Takeuchi, SMBC Venture Capital", "when": "Dec 2024", "context": "Series B announcement", "text": "Kamereo's organisational culture places 'Kaizen', a concept of continuous improvement, as its core value, which has seen it steadily advance through persistent sales activities and operational improvements. This has created a virtuous growth cycle where acquiring more customers improves procurement conditions, making it easier to pull in even more customers.", "source_url": "https://www.vietnam.vn/en/kamereo-chot-thuong-vu-78-trieu-usd-vong-goi-von-series-b", "source_label": "Vietnam.vn"},
+        {"who": "Taku Tanaka, founder and CEO", "when": "Kilala interview", "context": "Vietnamese-language profile", "text": "Thị trường Việt Nam còn nhiều tiềm năng mà tôi muốn khai phá.", "source_url": "https://kilala.vn/nhan-vat/nha-sang-lap-kamereo-thi-truong-viet-nam-con-nhieu-tiem-nang-ma-toi-muon-khai-pha.html", "source_label": "Kilala"}
+      ],
+      "failure_mode": "Kamereo has not failed. The structural risk profile remaining in the model is that the cold-chain capex is amortising against a foodservice base that is materially smaller per geography than the broader FMCG GT pool, and the path to a venture-grade $500m to $1bn outcome requires consolidation across the Vietnamese B2B foodtech segment. Capital recovery is not a question; the company is operating, has cash from Series B, and has a strategic-led shareholder base oriented toward operational cooperation rather than financial exit pressure.",
+      "aftermath": "Kamereo is operating, growing, and capitalised. Taku Tanaka continues as CEO; no public succession plan announced. Hiroshi Tokaku continues as CTO. Named operating leads in public profiles (Khang Pham as BDM, the engineering team built around the cold-chain stack) appear stable. ITviec engineering job postings 2024-2025 reflect ongoing hiring in technical lead, software engineering, warehouse management system roles. Headcount rose from ~50 at Series A close (2021) to ~200 at Series B close (2024) and 200+ post-Hanoi launch. Strategic asset utilisation post-Series B: Sumitomo's stated rationale was cooperation with FujiMart Hanoi (13 stores at March 2024, target 50 by 2028). Kamereo supplies FujiMart's Hanoi store base while FujiMart provides a sourcing partner that operates the cold chain.",
+      "customer_voice": [
+        {"who": "TechCrunch (press-visited testimonial)", "when": "Jul 2021", "context": "Series A coverage of customer mix", "text": "Kamereo serves more than 400 active customers, ranging in size from family-owned restaurants to chains with more than 20 locations.", "source_url": "https://techcrunch.com/2021/07/18/kamereo-gets-4-6m-to-connect-farmers-and-fb-businesses-in-vietnam/", "source_label": "TechCrunch"},
+        {"who": "ChuyenNhaSangLap Substack", "when": "2024", "context": "Vietnamese-language operator commentary", "text": "Kamereo: Từ sự kém hiệu quả trong chuỗi cung ứng F&B Việt Nam đến khát vọng tái định nghĩa chuỗi cung ứng.", "source_url": "https://chuyennhasanglap.substack.com/p/kamereo", "source_label": "ChuyenNhaSangLap"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Vietnamese foodservice operators (chain restaurants, hotels, hospitals, schools, factories, convenience stores) replenishing produce, meat, and packaging on recurring schedules with cold-chain reliability. Different atomic unit from GT mom-and-pop FMCG. Higher AOV, professionally managed order frequency, structurally better cold-chain margin.",
+        "product_truth": "Cold-chain three-temperature warehousing, order-capture web and app, last-mile delivery to ~3,000+ HCMC and southern customers plus 100+ Hanoi customers within three months. Marketplace add-on extracts incremental gross profit from existing fixed costs. No major product-truth failure.",
+        "equity_transferability": "Single-segment focus (foodservice + institutional buyers) with adjacent expansion. Transferable to operating strategics; transfer to a financial acquirer at venture-comp pricing is harder given the cold-chain capex profile.",
+        "value_creation_sizing": "Total disclosed capital ~$15m across four rounds in seven years. Closest sourced peak post-money: $30-40m at the December 2024 Series B. Well below the venture-grade $500m to $1bn threshold; structurally relevant question is whether Kamereo can compound to that bar by 2030 with consolidation.",
+        "competitive_dynamics": "Cold-chain infrastructure plus chain-customer base is the structural advantage. Masan-style asymmetric advantage available: MEATLife (cold chain at scale, slaughterhouses), MCH (FMCG brand portfolio overlapping foodservice procurement), WinCommerce (modern-trade footprint overlapping institutional buyers). Most-direct mapping of Masan infrastructure to a cohort playbook.",
+        "learnability": "Masan's IC could develop high-confidence conviction. Customer mix closer to Masan's modern-trade muscle than to Telio's mom-and-pop muscle. Capital discipline ($15m over seven years) closer to Masan's M&A multiples. Strategic shareholder syndicate (Sumitomo, Mitsubishi UFJ, SMBC, CPF, Reazon) is a coherent buy-side counterparty pattern. Operator-founder profile (Tanaka from Pizza 4P's COO) treated favourably."
+      },
+      "logo_file": null,
+      "lat": 10.7769,
+      "lng": 106.7009,
+      "modes": [0,1,0,1,0,1,0,0,0,0],
+      "assets": [0,0.5,0,0]
+    },
+    {
+      "id": "vinid",
+      "name": "VinID (pre-2019 divest)",
+      "country": "VN",
+      "city": "Hanoi",
+      "founded": 2016,
+      "shut": null,
+      "status": "plateau",
+      "raised_usd_m": null,
+      "peak_valuation_usd_m": null,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": null,
+      "tagline": "Vingroup loyalty card and digital wallet inside VinCommerce, Nov 2016 to Dec 2019. The closest historical precedent inside the Masan estate for a closed-loop GT/MT digitization play. ~7m users at 2019, ~12m at 2024 under OneU.",
+      "founders": [
+        {"name": "VinCommerce / Vingroup", "role": "Corporate parent at launch", "prior": "OceanMart acquired Oct 2014, rebranded VinMart"}
+      ],
+      "thesis_at_founding": "Closed-loop transaction capture inside an integrated retailer: VinMart cashier scans VinID card, redemption rule and data attribution both inside Vingroup. Multi-property earn surface across VinMart, VinMart+, Vinpearl, VinFast, Vincom Retail, Vinhomes.",
+      "rounds": [],
+      "experiments": [
+        {"name": "VinID card and points programme", "year": 2016, "what": "Group-wide loyalty account; earn rate 1,000 VND per transaction at VinMart and VinMart+; cross-redeemable across Vingroup ecosystem.", "outcome": "5m users by 2018, 7m by 2019, 12m by 2024 under OneU."},
+        {"name": "VinID Pay e-wallet", "year": 2017, "what": "PCI DSS-compliant wallet integrated into the card; free transfers; bank-rail integration; merchant payment footprint at Vingroup-owned outlets.", "outcome": "Limped on inside One Mount post-2019 transfer; formally discontinued May 2025 under OneU rebrand."},
+        {"name": "Lotusmiles cross-redemption (2021)", "year": 2021, "what": "Vietnam Airlines Lotusmiles partnership added external redemption surface.", "outcome": "Partial extension externally; never compensated for the December 2019 loss of supermarket POS access."},
+        {"name": "VinCommerce divest to Masan", "year": 2019, "what": "3 December 2019: Vingroup and Masan agreed share swap of VinCommerce and VinEco into a new merged company in exchange for Masan equity. Largest Vietnamese M&A deal of 2009-2023 period.", "outcome": "Severed the supermarket POS feed from the loyalty card. From Dec 2019 the supermarket POS data sat inside Masan/WinCommerce; the loyalty card data sat inside Vingroup (later One Mount)."},
+        {"name": "OneU rebrand (Sep 2024)", "year": 2024, "what": "Repositioned VinID as 'lifestyle platform' with 300+ partner brands.", "outcome": "Re-positioning of consumer asset away from closed-loop sell-through engine."},
+        {"name": "VinID Pay shutdown (May 2025)", "year": 2025, "what": "OneU discontinued the VinID Pay e-wallet entirely.", "outcome": "Confirmed wallet leg of closed loop had been abandoned."}
+      ],
+      "pivots": [
+        {"year": 2019, "from": "Closed-loop loyalty inside Vingroup", "to": "Open loyalty severed from VinMart POS", "trigger": "VinCommerce sale to Masan", "outcome": "Two estates never re-integrated the data flow"},
+        {"year": 2024, "from": "VinID closed-loop programme", "to": "OneU lifestyle platform", "trigger": "Brand reset post-Vingroup divest from One Mount", "outcome": "Rebrand without restoring closed-loop access"},
+        {"year": 2025, "from": "OneU with VinID Pay wallet", "to": "OneU without wallet", "trigger": "Monetisation review", "outcome": "Most explicit admission that original 2019-2020 thesis did not work"}
+      ],
+      "operating_arc": "VinID launched in November 2016 as Vingroup's group-wide loyalty card and digital wallet inside VinCommerce. Through 2017-2019 it built closed-loop transaction capture across VinMart, VinMart+, Vinpearl, VinFast, Vincom Retail, and Vinhomes; user base reached ~7m by 2019. The decisive event was the December 2019 Vingroup-Masan transaction: VinCommerce and VinEco transferred to Masan, while VinID itself stayed inside Vingroup (later moved into One Mount). From that date the supermarket POS feed went to Masan and VinID lost first-party shopper-cohort signal at the supermarket. The wallet kept running at Vingroup-controlled merchants but lost the supermarket as primary use case. By 2024 user count reached ~12m. The September 2024 rebrand to OneU repositioned the asset as a generic lifestyle platform with 300+ partner brands. In May 2025 OneU discontinued VinID Pay entirely.",
+      "voice": [
+        {"who": "TuoiTre", "when": "3 Dec 2019", "context": "Coverage of VinCommerce-Masan transfer", "text": "Vingroup transferred VinCommerce and VinEco to Masan.", "source_url": "https://tuoitre.vn/vingroup-nhuong-mang-vincommerce-va-vineco-cho-masan-20191203104021049.htm", "source_label": "TuoiTre"},
+        {"who": "InfoNet", "when": "Dec 2019", "context": "Post-deal explainer on cardholder rights", "text": "Masan tiep quan VinMart, quyen loi chu the VinID nhu the nao?", "source_url": "https://infonet.vietnamnet.vn/thi-truong/masan-tiep-quan-vinmart-quyen-loi-chu-the-vinid-nhu-the-nao-19238.html", "source_label": "InfoNet"},
+        {"who": "TheInvestor", "when": "2024", "context": "Retrospective on the 2019 swap", "text": "Masan's acquisition of VinCommerce, VinEco tops M&A deals in Vietnam in 2009-2023.", "source_url": "https://theinvestor.vn/masans-acquisition-of-vincommerce-vineco-tops-ma-deals-in-vietnam-in-2009-2023-d7619.html", "source_label": "TheInvestor"}
+      ],
+      "failure_mode": "The pre-2019 VinID stack had four properties no Vietnamese consumer franchise has put together since: closed-loop transaction capture inside an integrated retailer, a working e-wallet, a multi-property earn surface, and a first-party data feed for FMCG brands. The 2019 transfer broke the first three. VinMart became a Masan asset; the Vingroup-Masan partnership preserved customer benefits as a contractual courtesy but not as a single data asset. The wallet leg (VinID Pay) survived eight years inside an environment without the primary use case before being retired in May 2025.",
+      "aftermath": "The VinID brand continues under One Mount as OneU. The VinID Pay wallet was discontinued in May 2025 with end-user balances reportedly migrated or refunded. The OneU consumer asset has been repositioned as a generic lifestyle platform with 300+ partner brands rather than a Vingroup-first-party closed-loop programme. The structural consequence for the 2026 WinX opportunity: WinCommerce now owns the supermarket POS data feed that VinID lost in December 2019. WinX inherits the asset that VinShop tried and failed to access from outside; OneU has lost its connection to it. A wallet is not a precondition for the WinX opportunity; a card and a POS feed are.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "Vietnamese consumers used VinID at WinMart tills as a habit during the integrated period; the value proposition was points-cross-redemption across a multi-property estate. Once the property network contracted (VinPro electronics chain closed, Vinpearl restructured, Vincom Retail demerged), the earn-and-burn loop weakened structurally.",
+        "product_truth": "Card and POS feed are the durable assets; the wallet is harder to maintain. VinID Pay survived eight years and was retired. Closed-loop programmes work when the property network is owned by a single group; they break when the network fragments.",
+        "equity_transferability": "Loyalty programme as defensive moat, not growth engine. Asset value sits in the data feed inside the supermarket POS, which now lives inside Masan / WinCommerce since December 2019.",
+        "value_creation_sizing": "Standalone valuation never anchored. The relevant value question is the asset value of the supermarket POS feed inside WinCommerce, which has been compounding inside Masan since 2019. Not a venture-grade question.",
+        "competitive_dynamics": "OneU competes with MoMo, ZaloPay, ShopeePay on the wallet side and with WinCommerce-internal loyalty on the supermarket side. The competitive position is structurally weakened by the 2019 split.",
+        "learnability": "Direct lesson for WinX: treat WinCommerce POS as the asset the broader Vietnamese ecosystem tried and failed to replicate. Telio never had it; VinShop never linked to it; OneU has lost its connection to it. WinX has it. The 2019 transfer is the historical event that made the 2026 WinX opportunity possible."
+      },
+      "logo_file": null,
+      "lat": 21.0285,
+      "lng": 105.8542,
+      "modes": [0,1,0,0,0,1,0,0,1,0],
+      "assets": [1,0,0,0.5]
+    },
+    {
+      "id": "udaan",
+      "name": "Udaan",
+      "country": "IN",
+      "city": "Bangalore",
+      "founded": 2016,
+      "shut": null,
+      "status": "plateau",
+      "raised_usd_m": 1600,
+      "peak_valuation_usd_m": 3100,
+      "peak_revenue_usd_m": 1200,
+      "merchants_peak": 3000000,
+      "tagline": "App-first kirana B2B marketplace; raised ~$1.6bn cumulative; down round Dec 2023 from $3.1bn to $1.7-1.8bn (-43.5%). FY24 revenue INR 5,706 Cr at -37% EBITDA margin. Headcount cut from ~11,500 to ~1,600. IPO targeted 2026.",
+      "founders": [
+        {"name": "Vaibhav Gupta", "role": "CEO since Sep 2021", "prior": "Business Finance and Analytics at Flipkart"},
+        {"name": "Sujeet Kumar", "role": "Co-founder, ex-CEO; remains on board", "prior": "President of Operations, supply chain, logistics at Flipkart"},
+        {"name": "Amod Malviya", "role": "Co-founder, CTO; resigned from board late 2024", "prior": "CTO at Flipkart"}
+      ],
+      "thesis_at_founding": "India's USD 700bn B2B retail trade ran through 25-30 layers of intermediaries (super-stockist, distributor, sub-distributor, wholesaler), pricing was opaque, credit was informal. A single nationwide app-first marketplace could compress the chain across lifestyle, electronics, staples, FMCG.",
+      "rounds": [
+        {"date": "Feb 2018", "stage": "Series B", "amount_usd_m": 50, "lead": "Lightspeed, DST", "post_money_usd_m": 200},
+        {"date": "Sep 2018", "stage": "Series C", "amount_usd_m": 225, "lead": "DST, Lightspeed", "post_money_usd_m": 1000},
+        {"date": "Oct 2019", "stage": "Series D", "amount_usd_m": 585, "lead": "Tencent, Altimeter, Hillhouse, Footpath, GGV", "post_money_usd_m": 2800},
+        {"date": "Jan 2021", "stage": "Series E", "amount_usd_m": 280, "lead": "Lightspeed, Tencent", "post_money_usd_m": 3100},
+        {"date": "Dec 2023", "stage": "Series E (down)", "amount_usd_m": 340, "lead": "M&G plc", "post_money_usd_m": 1800},
+        {"date": "Feb 2025", "stage": "Series G (tranche 1)", "amount_usd_m": 75, "lead": "M&G, Lightspeed", "post_money_usd_m": 1800},
+        {"date": "Jun 2025", "stage": "Series G (closed)", "amount_usd_m": 114, "lead": "M&G, Lightspeed", "post_money_usd_m": 1800}
+      ],
+      "experiments": [
+        {"name": "Case-pack catalog", "year": 2017, "what": "Launch SKU shape mirrored Walmart Sam's Club model: minimum order at a case (12-48 units of an FMCG SKU) at distributor-equivalent rates.", "outcome": "Behavioral failure surfaced inside 18 months; kiranas re-ordered ~80% of the same 200-400 SKUs every 7-14 days and rarely needed full cases."},
+        {"name": "UdaanCapital and Northern Arc co-lending", "year": 2022, "what": "Hiveloop Capital NBFC; Apr 2022 Northern Arc partnership; CreditBuy rails wired into the order flow with INR 10,000 to INR 25 lakh ticket sizes; ~150,000 kiranas served.", "outcome": "Disbursement run-rate INR 8,000 Cr per annum by FY24; net portfolio INR 359 Cr at March 2024 with 4.9% write-offs. Never threw off enough net interest margin to subsidize the marketplace P&L."},
+        {"name": "Private label staples push", "year": 2020, "what": "Private-label SKUs in staples and apparel from 2020; gross margin 18-22% versus 8-12% on national-brand SKUs.", "outcome": "Private-label revenue grew 250% YoY in 2024 against broader 65% YoY GMV growth; 2.45 billion FMCG units delivered in calendar 2024. Load-bearing margin story for IPO pitch."},
+        {"name": "Pharma and HoReCa verticals", "year": 2019, "what": "Opened pharma B2B 2019; HoReCa vertical 2020-2021.", "outcome": "Pharma did not scale (CDSCO regulation locked margin); HoReCa de-emphasized post-2022 cost mode, re-elevated in 2024-2025."},
+        {"name": "Reverse flip from Singapore to India", "year": 2025, "what": "NCLT approval to consolidate tech, logistics, and wholesale trading entities under Hiveloop Ecommerce; redomiciliation targeting BSE/NSE listing 9-18 months from early 2026.", "outcome": "Housekeeping for IPO filing window."},
+        {"name": "Headcount compression", "year": 2022, "what": "Four discrete layoff waves: Jun 2022 (180), Nov 2022 (350), Dec 2023 (120-150), rolling FY24.", "outcome": "Net headcount went from ~11,500 in Oct 2023 LinkedIn to ~1,600 post-cuts. Burn cut by 80% in two years."}
+      ],
+      "pivots": [
+        {"year": 2021, "from": "Sujeet Kumar growth-mode CEO", "to": "Vaibhav Gupta cost-out CEO", "trigger": "Founder split, capital cycle turning", "outcome": "Begins compression"},
+        {"year": 2022, "from": "Marketplace plus all categories", "to": "Cost-as-capability discipline", "trigger": "Series E down round mechanics; FY23 GMV collapse 43.1% YoY", "outcome": "Burn down 80%, GMV halved, EBITDA still negative -37.1% in FY24"},
+        {"year": 2025, "from": "Multi-category sprawl", "to": "FMCG and HoReCa focus with private label margin lever", "trigger": "IPO window opening", "outcome": "Targeting BSE/NSE listing 9-18 months from early 2026"}
+      ],
+      "operating_arc": "Udaan launched late 2016 with three Flipkart alumni and an app-first kirana marketplace thesis. Capital scaled rapidly: $50m Series B Feb 2018 to $585m Series D Oct 2019 to $280m Series E Jan 2021 at $3.1bn peak post-money. The case-pack model excluded the long tail of sub-case kirana orders. UdaanCapital launched Dec 2018 to address the kirana credit gap. By FY22 GMV reached INR 9,900 Cr with revenue ~INR 9,897 Cr. From mid-2022 the company entered cost mode under Vaibhav Gupta (CEO since Sep 2021); FY23 GMV collapsed 43.1% YoY to INR 5,629 Cr. Four layoff waves reduced headcount from ~11,500 in Oct 2023 to ~1,600. The Dec 2023 down round (M&G plc-led, $340m) cut valuation 43.5% to $1.7-1.8bn. FY24 revenue INR 5,706.6 Cr, net loss INR 1,674 Cr, EBITDA margin -37.1%. The Feb-Jun 2025 Series G tranches ($114m cumulative) at flat $1.8bn anchor the pre-IPO build.",
+      "voice": [
+        {"who": "Vaibhav Gupta, CEO", "when": "Feb 2025", "context": "Series G announcement", "text": "Over the last 3 years, we have transformed the business by building cost as a capability and a competitive advantage. We have reduced our EBITDA burn by 40% every year for the last 3 years and are on track to achieve full group EBITDA profitability in the next 18 months.", "source_url": "https://yourstory.com/2025/02/udaan-raises-75-million-existing-investors-ceo-vaibhav-gupta", "source_label": "YourStory"},
+        {"who": "Vaibhav Gupta, CEO", "when": "Apr 2024", "context": "Udaan official X account on cost discipline", "text": "Udaan has already gone on an overdrive to conserve cash. The company has reduced it's burn by 80% in the last two years as it trimmed operations.", "source_url": "https://x.com/udaandotcom/status/1785164731986133088", "source_label": "Udaan X"},
+        {"who": "Niranjan Sirdeshpande, EMEA Director M&G Catalyst", "when": "Dec 2023", "context": "Leading the down round", "text": "M&G is pleased to support Udaan as it pursues a profitable growth strategy. We believe it has the right operational platform to be the trusted partner of scale to small businesses across India by empowering them with technology, financial inclusivity, and supply chain capabilities.", "source_url": "https://techcrunch.com/2023/12/14/india-udaan-scores-340-million-in-new-funding/", "source_label": "TechCrunch"},
+        {"who": "Sujeet Kumar, co-founder", "when": "May 2023", "context": "BusinessToday retrospective on early Delhi-based hustle", "text": "Bangalore mujhe nahin jana.", "source_url": "https://www.businesstoday.in/latest/corporate/story/bangalore-mujhe-nahin-jana-ex-flipkart-top-executive-sujeet-kumar-recollects-delhi-life-early-days-hustle-380573-2023-05-09", "source_label": "BusinessToday"},
+        {"who": "Anonymous Glassdoor employee", "when": "2023", "context": "Layoff coverage", "text": "Frequent Layoffs and role change ... fired more than 50% of the employees without any notice and without analysing who is good or who is bad.", "source_url": "https://www.glassdoor.com/Reviews/udaan-com-Reviews-E2023654.htm", "source_label": "Glassdoor"}
+      ],
+      "failure_mode": "The kirana-app premise broke on three load-bearing assumptions: merchants would adopt an app-first ordering UX (WhatsApp re-order won the behavior war as JioMart, ElasticRun, super-stockists all migrated to WhatsApp); marketplace ad take would scale to 3-5% (capped at <1% with FY25 ads at INR 120 Cr against INR 18,200 Cr GMV); credit arm could throw off enough margin to subsidize distribution (constrained by 4.9% write-offs and limited NBFC capital base). The structural FMCG distribution P&L (1-3% net distributor margin) cannot absorb tech-startup unit cost. Udaan survived because it raised $1.6bn before the funding tap closed, cut 80-85% of headcount, and shrank GMV by half rather than burning through cash chasing the original thesis.",
+      "aftermath": "Sujeet Kumar stepped out of operations Sep 2021. Now Founder and Trustee at Plaksha University and active angel investor with 79 portfolio companies including Blinkit and Ultrahuman; remains on Udaan's board. Amod Malviya stepped down operationally in 2022, resigned from board late 2024; co-founded Pre6 with Rishi Kedia (former CFO of Udaan Capital) in late 2024 / early 2025; described as a technology, information and internet company with no specific category disclosed. Rishi Kedia (CFO Udaan Capital) is co-founder of Pre6. Vaibhav Gupta continues as IPO custodian. Engineering and ops staff dispersal: LinkedIn signals point to ex-Udaan engineers landing at Curefit, Qubole, Keka HR, and the broader Bengaluru SaaS B2B graveyard. Indeed review base sits at 92, Glassdoor at 1,270, indicating the workforce that passed through Udaan was a meaningful talent vintage in Bengaluru's B2B ecosystem.",
+      "customer_voice": [
+        {"who": "Anonymous kirana, MouthShut review", "when": "2023", "context": "Positive customer voice", "text": "Got good business from Udaan with orders starting from day one and expanding to pan-India, user-friendly app and simple process from listing to dispatching.", "source_url": "https://www.mouthshut.com/product-reviews/udaan-reviews-926003038", "source_label": "MouthShut"},
+        {"who": "Anonymous kirana, Trustpilot", "when": "2023", "context": "Negative customer voice", "text": "Worst app and worst service ... given offers for settlement that are later denied ... mobile app is useless ... customer service unresponsive to emails and calls.", "source_url": "https://www.trustpilot.com/review/udaan.com", "source_label": "Trustpilot"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Udaan validated that kiranas need credit and price transparency but failed to validate that kiranas want an app-first ordering UX. The category truth (FMCG distribution is INR 1-3% net margin, not a venture-scale return) was always present and the Series E down round priced it correctly.",
+        "product_truth": "Case-pack catalog broke against sub-case demand; UdaanCapital scaled but at sub-prime credit losses; private label is real but small.",
+        "equity_transferability": "Tech stack (warehousing, credit underwriting, ad-tech) is portable to any FMCG distributor; the IPO bookrunners will rely on this read.",
+        "value_creation_sizing": "USD 18,200 Cr GMV base at 1-3% net distributor margin caps EBITDA upside; the IPO pitch needs private label and HoReCa to flex margin.",
+        "competitive_dynamics": "WhatsApp-first ordering by JioMart, ElasticRun and the entrenched super-stockist channel has neutralized Udaan's app-UX advantage; the residual moat is the warehouse and credit footprint.",
+        "learnability": "Four documented layoff waves and the eight-year time-and-money cost ($1.6bn cumulative equity, peak headcount 11,500) demonstrate that the kirana app thesis is not capital-light, not behaviorally aligned, and not a category Masan should fund into without a WhatsApp-first interaction model wired to FMCG and credit P&L."
+      },
+      "logo_file": null,
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "modes": [1,1,1,1,1,1,1,1,0,0],
+      "assets": [0,1,0.5,0]
+    },
+    {
+      "id": "shopx",
+      "name": "ShopX",
+      "country": "IN",
+      "city": "Bengaluru",
+      "founded": 2015,
+      "shut": 2022,
+      "status": "shut",
+      "raised_usd_m": 60,
+      "peak_valuation_usd_m": 100,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": null,
+      "tagline": "Nandan Nilekani-backed assisted-commerce kirana kiosk; pivoted to D2C cashback 2021; filed IBC Section 10 insolvency 22 Aug 2022. Defaulted on Fung Investment INR debt.",
+      "founders": [
+        {"name": "Amit Sharma", "role": "CEO and co-founder", "prior": "Engineering background; MBA UCLA"},
+        {"name": "Apoorva Jois", "role": "Co-founder", "prior": ""}
+      ],
+      "thesis_at_founding": "Provide a B2B mobile and web platform that lets kirana stores and SME retailers in tier-2/3 cities order goods directly without leaving the shop, with logistics and procurement support layered in. Bring the same cutting-edge technology and supply chain solutions established ecommerce or retailers access to the 12 million small merchants who form ~90% of India's USD 700bn consumption economy.",
+      "rounds": [
+        {"date": "2015-2017", "stage": "Seed and Series A", "amount_usd_m": 18, "lead": "Nandan Nilekani (personal)", "post_money_usd_m": null},
+        {"date": "May 2018", "stage": "Series C", "amount_usd_m": 35, "lead": "Fung Strategic Holdings", "post_money_usd_m": 100},
+        {"date": "2019-2021", "stage": "Debt facilities (INR loans)", "amount_usd_m": null, "lead": "Fung Investment (Singapore)", "post_money_usd_m": null}
+      ],
+      "experiments": [
+        {"name": "Assisted-commerce kiosk model", "year": 2015, "what": "Tablet-on-counter inside kirana; kirana owner browses ShopX catalog and places orders for inventory plus serves walk-in customers who want SKUs the kirana does not stock.", "outcome": "Smartphone penetration overtook the thesis between 2017 and 2020."},
+        {"name": "Fung Investment debt facility", "year": 2018, "what": "USD 35m Series C plus subsequent INR-denominated debt drawdowns from Fung Investment as fresh equity dried up post-Apr 2020.", "outcome": "Proximate trigger of the IBC filing; could not service rupee loans when no fresh equity arrived."},
+        {"name": "D2C cashback app pivot", "year": 2021, "what": "With B2B unit economics not converging, rebuilt product as consumer-facing cashback app against PhonePe, Cashkaro, Amazon Pay, Flipkart's reward stack. Headcount cut from ~260 to ~130.", "outcome": "Cashback model required perpetual marketing subsidy; ShopX had a fraction of the marketing budget."},
+        {"name": "IBC Section 10 filing", "year": 2022, "what": "On 22 Aug 2022 ShopX filed for insolvency under Section 10 of the Insolvency and Bankruptcy Code 2016 with filings to the Registrar of Companies.", "outcome": "All employees laid off; total raised by shutdown ~$60m cumulative."}
+      ],
+      "pivots": [
+        {"year": 2019, "from": "B2B kirana procurement app + offline distribution", "to": "Marketplace digital pivot", "trigger": "B2B unit economics not clearing", "outcome": "No public GMV breakout; signals point to sub-Udaan, sub-Jumbotail scale"},
+        {"year": 2021, "from": "B2B kirana", "to": "D2C cashback consumer app", "trigger": "No fresh equity since Apr 2020", "outcome": "Subsidy-heavy, no defensibility against PhonePe / Flipkart"},
+        {"year": 2022, "from": "Going concern", "to": "Voluntary insolvency", "trigger": "Fung debt due, no rescue", "outcome": "Bankrupt; all employees laid off"}
+      ],
+      "operating_arc": "ShopX launched August 2015 in Bengaluru as an assisted-commerce kiosk turning the kirana into a B2B and B2B2C point of sale. Nandan Nilekani's INR 13 Cr personal infusion in April 2018 was followed by Fung Strategic's $35m Series C in May 2018 at $100m post-money. Through 2019-2021 the company drew INR-denominated debt from Fung Investment as fresh equity dried up. With B2B unit economics not converging, the team pivoted in 2021 to a D2C cashback app and cut headcount from ~260 to ~130. By August 2022 Fung debt came due with no fresh capital arriving; ShopX filed for insolvency under Section 10 of the IBC, 2016 on 22 Aug 2022 and laid off all remaining employees. Total raised ~$60m. No successor entity.",
+      "voice": [
+        {"who": "Amit Sharma, CEO", "when": "Aug 2022", "context": "Shutdown notice", "text": "Since the business model has not succeeded, it has not been able to generate enough cash flow from operations or raise new capital and is therefore unable to meet its various payment obligations and has ceased to be a going concern.", "source_url": "https://inc42.com/buzz/ecommerce-enabler-shopx-becomes-latest-startup-to-shut-operations-files-for-insolvency/", "source_label": "Inc42"},
+        {"who": "Nandan Nilekani", "when": "Apr 2018", "context": "Original thesis at INR 13 Cr personal infusion", "text": "Small retailers the same cutting-edge technology and supply chain solutions that established ecommerce or retailers access. In the extremely unorganised Indian retail sector, 12 million small merchants constitute about 90 percent of the Indian consumption economy of $700 billion.", "source_url": "https://entrackr.com/2018/04/nandan-nilekani-13-cr-e-commerce-shopx/", "source_label": "Entrackr"},
+        {"who": "Financial Express on X", "when": "22 Aug 2022", "context": "Shutdown coverage", "text": "ShopX, a startup backed by Nandan Nilekani, has shut down and declared bankruptcy because its business model did not work.", "source_url": "https://x.com/FinancialXpress/status/1561942549111394304", "source_label": "Financial Express"},
+        {"who": "PYMNTS analysis", "when": "2022", "context": "Post-mortem", "text": "ShopX Shutdown Points to B2B Platform Pitfalls. Kirana B2B requires either deep working capital pockets to hold inventory at near-distributor cost, or merchant scale large enough to extract advertising or fintech revenue. ShopX had neither.", "source_url": "https://www.pymnts.com/news/b2b-payments/2022/shopx-shutdown-points-to-b2b-platform-pitfalls/", "source_label": "PYMNTS"}
+      ],
+      "failure_mode": "Three documented breaks. The underlying B2B FMCG distribution P&L is low-single-digit margin, and ShopX as a thin-layer enabler captured an even smaller slice. The 2021 pivot to a B2C cashback app put it in head-on competition with Amazon, Flipkart and PhonePe with a fraction of the marketing budget; the cashback model required perpetual subsidy. Fung-issued INR loans came due before either business showed cash flow.",
+      "aftermath": "Apoorva Jois public landing not surfaced. Amit Sharma public landing not clearly surfaced after shutdown. Engineering team dispersal: Sahil Mutneja (oversaw engineering for ShopX consumer app) joined Keka HR as Engineering Manager via Superset; Abhishek Anand (Senior Engineering Manager) remained in Bengaluru's startup ecosystem. The broader engineering vintage (~50-100 senior engineers across 260 peak) likely landed at Keka, Khosla Labs, Superset and other Bengaluru SaaS firms. Nandan Nilekani's pre-Fundamentum personal cheques to ShopX, RailYatri, LetsVenture, Sedemac, Mubble and Power2SME were transferred into Fundamentum's portfolio at fund formation; Fundamentum Fund II (2022 vintage) is reported to be generating IRR of 35% per fund commentary. The ShopX write-off is therefore absorbed in a portfolio that has subsequently performed.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "Validated that small retailers will accept a tablet-on-counter kiosk if it delivers a price or assortment edge but did not validate that the kirana's walk-in customer would re-shape buying behavior toward ordered-through-kirana goods.",
+        "product_truth": "Assisted-commerce as a UX broke against rising smartphone penetration; the 2021 D2C cashback pivot was a wholesale business-model change, not a product iteration.",
+        "equity_transferability": "Tech stack and merchant relationships had limited residual value; the IBC sale process did not surface a successor entity.",
+        "value_creation_sizing": "USD 18m from Nilekani plus USD 35m Fung plus debt yielded zero realized value; a one-investor-dependent capital stack is the single most fragile pattern in the cohort.",
+        "competitive_dynamics": "By 2020-2021 JioMart, Flipkart Wholesale and Udaan had drained the kirana B2B oxygen; a sub-USD 100m raised company could not bid for shelf space against three balance-sheet players.",
+        "learnability": "Cleanest case in the cohort that 'kirana B2B platform' without deep balance sheet, WhatsApp-native UX, or strategic FMCG ownership of supply will not generate a venture-scale outcome. The structural lesson for WinX is that B2B platform plays inside a 1-3% margin distribution channel require either captive supply (which Masan has via WCM and MCH) or captive credit (which Masan does not), and ideally both."
+      },
+      "logo_file": null,
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "modes": [1,1,1,0,1,1,1,1,0,0],
+      "assets": [0,0.5,0,0]
+    },
+    {
+      "id": "jumbotail",
+      "name": "Jumbotail",
+      "country": "IN",
+      "city": "Bengaluru",
+      "founded": 2015,
+      "shut": null,
+      "status": "live",
+      "raised_usd_m": 263,
+      "peak_valuation_usd_m": 1000,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 250000,
+      "tagline": "Full-stack B2B kirana grocery wholesale anchored in South India; sub-case-pack ordering as the founding wedge. Acquired SC Ventures' Solv India Mar 2025; Series D Jun 2025 ($120m at $1bn unicorn). Total raised $263m, ~one-sixth of Udaan.",
+      "founders": [
+        {"name": "S Karthik Venkateswaran", "role": "CEO and co-founder", "prior": "ex-eBay, ex-Flipkart; supply chain and category; Stanford GSB"},
+        {"name": "Ashish Jhina", "role": "COO and co-founder", "prior": "Stanford MBA, ex-BCG, IIT Delhi; third-generation Himachal apple farmer"}
+      ],
+      "thesis_at_founding": "Full-stack B2B food and grocery wholesale for India's kirana stores, owning warehouses, last-mile, and a fintech credit layer rather than running asset-light marketplace. Ship sub-case quantities (5 units of a biscuit, not 1 case) to match actual kirana reorder behavior.",
+      "rounds": [
+        {"date": "2016", "stage": "Series A", "amount_usd_m": 8.5, "lead": "Kalaari, Nexus", "post_money_usd_m": null},
+        {"date": "2018", "stage": "Series B2", "amount_usd_m": 11, "lead": "Existing investors (extension)", "post_money_usd_m": null},
+        {"date": "2021", "stage": "Series C", "amount_usd_m": 85, "lead": "Existing plus new", "post_money_usd_m": null},
+        {"date": "2024", "stage": "Series C3", "amount_usd_m": 18.2, "lead": "Extension", "post_money_usd_m": null},
+        {"date": "26 Jun 2025", "stage": "Series D", "amount_usd_m": 120, "lead": "SC Ventures, Artal Asia, Invus, Heron Rock, VII Ventures, Nutresa, Veronorte", "post_money_usd_m": 1000}
+      ],
+      "experiments": [
+        {"name": "Sub-case-pack ordering wedge", "year": 2015, "what": "Ship 5 units of a biscuit if the kirana wants 5 units, not a 48-unit case. Higher per-pick cost, slower order assembly.", "outcome": "By FY23, ~90% of FMCG sales were sub-case quantities. Kirana order shape that matched actual reorder behavior."},
+        {"name": "Full-stack warehousing and Jumbotail Capital", "year": 2017, "what": "Full-stack ownership of warehouses, last-mile, and embedded fintech rather than asset-light marketplace.", "outcome": "By 2021 reported 98% order fill rate and 95% on-time delivery. Jumbotail Capital addressed working-capital starvation in the kirana base."},
+        {"name": "J24 modern convenience store franchise", "year": 2022, "what": "Turn an existing kirana into a Jumbotail-branded convenience store within 24-48 hours, layering GoldenEye retail OS, AI merchandising, consumer loyalty and omni-channel integration.", "outcome": "Lets Jumbotail monetize the tech investment via per-store conversions rather than ad-tech."},
+        {"name": "Solv India acquisition", "year": 2025, "what": "SC Ventures (Standard Chartered) sold 90% of Solv India to Jumbotail for ~$40-50m cash plus equity; SBI Holdings exited; Standard Chartered booked ~$0.2bn gain in Q2 2025.", "outcome": "Active kirana count expanded from ~30,000 pre-deal to 250,000+ across 50+ cities post-deal. Single most important M&A in Indian eB2B since Walmart-Best Price-Flipkart restructuring of 2020."},
+        {"name": "Series D unicorn round", "year": 2025, "what": "$120m at $1bn post-money 26 Jun 2025; SC Ventures (Solv seller, rolled equity) anchor with Artal Asia, Heron Rock, VII Ventures, Nutresa (Colombian food group), Veronorte.", "outcome": "Total raised $263m lifetime. Jumbotail is the only major eB2B player to cross the unicorn threshold in 2025 amid an otherwise frozen B2B funding environment."}
+      ],
+      "pivots": [],
+      "operating_arc": "Jumbotail launched November 2015 in Bengaluru with a deliberate operating choice that distinguished it from Udaan: ship sub-case quantities matched to actual kirana reorder behavior. Through 2017-2022 it built full-stack warehousing, last-mile, and the Jumbotail Capital fintech rail; by 2021 the network reported 98% order fill and 95% on-time delivery. The J24 franchise overlay launched 2022 turns existing kiranas into Jumbotail-branded convenience stores in 24-48 hours via the GoldenEye retail OS. The Solv India acquisition (SC Ventures, March-June 2025) consolidated two B2B kirana platforms; active kirana count expanded from ~30,000 to 250,000+ across 50+ cities. The June 2025 Series D ($120m at $1bn post-money) was the only Indian eB2B unicorn closing in 2025. Total raised $263m over ten years versus Udaan's $1.6bn over the same period. Pre-IPO build; no DRHP filed at the time of writing.",
+      "voice": [
+        {"who": "S Karthik Venkateswaran, CEO", "when": "Jun 2025", "context": "Series D announcement", "text": "AI-native solutions ... supply chain capabilities, and hiring across key functions like category management, AI/ML, and decision science.", "source_url": "https://www.outlookbusiness.com/start-up/investors/jumbotail-secures-120-million-in-series-d-achieves-unicorn-status", "source_label": "Outlook Business"},
+        {"who": "Ashish Jhina, COO", "when": "YourStory video interview", "context": "On the kirana thesis", "text": "There is no question of online grocery and big box retail replacing the Kirana store. The grocery market is small transactions done frequently by people from stores that are located in their neighbourhood, which will continue to cater to essential services and that is the mass market.", "source_url": "https://yourstory.com/video/ashish-jhina-explains-the-challenges-faced-by-kira", "source_label": "YourStory"},
+        {"who": "Ashish Jhina, COO", "when": "YourStory video interview", "context": "On the three flows of commerce", "text": "In every commerce transaction, there are three essential components, the flow of information (product selection, quality and pricing), the flow of physical goods, and the flow of money. Unless all three flows were efficiently addressed, any solution would likely fail.", "source_url": "https://yourstory.com/video/ashish-jhina-explains-the-challenges-faced-by-kira", "source_label": "YourStory"},
+        {"who": "Inc42 framing on Series D", "when": "Jun 2025", "context": "Industry retrospective", "text": "Jumbotail is the only major eB2B player to cross the unicorn threshold in 2025 amid an otherwise frozen B2B funding environment.", "source_url": "https://inc42.com/buzz/jumbotail-becomes-unicorn-with-120-mn-funding-round/", "source_label": "Inc42"},
+        {"who": "Anonymous Glassdoor employee", "when": "2024", "context": "Negative review", "text": "Poor work culture, Epitome of mismanagement ... no work life balance ... abused by the management.", "source_url": "https://www.glassdoor.com/Reviews/Jumbotail-Reviews-E1947876.htm", "source_label": "Glassdoor"}
+      ],
+      "failure_mode": "Jumbotail has not failed. The structural risk in the model is that the unicorn label is currently underwritten by the consolidated kirana count and the Solv pipeline, not by audited profit; the 2x valuation jump despite zero profits at the Solv deal (Inc42 framing) is the question for IPO bookrunners. Fresh produce category is structurally low-margin and high-spoilage; the path to durable profitability requires layered services (financing, branded farmer programs, J24 conversions) rather than category-only economics.",
+      "aftermath": "Jumbotail is operating, growing, and capitalised. Karthik Venkateswaran continues as CEO. Ashish Jhina continues as COO. Solv India team integration (2025) folded existing tech and merchant operations into Jumbotail's stack; integration milestones not publicly reported. The pre-Solv merchant base of ~30,000 was operationally tighter than Udaan's claimed 3m merchants on the marketplace; the Solv addition lifts the active-merchant count by an order of magnitude in a single transaction without the corresponding cost-of-acquisition burn. Glassdoor's 265 reviews and a 41% recommend rate sit below Udaan's 1,270 / higher recommendation but above Dunzo's 30% positive outlook.",
+      "customer_voice": [
+        {"who": "Jumbotail company-published case data", "when": "2024", "context": "NPS framing", "text": "The highest Customer NPS in eB2B; price transparency cited by kirana owners as a meaningful daily benefit because Jumbotail will proceed with the price of the order day even if commodity prices move.", "source_url": "https://kompreneur.com/the-kirana-renaissance-jumbotails-story-to-a-1-billion-valuation/", "source_label": "Kompreneur"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Kiranas will use a B2B platform if it ships sub-case orders, honors quoted prices, and lends working capital. The same three product features should be the WinX product spec.",
+        "product_truth": "Full-stack warehousing plus fintech plus J24 franchise overlay is the only model in the cohort with three independently monetizable revenue lines that share fixed cost.",
+        "equity_transferability": "Tech (GoldenEye OS, fintech rails, J24 brand) is the most likely cohort acquisition target for a strategic FMCG buyer; the platform value is more transferable than Udaan's marketplace.",
+        "value_creation_sizing": "$1bn post-money on $263m raised is the highest capital efficiency in the entire cohort excluding Reliance's internal program.",
+        "competitive_dynamics": "Jumbotail and Udaan now sit as the two-firm structure of Indian eB2B; Solv consolidation has reduced the field; Reliance plus Metro is the primary competitive threat post-2024.",
+        "learnability": "The Jumbotail playbook (sub-case orders, full stack, embedded fintech, franchise overlay, disciplined raise) is the closest map to a WinX path inside Vietnam's GT cohort; the operating discipline of raising $263m over 10 years versus Udaan's $1.6bn over the same period is the clearest IC datapoint that capital-light kirana B2B is possible if and only if the company refuses to chase consumer-facing burn."
+      },
+      "logo_file": null,
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "modes": [1,1,1,1,0,1,1,0,0,0],
+      "assets": [0,0.5,0.5,0]
+    },
+    {
+      "id": "ninjacart",
+      "name": "Ninjacart",
+      "country": "IN",
+      "city": "Bengaluru",
+      "founded": 2015,
+      "shut": null,
+      "status": "plateau",
+      "raised_usd_m": 508,
+      "peak_valuation_usd_m": 815,
+      "peak_revenue_usd_m": 250,
+      "merchants_peak": 60000,
+      "tagline": "Pivoted from B2C 60-minute fresh delivery to B2B fresh produce supply within four months of founding (May to Sep 2015). Walmart-Flipkart strategic anchor since Dec 2019. FY24 revenue INR 2,082 Cr (+74% YoY); peak valuation $815m at Jan 2022 round, no fresh up-round since.",
+      "founders": [
+        {"name": "Thirukumaran Nagarajan", "role": "CEO and co-founder", "prior": ""},
+        {"name": "Kartheeswaran K K", "role": "Co-founder", "prior": ""},
+        {"name": "Ashutosh Vikram", "role": "Co-founder", "prior": ""},
+        {"name": "Sharath Loganathan", "role": "Co-founder", "prior": ""},
+        {"name": "Vasudevan Chinnathambi", "role": "Co-founder", "prior": ""}
+      ],
+      "thesis_at_founding": "60-minute fresh-fruit-and-vegetable B2C delivery service in Bengaluru. Pivoted within four months (Sep 2015) to B2B fresh produce supply chain, sourcing from farmers and supplying to kiranas, restaurants, and grocers.",
+      "rounds": [
+        {"date": "Apr 2019", "stage": "Series C", "amount_usd_m": 100, "lead": "Tiger Global, Steadview", "post_money_usd_m": null},
+        {"date": "Dec 2019", "stage": "Series D", "amount_usd_m": 145, "lead": "Walmart, Flipkart", "post_money_usd_m": null},
+        {"date": "Oct 2020", "stage": "Series E", "amount_usd_m": null, "lead": "Walmart, Flipkart (follow-on)", "post_money_usd_m": null},
+        {"date": "Jan 2022", "stage": "Series F", "amount_usd_m": null, "lead": "Walmart, Flipkart", "post_money_usd_m": 815}
+      ],
+      "experiments": [
+        {"name": "Four-month B2C pivot", "year": 2015, "what": "Launched May 2015 as 60-minute fresh-fruit-and-vegetable B2C delivery in Bengaluru. Within four months pivoted to B2B from farmers to kiranas, restaurants, grocers.", "outcome": "Ran '13 different experiments' in the first 500 days of B2B pivot. Only company in the cohort that pivoted away from consumer and survived."},
+        {"name": "Walmart-Flipkart strategic anchor", "year": 2019, "what": "Walmart and Flipkart led $145m Series D Dec 2019, followed Series E Oct 2020, and led Series F extension Jan 2022 to $815m post-money.", "outcome": "Walmart's grocery procurement in India needed a fresh-produce backbone."},
+        {"name": "200 layoffs", "year": 2020, "what": "Cut 200 employees across Bengaluru, Chennai, Mumbai, Hyderabad. Officially 'performance and integrity issues' but coincident with cost mode.", "outcome": "Senior sources told Inc42 the company had been in cost-saving mode for months."},
+        {"name": "Premium fresh tier and sub-product launches", "year": 2022, "what": "Layered Ninja Mandi (traders), Ninja Global (export-import), Ninja Kirana (retailers), Ninja Kisaan (farmers), and a premium fruits and vegetables tier.", "outcome": "Product proliferation as response to the same pressure Udaan faced; only differentiated tiers can lift unit economics."},
+        {"name": "B2B fulfilment-as-a-service", "year": 2024, "what": "Began offering sourcing, cold chain and last-mile capabilities as a paid-for stack to third-party retailers and modern-trade supermarkets.", "outcome": "Meaningful contributor to FY24 74% YoY revenue jump."}
+      ],
+      "pivots": [
+        {"year": 2015, "from": "60-minute B2C fresh delivery", "to": "B2B fresh produce farmer-to-kirana/HoReCa", "trigger": "B2C demand thin, unit economics underwater", "outcome": "Killed in 4 months; B2B pivot scaled to 60,000 stores, 44,000+ farmers, INR 2,082 Cr revenue FY24"},
+        {"year": 2022, "from": "Bare-fresh single-tier P&L", "to": "Sub-product launches plus premium tier plus fulfilment-as-a-service", "trigger": "Margin pressure on bare-fresh P&L", "outcome": "FY24 revenue +74% YoY, losses narrowing"}
+      ],
+      "operating_arc": "Ninjacart launched May 2015 as a 60-minute fresh-fruit-and-vegetable B2C delivery service in Bengaluru and pivoted within four months to B2B farmer-to-kirana/HoReCa supply. Through 2017-2020 it built proprietary supply-chain infra: collection centers, sorting hubs, predictive demand routing. Walmart and Flipkart became anchor strategic shareholders Dec 2019 ($145m Series D). The 2020 layoffs (200 cut) coincided with cost mode. Series F Jan 2022 took valuation to $815m peak. Through 2022-2024 the company added sub-product launches and a premium fresh tier and built B2B fulfilment-as-a-service for retailers. FY23 gross revenue INR 1,212 Cr; FY24 revenue INR 2,082 Cr (+74% YoY) with net loss narrowing 20% to INR 260 Cr. No fresh up-round since Jan 2022; 44,000+ farmers, 60,000 corner stores across 7 cities at peak.",
+      "voice": [
+        {"who": "Thirukumaran Nagarajan, CEO", "when": "YourStory / SeedToScale", "context": "On farmer revenue uplift", "text": "We buy directly from the farmers and they make 15-20 percent more revenue as the inventory risk belongs to Ninjacart once we source the produce from them.", "source_url": "https://www.seedtoscale.com/people/thirukumaran-nagarajan", "source_label": "SeedToScale"},
+        {"who": "Thirukumaran Nagarajan, CEO", "when": "YourStory", "context": "On the food standards thesis", "text": "We wanted to increase the standard of the food that an Indian consumes. Right now if you ask an average Indian, s/he does not know the origin of the food.", "source_url": "https://www.seedtoscale.com/people/thirukumaran-nagarajan", "source_label": "YourStory"},
+        {"who": "Mr. Naveen, farmer in Kondlahalli village, Karnataka", "when": "Ninjacart Blogs", "context": "Working with Ninjacart since 2019", "text": "Since working with Ninjacart, selling the harvested produce has been a very comfortable experience.", "source_url": "https://ninjacart.com/blog/how-ninjacart-made-trade-experience-better-for-farmers/", "source_label": "Ninjacart Blogs"},
+        {"who": "Anonymous Glassdoor product manager", "when": "21 Aug 2024", "context": "Review", "text": "On a downhill trend, silent layoffs happening.", "source_url": "https://www.glassdoor.com/Reviews/ninjacart-Reviews-E1322421.htm", "source_label": "Glassdoor"}
+      ],
+      "failure_mode": "Ninjacart's failure is the original B2C thesis (which lasted 4 months). The B2B fresh produce pivot has worked in revenue terms but has yet to demonstrate net profitability. Fresh produce is structurally low-margin and high-spoilage; the path to durable profitability is conditional on either layering value-added services on top (financing, branded farmer programs) or further consolidation under a strategic owner (Walmart-Flipkart). The 2020 layoffs and the absence of an up-round since 2022 are the warning lights; the FY24 revenue growth and loss reduction are the offset.",
+      "aftermath": "Thirukumaran Nagarajan continues as CEO; public framing leans toward independence rather than Walmart-Flipkart absorption. Other co-founders (Kartheeswaran Palanisamy, Ashutosh Vikram, Sharath Loganathan, Vasudevan Chinnathambi): updated roles not detailed in surfaced reporting. Walmart and Flipkart strategic relationship: anchor shareholders since Series F Jan 2022; no fresh up-round since. The Walmart Foundation India work on smallholder farmers operates separately from the equity stake. The Ninja Kirana app team is part of the active business; not dispersed. Glassdoor 2024 reviews mention silent layoffs but the LinkedIn-traceable trail of departures is moderate, with engineering staff landing at competitor agritech (DeHaat, Otipy, WayCool) and Bengaluru's broader B2B SaaS market. The FY24 revenue trajectory points to continued capital need before profitability; closest sourced estimate is that an FY26 round at flat-to-down valuation is the most plausible outcome unless margins flip materially.",
+      "customer_voice": [
+        {"who": "Mr. Naveen, farmer in Kondlahalli village, Karnataka", "when": "Ninjacart Blogs", "context": "Transportation cost framing", "text": "Earlier, transporting a ton of brinjal to Hosur and Bathalapalli markets cost up to INR 5,000 per trip; now he saves INR 70,000 to INR 80,000 per season on transportation.", "source_url": "https://ninjacart.com/blog/how-ninjacart-made-trade-experience-better-for-farmers/", "source_label": "Ninjacart Blogs"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Validated the farmer-to-kirana fresh produce truth (farmers want price discovery and removal of middlemen; kiranas want cold-chain reliability) but the kirana side of the equation is partially defeated by mandi arbitrage.",
+        "product_truth": "A full-stack fresh produce backbone with collection centers, sorting hubs and predictive demand routing is operationally hard but defensible; the FY24 numbers (74% revenue growth, 20% loss reduction) suggest the model is converging.",
+        "equity_transferability": "Walmart and Flipkart already hold strategic positions; the most likely exit is full strategic absorption rather than IPO.",
+        "value_creation_sizing": "$815m peak valuation on $508m raised, no up-round since 2022, points to either a flat-to-down round or a strategic exit at sub-unicorn valuation.",
+        "competitive_dynamics": "WayCool (closest competitor) has had its own funding troubles; DeHaat sits adjacent in agri inputs; the field is consolidating but not in Ninjacart's clear favor.",
+        "learnability": "A four-month B2C kill is the single best decision in the cohort and demonstrates that fresh-produce B2C is not venture-scalable in India. For WinX, fresh produce should sit inside WCM's existing supply chain, not as a stand-alone venture, and any fresh-adjacent kirana B2B initiative should be wired to Masan's existing meat and produce infrastructure rather than built as a Ninjacart-shaped marketplace."
+      },
+      "logo_file": null,
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "modes": [1,1,1,1,0,1,0,0,1,0],
+      "assets": [0,0.5,0,0]
+    },
+    {
+      "id": "storeking",
+      "name": "StoreKing",
+      "country": "IN",
+      "city": "Bengaluru",
+      "founded": 2012,
+      "shut": null,
+      "status": "plateau",
+      "raised_usd_m": 43.7,
+      "peak_valuation_usd_m": 90,
+      "peak_revenue_usd_m": 43,
+      "merchants_peak": 50000,
+      "tagline": "Rural assisted-commerce kirana kiosk. Three repositionings in 12 years (kiosk to marketplace to FMCG distribution to SaaS). FY25 revenue INR 361 Cr; no fresh marquee round since 2016 Axiata Series B. The 'stalled rather than dead' case.",
+      "founders": [
+        {"name": "Sridhar Gundaiah", "role": "CEO and founder", "prior": ""},
+        {"name": "Govardhan Krishnappa", "role": "Co-founder", "prior": ""}
+      ],
+      "thesis_at_founding": "Rural kirana stores in tier-3, tier-4 and village India lacked access to e-commerce SKUs. Turn the kirana into an assisted commerce point-of-sale where the storekeeper helps a walk-in customer order from a 50,000+ SKU catalog, with delivery routed to the store.",
+      "rounds": [
+        {"date": "2014-2015", "stage": "Seed and Series A", "amount_usd_m": null, "lead": "Mangrove Capital", "post_money_usd_m": null},
+        {"date": "Jun 2016", "stage": "Series B", "amount_usd_m": 16, "lead": "Axiata Digital (Malaysia telco)", "post_money_usd_m": 75},
+        {"date": "2018-2021", "stage": "Subsequent extensions", "amount_usd_m": null, "lead": "Silver Cap and others", "post_money_usd_m": null}
+      ],
+      "experiments": [
+        {"name": "Tablet kiosk in rural kirana", "year": 2012, "what": "Rural kirana acts as e-commerce kiosk where storekeeper helps walk-in customer order from a 50,000+ SKU tablet catalog, delivery routed to store.", "outcome": "Original thesis assumed rural smartphone penetration would remain low; substituted away by Reliance Jio's data-tariff-led smartphone wave."},
+        {"name": "Axiata Series B", "year": 2016, "what": "Malaysia telco Axiata Digital led $16m Series B, the only meaningful late-stage round StoreKing closed.", "outcome": "Post-money implied $60-90m band. No subsequent up-round through 2025."},
+        {"name": "Inventory-to-marketplace pivot", "year": 2016, "what": "Founder framing: 'It took me a while to discern the limitations to growth as a stockist.' Shift from inventory-led to marketplace.", "outcome": "Recovered working capital but reduced gross margin per order; volume did not arrive at original projection."},
+        {"name": "Rural FMCG distribution layer", "year": 2019, "what": "Positioned as rural distribution arm for FMCG majors: HUL, Wipro, Dabur, Godrej, Marico, Reckitt, ITC, Himalaya.", "outcome": "B2B distribution P&L became the operating beach-head once consumer-assisted-commerce thesis weakened."},
+        {"name": "April 2021 modern retail rural plan", "year": 2021, "what": "Announced plans for modern retail stores in rural India.", "outcome": "Execution did not scale to announcement."},
+        {"name": "SK ROS retail operating system", "year": 2023, "what": "Repositioned as SaaS layer turning a kirana shelf into 'infinite aisle' in 5 minutes; layered insurance distribution as secondary stream.", "outcome": "Third repositioning in 12 years; adoption data not publicly disclosed."}
+      ],
+      "pivots": [
+        {"year": 2016, "from": "Inventory-holding stockist", "to": "Digital marketplace", "trigger": "Stockist limitations on growth", "outcome": "Recovered working capital, lost gross margin"},
+        {"year": 2019, "from": "Consumer assisted-commerce", "to": "Rural FMCG B2B distribution", "trigger": "Smartphone penetration substituted away", "outcome": "Steady but modest revenue"},
+        {"year": 2023, "from": "B2B distribution", "to": "SaaS retail operating system plus insurance", "trigger": "Need new monetisation vector", "outcome": "FY25 revenue INR 361 Cr; modest contribution"}
+      ],
+      "operating_arc": "StoreKing launched 2012 in Bengaluru (legal entity LocalCube Commerce Pvt. Ltd.) as a tablet-based assisted-commerce kiosk for rural India. The Axiata $16m Series B Jun 2016 was the only meaningful late-stage round; no subsequent up-round through 2025. Through 2016-2018 the company shifted from inventory-led to marketplace, recovering working capital but losing gross margin. From 2019 it positioned as rural distribution arm for FMCG majors (HUL, ITC, Dabur and others). The April 2021 plan for modern rural retail stores did not scale to the announcement. SK ROS launched 2023-2024 as a SaaS retail operating system; insurance distribution added 2024. FY25 annual revenue INR 361 Cr per Tracxn; effectively an FMCG rural distribution business plus a SaaS layer. The original e-commerce-into-villages thesis has been retired.",
+      "voice": [
+        {"who": "Sridhar Gundaiah, founder and CEO", "when": "Open Magazine profile", "context": "On rural aspiration", "text": "Consumption is all about who you want to be. You could well be living in a village and still want to purchase an iPhone 6.", "source_url": "https://openthemagazine.com/features/business/sridhar-gundaiah-call-of-the-countryside", "source_label": "Open Magazine"},
+        {"who": "Sridhar Gundaiah, founder and CEO", "when": "DNA interview", "context": "On why ecommerce was the chosen entry vector", "text": "E-commerce seemed the best way to make inroads into rural and small-town India because it could yield enough returns to sustain growth over the long term.", "source_url": "https://www.dnaindia.com/business/interview-assisted-e-commerce-best-way-to-crack-rural-market-sridhar-gundaiah-2104700", "source_label": "DNA"},
+        {"who": "Sridhar Gundaiah, founder and CEO", "when": "BusinessToday interview", "context": "On the trust thesis", "text": "We latched on to a concept of trust.", "source_url": "https://www.businesstoday.in/opinion/interviews/we-latched-on-to-a-concept-of-trust-sridhar-gundaiah-of-storeking/story/276418.html", "source_label": "BusinessToday"},
+        {"who": "Sridhar Gundaiah, founder and CEO", "when": "Company materials cited in YourStory", "context": "On the inventory-to-marketplace pivot", "text": "It took me a while to discern the limitations to growth as a stockist.", "source_url": "https://yourstory.com/2015/05/storeking-e-commerce-company", "source_label": "YourStory"}
+      ],
+      "failure_mode": "Twelve-year journey produced a ~INR 360 Cr revenue business with modest growth, no recent marquee round, and a thesis (assisted rural commerce) that smartphone penetration largely solved on its own. It did not blow up; it did not break out. Capital efficiency materially better than Udaan or ShopX ($43.7m raised against an operating business), but the venture-scale outcome that the early rounds priced in did not materialize.",
+      "aftermath": "Sridhar Gundaiah continues as CEO. Govardhan Krishnappa public role and current status not detailed in surfaced reporting. Axiata Digital remains as strategic anchor since Series B Jun 2016; subsequent rounds not publicly led by Axiata; relationship status post-2020 not detailed. StoreKing has not had a public layoff round comparable to Udaan, Dunzo or Ninjacart. Glassdoor data is thin (sub-100 reviews). The company sits in the 'stalled rather than dead' quadrant.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "Rural kiranas confirmed demand for wider SKU access (assisted commerce 2012-2018) but smartphone penetration substituted away the wedge. The current Consumer Truth StoreKing is monetizing is rural FMCG distribution reliability, a conventional 1-3% net margin distribution P&L.",
+        "product_truth": "Three repositionings in 12 years (kiosk to marketplace to FMCG distribution to SaaS). None of the four product positions reached venture-scale unit economics.",
+        "equity_transferability": "SK ROS as a SaaS layer is theoretically transferable, but adoption has not been disclosed publicly.",
+        "value_creation_sizing": "$43.7m raised against an INR 361 Cr revenue business is materially better capital efficiency than Udaan or ShopX, but it produces a modest distribution business, not a venture exit.",
+        "competitive_dynamics": "Rural FMCG distribution is a low-margin, high-fragmentation category where StoreKing's edge has narrowed against direct distributors and Reliance's rural retail expansion.",
+        "learnability": "Cleanest example in the cohort of 'stalled rather than dead', a 12-year journey that produced an operating business rather than a venture-scale outcome. The IC lesson for Masan: rural digital commerce in India was solved by smartphone penetration, not by an assisted-commerce intermediation layer; for WinX in Vietnam, this is direct evidence that any kirana / GT digitization strategy must be designed for an already-smartphone-penetrated user base, not designed to be the smartphone substitute."
+      },
+      "logo_file": null,
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "modes": [1,1,1,0,0,1,1,1,0,0],
+      "assets": [0,0.5,0,0]
+    },
+    {
+      "id": "dunzo",
+      "name": "Dunzo Daily",
+      "country": "IN",
+      "city": "Bengaluru",
+      "founded": 2014,
+      "shut": 2024,
+      "status": "shut",
+      "raised_usd_m": 470,
+      "peak_valuation_usd_m": 775,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 25000,
+      "tagline": "WhatsApp task-runner origin pivoted to merchant logistics (DMS) then 19-minute quick-commerce (Dunzo Daily). Reliance wrote off entire $200m Series F stake in FY25; app and website offline Jan 2025. Third-largest single-startup write-off in India after Byju's and 4B Networks.",
+      "founders": [
+        {"name": "Kabeer Biswas", "role": "CEO and co-founder", "prior": ""},
+        {"name": "Ankur Aggarwal", "role": "Co-founder", "prior": ""},
+        {"name": "Dalvir Suri", "role": "Co-founder", "prior": ""},
+        {"name": "Mukund Jha", "role": "CTO and co-founder", "prior": ""}
+      ],
+      "thesis_at_founding": "Started as a WhatsApp-group-based personal-task-running service in Bengaluru, layered hyperlocal delivery and merchant logistics. Original consumer-task thesis: deliver anything from anywhere within a city in under an hour.",
+      "rounds": [
+        {"date": "2015-2020", "stage": "Earlier rounds (seed-E)", "amount_usd_m": 230, "lead": "Lightbox, Lightrock, Blume, Google (19.3% stake), 3L Capital", "post_money_usd_m": null},
+        {"date": "Jan 2022", "stage": "Series F", "amount_usd_m": 240, "lead": "Reliance Retail ($200m for 25.8% stake), Lightbox, Lightrock, Alteria, 3L", "post_money_usd_m": 775}
+      ],
+      "experiments": [
+        {"name": "WhatsApp task-runner origin", "year": 2014, "what": "Bengaluru WhatsApp group where Kabeer Biswas and three co-founders triaged delivery requests manually; conversion to app + dispatch backend took roughly four years.", "outcome": "No inventory and a per-task economic unit of rider-runs-an-errand-for-a-city-consumer; capped scale."},
+        {"name": "Dunzo Merchant Services (DMS)", "year": 2019, "what": "Onboarded ~25,000 kiranas and small businesses for last-mile fulfilment; ~35% of revenue at peak.", "outcome": "Only sub-segment that ever cleared positive contribution margin in public reporting; could not generate enough cash to fund the consumer-side burn."},
+        {"name": "Dunzo Daily 19-minute quick-commerce", "year": 2021, "what": "19-minute SLA on groceries and essentials; ~130 dark stores in roughly 8 metros by early 2022; 1,500-2,500 fast-mover SKUs per dark store.", "outcome": "Average order value ~INR 400 against per-order cost requiring INR 800+ to break even; lost INR 230-300 per order in H1 2022. Monthly burn INR 176 Cr in Jun 2022."},
+        {"name": "Reliance Retail Series F anchor", "year": 2022, "what": "Reliance Retail invested $200m for 25.8% stake; strategic logic was JioMart consumer demand routed to Dunzo's last-mile.", "outcome": "Integration never stuck. Reliance pursued JioMart Express in parallel, then closed it 2023, leaving Dunzo without a captive demand pipe."},
+        {"name": "Salary deferral as financing instrument", "year": 2023, "what": "Deferred salary payments four times Jul 2023-Aug 2024. Capped salary payouts at INR 75,000 per employee per month; applied cap to half the workforce.", "outcome": "By Aug 2024 trimmed staff by 75% from 200+ peak to ~50. Financed roughly a year of operations on the backs of employees."},
+        {"name": "Aug 2024 fundraise", "year": 2024, "what": "CEO Biswas told staff via internal email 12 Aug 2024 the fundraising process 'had hit a roadblock' and management was 'unable to close the transaction'.", "outcome": "NCLT proceedings followed; app and website went offline Jan 2025."}
+      ],
+      "pivots": [
+        {"year": 2019, "from": "WhatsApp consumer task-runner", "to": "Merchant logistics (DMS) B2B last-mile", "trigger": "Demand from kiranas, SMEs", "outcome": "~35% revenue mix; only contribution-positive segment"},
+        {"year": 2021, "from": "Hyperlocal task layer", "to": "Dunzo Daily 19-minute quick-commerce", "trigger": "Blinkit, Zepto, Instamart capturing 10-min QC market", "outcome": "Lost INR 230-300 per order; FY23 loss INR 1,800 Cr"},
+        {"year": 2025, "from": "Going concern", "to": "Wind-down and Reliance write-off", "trigger": "Aug 2024 fundraise failure", "outcome": "App offline Jan 2025; Biswas to Flipkart Minutes; Reliance writes off INR 1,645 Cr; NCLT proceedings"}
+      ],
+      "operating_arc": "Dunzo launched 2014 as a WhatsApp task-runner group in Bengaluru; took roughly four years to convert to app + dispatch backend. From 2019-2020 the company built Dunzo Merchant Services (DMS), reaching ~25,000 kiranas and ~35% of revenue at peak. In Aug 2021 it launched Dunzo Daily, the 19-minute quick-commerce vertical, scaling to ~130 dark stores by early 2022. Reliance Retail's $200m Series F (Jan 2022, 25.8% stake) anchored at $775m post-money, but the JioMart wiring never delivered captive demand and Reliance pursued JioMart Express in parallel before closing it 2023. FY23 net loss INR 1,800 Cr; per-order economics lost INR 230-300 against AOV INR 400. Q4 2022 onwards: dark store closures (NCR and Hyderabad), founder exits (Suri Oct 2023, Jha Oct 2023, Aggarwal). Salary deferrals from Jul 2023 financed an additional year. Aug 2024 fundraise failed; app and website offline Jan 2025; CEO Biswas joined Flipkart Minutes 13 Jan 2025; Reliance formally wrote off the entire INR 1,645 Cr ($200m) investment in FY25. NCLT proceedings underway.",
+      "voice": [
+        {"who": "Kabeer Biswas, CEO", "when": "12 Aug 2024", "context": "Internal email to staff", "text": "The fundraising process had hit a roadblock with the company unable to close the transaction.", "source_url": "https://inc42.com/features/dunzo-kabeer-biswas-downfall-reliance/", "source_label": "Inc42"},
+        {"who": "Flipkart corporate statement", "when": "27 Oct 2025", "context": "After 10 months at Flipkart Minutes", "text": "Kabeer Biswas, vice president, Flipkart Minutes has decided to move on from the company to pursue other opportunities.", "source_url": "https://www.business-standard.com/companies/people/flipkart-minutes-vp-kabeer-biswas-resigns-within-a-year-of-joining-125102701216_1.html", "source_label": "Business Standard"},
+        {"who": "Anonymous Glassdoor employee", "when": "2023", "context": "Salary delays", "text": "The company has not paid salaries for 3 months and has defaulted on government income tax from 10 months.", "source_url": "https://www.glassdoor.com/Reviews/Dunzo-Reviews-E1616162.htm", "source_label": "Glassdoor"},
+        {"who": "Outlook Business framing", "when": "Jan 2025", "context": "Reliance write-off", "text": "Reliance Industries' 78,923 equity shares of Dunzo, internally pegged at INR 1,645 Cr in FY24, were valued at nil during the fiscal year under review.", "source_url": "https://www.outlookbusiness.com/start-up/e-commerce/dunzos-downfall-explained-what-led-reliance-to-write-off-entire-200-million-stake-in-start-up", "source_label": "Outlook Business"}
+      ],
+      "failure_mode": "Reliance write-off ranks among India's largest tech write-offs alongside Prosus on Byju's ($500m) and InfoEdge on 4B Networks (INR 276 Cr). Direct cause: Aug 2024 fundraise hit a wall, payroll defaulted, creditors filed at NCLT, founders exited. Underlying cause: Dunzo Daily entered a category (10-15-minute delivery) where Blinkit, Zepto, and Instamart already had product-market fit and warchests; a Series F valuation of $775m became uninvestable when unit economics on a 19-minute drop did not improve fast enough to absorb customer-acquisition cost.",
+      "aftermath": "Kabeer Biswas joined Flipkart Minutes 13 Jan 2025 as VP, resigned Oct 2025 after roughly 10 months. Raised INR 102 Cr ($11m) in Apr 2026 for 'M', a consumer AI household-management startup with Kartik Mishra under Curious Digital Pvt Ltd. Mukund Jha (CTO) exited 3 Oct 2023; public landing not disclosed. Dalvir Suri exited 3 Oct 2023. Ankur Aggarwal building Kuik, a quick-commerce-as-a-service platform helping brands stand up rapid-delivery infrastructure. Board departures Aug-Oct 2023: Lightrock India partner, Reliance Retail nominees, and Google nominee vacated board seats. Reliance Retail's 78,923 shares of Dunzo (carried at INR 1,645 Cr in FY24) valued at nil in FY25 disclosures. Public LinkedIn trail points to ex-Dunzo engineering and ops staff landing at Flipkart Minutes, Zepto, Blinkit (Eternal), Swiggy Instamart, Reliance Retail's own delivery teams, and the broader Bengaluru SaaS market.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "Indian metro consumers want sub-30-minute delivery for select categories but not at a price that covers picker, dark-store rent, rider, and packaging.",
+        "product_truth": "The 19-minute SLA was deliverable but at a per-order economic loss of INR 200-300; the merchant logistics arm worked but could not subsidize the consumer arm.",
+        "equity_transferability": "Dark-store and dispatch IP transferable to any quick-commerce operator (Flipkart Minutes hired Biswas explicitly for this), but the brand and consumer base evaporated.",
+        "value_creation_sizing": "The category requires sub-INR 30 cost-per-order at AOV INR 600+, which Dunzo never achieved; the math is structurally hostile to a sub-scale player.",
+        "competitive_dynamics": "Blinkit (Eternal), Zepto, Instamart had product-market fit and warchests by mid-2022; Dunzo entered late, with strategic partner Reliance running its own JioMart Express in parallel.",
+        "learnability": "$470m cumulative spend, $200m strategic write-off, four salary deferrals, the largest non-Byju's tech write-off Reliance has booked. The lesson for Masan: a hyperlocal logistics arm cannot subsidize a quick-commerce vertical out of consumer pricing, and a strategic partner with infinite balance sheet does not protect against per-order unit economics. WinX should not enter quick-commerce as a venture; if it enters at all, it should be as a wholly internal P&L absorbed inside WCM."
+      },
+      "logo_file": "dunzo.svg",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "modes": [1,1,1,1,0,1,0,1,1,0],
+      "assets": [0,0.5,0,0]
+    },
+    {
+      "id": "amazoneasy",
+      "name": "Amazon Easy Stores",
+      "country": "IN",
+      "city": "Delhi",
+      "founded": 2018,
+      "shut": 2022,
+      "status": "shut",
+      "raised_usd_m": 227,
+      "peak_valuation_usd_m": null,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": null,
+      "tagline": "Amazon's consumer-facing kirana franchise (Easy Stores) and B2B Karnataka pilot (Wholesale / Distribution) shut late 2022. Estimated $227m sunk before walk-away. Most well-capitalized strategic walked away from B2B kirana within ~3 years.",
+      "founders": [
+        {"name": "Amazon India", "role": "Corporate parent", "prior": "Cumulative India commitment $6.5-7bn since 2014"}
+      ],
+      "thesis_at_founding": "Easy Stores: convert neighbourhood kiranas, pharmacies, stationery shops into Amazon associates serving walk-in customers who want SKUs the kirana does not stock. Amazon Wholesale: warehouse FMCG and re-supply small retailers in Karnataka cities (Bengaluru, Mysuru, Hubballi).",
+      "rounds": [],
+      "experiments": [
+        {"name": "Easy Stores assisted-commerce franchise", "year": 2018, "what": "Two formats: Amazon-controlled flagship store and shared-store format where neighbourhood kiranas served as Amazon associates alongside their own primary business.", "outcome": "Owners profiled in Amazon coverage include Ankit Jain (Jain Book Depot, Raisinghnagar, Rajasthan) and Satya (small store, Tirupati, Andhra Pradesh)."},
+        {"name": "Amazon Wholesale / Distribution B2B", "year": 2019, "what": "Stood up B2B warehouses in Bengaluru, Mysuru and Hubballi (Karnataka), supplying FMCG to small retailers.", "outcome": "Estimated $227m total spend before shutdown. Geographic constraint: never extended beyond three Karnataka cities."},
+        {"name": "Late-2022 B2B shutdown", "year": 2022, "what": "Amazon shuttered B2B kirana wholesale arm citing combined drivers: negative unit economics, regulatory/political pressure from CAIT and Union Ministers, competitive squeeze from JioMart and Walmart-Flipkart.", "outcome": "Amazon Food and Amazon Academy shuttered in adjacent waves through 2023."},
+        {"name": "Easy Stores reduced-priority continuation", "year": 2023, "what": "Consumer-facing Easy Stores program continues but no longer flagged as strategic; multiple third-party franchise aggregators (aska2z, Easysell, Digitalhub) now sell Easy Store franchise opportunities downstream of Amazon's own program.", "outcome": "Brand has broadened into a low-touch franchise model rather than centrally driven kirana program."}
+      ],
+      "pivots": [
+        {"year": 2022, "from": "B2B kirana wholesale flagship", "to": "Wind-down and redeploy", "trigger": "Negative unit economics plus regulatory pressure plus Reliance/Flipkart-Walmart competition", "outcome": "Easy Stores deprioritized; Amazon Business (B2B for SMEs and offices) continues separately"}
+      ],
+      "operating_arc": "Amazon piloted Easy Stores in 2015 and rolled out two formats from 2018: Amazon-controlled flagship and shared-store with neighbourhood kiranas as associates. Through 2019-2020 Amazon stood up B2B Wholesale warehouses in Bengaluru, Mysuru and Hubballi (Karnataka only); never extended beyond three cities. Estimated $227m total spend on the B2B arm. In late 2022 Amazon shuttered the B2B kirana wholesale arm under three combined pressures: negative unit economics on the Karnataka pilot, FDI/e-commerce regulatory pressure and political optics from CAIT and Union Ministers, and competitive squeeze from JioMart and Walmart-Flipkart. Amazon shuttered Amazon Food and Amazon Academy in adjacent waves through 2023. Easy Stores continues at reduced scale via third-party franchise aggregators (aska2z, Easysell, Digitalhub). Amazon Business (B2B for SMEs and offices) operates separately and continues.",
+      "voice": [
+        {"who": "Vivek Tyagi, LinkedIn industry post", "when": "Dec 2022", "context": "Industry framing on shutdown", "text": "Amazon's experiment with Kirana stores has failed!", "source_url": "https://www.linkedin.com/posts/tyagivivek_amazons-experiment-with-kirana-stores-has-activity-7003987680480964608-gONo", "source_label": "LinkedIn"},
+        {"who": "Outlook Business framing", "when": "2022-2023", "context": "Regulatory and political environment", "text": "Amazon's India Troubles. In Giant E-Commerce vs Small Kirana, Has the Government Picked a Side?", "source_url": "https://www.outlookbusiness.com/corporate/amazons-india-troubles-in-giant-e-commerce-vs-small-kirana-has-the-government-picked-a-side", "source_label": "Outlook Business"},
+        {"who": "Ankit Jain, Easy Store owner, Raisinghnagar, Rajasthan", "when": "Amazon India newsroom", "context": "On the shared-store model", "text": "The shared-store model lets him offer Amazon Easy services alongside his book store as a primary business, drawing footfall from customers who are still not fully onboarded onto the digital bandwagon.", "source_url": "https://www.aboutamazon.in/news/small-business/amazon-easy-stores-bridge-digital-divide-for-indias-shoppers-in-smaller-towns-cities", "source_label": "Amazon India"}
+      ],
+      "failure_mode": "The most well-capitalized strategic player walked away from the B2B kirana opportunity within ~3 years of meaningful investment. Three combined drivers: FDI/e-commerce regulatory pressure and political optics around foreign capital displacing kiranas; negative unit economics on the Bengaluru/Mysuru/Hubballi pilot with no clear bridge to scale profitability; Reliance Jio Kirana program (WhatsApp-anchored, distribution-funded by Reliance Retail) competing without needing to clear an internal Amazon investment hurdle. The shutdown removes the 'you need more capital and a bigger brand' hypothesis.",
+      "aftermath": "Amit Agarwal (Amazon India CEO at the time) transitioned roles in 2023; Manish Tiwary later took the top Amazon India consumer role. The B2B wholesale arm did not have a separately public-facing executive in surfaced reporting; the wind-down was managed through Amazon Distribution India leadership. Amazon's broader India layoff cycle through 2023-2025 absorbed roughly 200-250 employees from the Stores unit globally per surfaced reporting. India-specific kirana wholesale staff dispersal: a meaningful share moved into Amazon Business (the SME and office-supplies B2B vertical that continues separately) and Amazon's broader logistics/fulfillment functions; another share exited to Reliance, Flipkart and the JioMart B2B program. Amazon Business (B2B for SMEs and offices) continues to operate.",
+      "customer_voice": [
+        {"who": "Satya, Easy Store owner, Tirupati, Andhra Pradesh", "when": "Amazon India newsroom", "context": "Walk-in customer use case", "text": "Runs a small store and provides Amazon Easy guided assistance to walk-in customers placing orders on Amazon.in.", "source_url": "https://www.aboutamazon.in/news/small-business/amazon-easy-stores-bridge-digital-divide-for-indias-shoppers-in-smaller-towns-cities", "source_label": "Amazon India"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Kiranas in tier-2/tier-3 cities will sign up for an Easy Store-style assisted-commerce program if it does not disturb their primary business; the consumer side (rural shopper ordering through kirana) is partially solved by smartphone penetration overtaking Easy Stores' kiosk-based premise.",
+        "product_truth": "Easy Stores works as a low-touch franchise overlay; B2B Wholesale failed because Amazon's prepayment / short-cycle credit terms could not match distributor norms.",
+        "equity_transferability": "Easy Stores playbook is replicable but not separable; it is part of Amazon India's consumer-side stack.",
+        "value_creation_sizing": "~$227m spent on the B2B arm with no realized return is a meaningful proof point that capital plus brand do not crack kirana B2B without WhatsApp-native UX and informal-credit terms.",
+        "competitive_dynamics": "Reliance JioMart (with Meta WhatsApp partnership) and Walmart-Flipkart (with Best Price physical infrastructure) outcompeted Amazon on the two structural fronts (UX and credit) where Amazon was weakest.",
+        "learnability": "Most well-capitalized strategic walked away from the B2B kirana opportunity within ~3 years. The IC lesson for Masan: balance sheet plus brand is not sufficient to defeat the kirana's existing distributor relationship; a winning model needs WhatsApp-native UX, informal-credit-equivalent terms, and a strategic FMCG supply position. Masan has the supply position via WCM and MCH, which is the structural advantage Amazon lacked."
+      },
+      "logo_file": "amazon.svg",
+      "lat": 28.7041,
+      "lng": 77.1025,
+      "modes": [1,1,1,0,0,1,1,0,1,0],
+      "assets": [0,0.5,1,0]
+    },
+    {
+      "id": "flipkartwhole",
+      "name": "Flipkart Wholesale",
+      "country": "IN",
+      "city": "Bengaluru",
+      "founded": 2020,
+      "shut": 2023,
+      "status": "shut",
+      "raised_usd_m": null,
+      "peak_valuation_usd_m": null,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 1500000,
+      "tagline": "Walmart-Flipkart B2B India launched Jul 2020 alongside acquisition of Best Price cash-and-carry; reorganized Jan 2022 (~450 staff folded into Flipkart Group). Best Price physical stores still trade. No clean shutdown; absorption rather than closure.",
+      "founders": [
+        {"name": "Adarsh Menon", "role": "Flipkart Wholesale head; resigned May 2023", "prior": "Flipkart Group VP for nearly eight years"},
+        {"name": "Sameer Aggarwal", "role": "Walmart India CEO at acquisition", "prior": "Ran Best Price cash-and-carry"},
+        {"name": "Kalyan Krishnamurthy", "role": "Flipkart Group CEO", "prior": ""},
+        {"name": "Judith McKenna", "role": "Walmart International CEO at acquisition; stepped down 2023", "prior": ""}
+      ],
+      "thesis_at_founding": "Acquire Best Price cash-and-carry (1.5m kirana/MSME members across 28 warehouse clubs since 2009) and digitize the member base into a new app-based B2B marketplace. Help small businesses in India source directly from manufacturers and producers.",
+      "rounds": [
+        {"date": "Jul 2020", "stage": "Internal Walmart-Flipkart capital", "amount_usd_m": null, "lead": "Walmart (cumulative $16bn into Flipkart Group)", "post_money_usd_m": null}
+      ],
+      "experiments": [
+        {"name": "Best Price acquisition and rebrand", "year": 2020, "what": "Flipkart acquired 100% of Walmart India Pvt Ltd (Best Price, 28 warehouse clubs, 1.5m members) and simultaneously launched Flipkart Wholesale digital platform.", "outcome": "Inc42 read at acquisition: 'plans to consolidate loss-making Walmart ops.'"},
+        {"name": "Two-minute credit for kiranas", "year": 2021, "what": "Aug 2021 rolled out 2-minute credit decisioning, INR 5,000 to INR 2 lakh tickets, 14-day interest-free, partner NBFC underwriting.", "outcome": "Same credit-as-stickiness lever Udaan, Jumbotail and JioMart all pulled, with the same NBFC capital and credit-loss ceiling."},
+        {"name": "Reorganization and re-absorption", "year": 2022, "what": "Folded staff outside core merchandising and operations into Flipkart Group functions; ~450 people transitioned to Flipkart.", "outcome": "Standalone Flipkart Wholesale brand stopped justifying a standalone team within 18 months of 2020 launch."},
+        {"name": "Best Price physical store continuation", "year": 2023, "what": "28 Best Price physical stores continue to operate as cash-and-carry; the Flipkart Wholesale app (Best Price branding) is live on Google Play and the App Store.", "outcome": "No clean shutdown announcement; the path was absorption, not closure."},
+        {"name": "Senior leadership exits May 2023", "year": 2023, "what": "Adarsh Menon (by then SVP and head of Shopsy, ReCommerce and Cleartrip) resigned from Flipkart after nearly eight years to start a new venture.", "outcome": "Flipkart strategic energy pivoted toward consumer quick-commerce (Flipkart Minutes, Kabeer Biswas hired Jan 2025)."}
+      ],
+      "pivots": [
+        {"year": 2022, "from": "Standalone Flipkart Wholesale digital marketplace", "to": "Re-absorption into Flipkart Group functions", "trigger": "Standalone wholesale economics did not deliver", "outcome": "~450 staff transitioned; brand reduced to subsidiary signal"},
+        {"year": 2025, "from": "Wholesale plus quick-commerce parity", "to": "Quick-commerce primary, wholesale stable", "trigger": "Strategic pivot to Flipkart Minutes", "outcome": "Best Price stable; strategic energy on QC"}
+      ],
+      "operating_arc": "Flipkart Group launched Flipkart Wholesale July 2020, simultaneously acquiring 100% of Walmart India Private Limited (Best Price cash-and-carry, 28 warehouse clubs since 2009, 1.5m kirana/MSME member base). Through 2020-2022 the team tried to digitize the member base into the new app-based marketplace, layered grocery and apparel, and offered short-term credit (INR 5,000-2 lakh, 14-day interest-free) to kirana buyers. By Jan 2022 the company reorganized: all Flipkart Wholesale employees outside core merchandising and operations folded back into Flipkart Group functions (~450 staff transitioned). May 2023: Adarsh Menon resigned from Flipkart after eight years. Best Price physical stores continue. The Flipkart Wholesale app continues; the standalone brand has been reduced to a subsidiary signal. Strategic energy post-Wholesale absorption sits in consumer quick-commerce (Flipkart Minutes), with Kabeer Biswas hired Jan 2025 to lead it.",
+      "voice": [
+        {"who": "Walmart corporate", "when": "23 Jul 2020", "context": "Launch press release", "text": "Walmart's Majority-Owned Flipkart Launches Wholesale Business to help small businesses in India source directly from manufacturers and producers.", "source_url": "https://corporate.walmart.com/news/2020/07/23/walmarts-majority-owned-flipkart-launches-wholesale-business-to-help-small-businesses-in-india-source-directly-from-manufacturers-and-producers", "source_label": "Walmart"},
+        {"who": "Adarsh Menon, SVP Flipkart Wholesale", "when": "Jan 2022", "context": "Reorganization framing", "text": "Sharpening our commitment to business growth by focusing on core business areas and leveraging the capabilities of our central resources. Flipkart Wholesale employees would transition to Flipkart into new roles and responsibilities at the group level.", "source_url": "https://www.indianretailer.com/news/flipkart-wholesale-plans-to-reorganize-and-refine-business-operations.n12533", "source_label": "Indian Retailer"},
+        {"who": "BusinessToday", "when": "Jul 2020", "context": "Launch framing", "text": "Flipkart Wholesale vs Reliance JioMart: The battle lines are drawn to win India's kiranas.", "source_url": "https://www.businesstoday.in/latest/corporate/story/flipkart-launches-of-flipkart-wholesale-aims-to-transform-kirana-retail-268037-2020-07-23", "source_label": "BusinessToday"},
+        {"who": "Inc42", "when": "Jul 2020", "context": "On the acquisition", "text": "After Acquisition, Flipkart Plans To Consolidate Loss Making Walmart Ops.", "source_url": "https://inc42.com/buzz/after-acquisition-flipkart-plans-to-consolidate-loss-making-walmart-ops/", "source_label": "Inc42"}
+      ],
+      "failure_mode": "Walmart-Flipkart spent over a decade and a meaningful capital line trying to convert a 1.5m-member cash-and-carry business into a digital kirana B2B marketplace; the operational outcome (per the 2023 reorganization) is that the standalone economics did not justify a standalone team. The same forces that defeated Amazon's B2B arm applied (kirana behavioral inertia, regulatory pressure, FDI optics, competition from Reliance). The outcome is more graceful than Amazon's because Best Price physical infrastructure has residual value as MSME and kirana cash-and-carry channel.",
+      "aftermath": "Adarsh Menon quit Flipkart May 2023 to start a new venture; subsequent venture not surfaced in detail. Sameer Aggarwal subsequent role not detailed. Kalyan Krishnamurthy continues as Flipkart Group CEO; the strategic pivot to quick-commerce via Flipkart Minutes (Jan 2025) is the post-Wholesale strategic anchor. Judith McKenna stepped down from Walmart International in 2023. Best Price physical stores (28 cash-and-carry warehouses) continue to operate as MSME and kirana cash-and-carry. The Flipkart Wholesale app (Best Price branding) is live. ~450 staff folded into Flipkart Group functions; no separate Wholesale alumni cohort visible.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "1.5m kiranas/MSMEs validate that there is structural demand for an aggregated bulk-buying channel; the Best Price physical store franchise has 12 years of proven traction.",
+        "product_truth": "The digital Flipkart Wholesale layer was an extension experiment, not a standalone product; the 2-minute credit lever worked but at the same NBFC-capacity ceiling Udaan and Jumbotail hit.",
+        "equity_transferability": "Best Price is acquirable as a standalone asset; the 28-store footprint plus member base would be a credible bolt-on for a strategic FMCG buyer.",
+        "value_creation_sizing": "Walmart's $16bn cumulative Flipkart investment is not separable from the Best Price piece, but the standalone Wholesale economics did not justify a standalone team within 18 months.",
+        "competitive_dynamics": "Reliance plus Metro now dominate the cash-and-carry layer; Flipkart Wholesale plus Best Price is the second player.",
+        "learnability": "The Jan 2022 reorganization, ~18 months after launch, is the cleanest signal in the cohort that even Walmart's brand and capital plus 12 years of Best Price physical proof did not produce standalone wholesale economics. For Masan, the IC lesson is that a kirana B2B initiative inside a larger group should run as an absorbed P&L from day one, with no expectation of standalone unit economics; absorption is the most realistic outcome path for a WinX-shaped initiative."
+      },
+      "logo_file": "walmart.svg",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "modes": [1,1,1,0,0,1,1,0,1,0],
+      "assets": [0,0.5,0.5,0]
+    },
+    {
+      "id": "jiomart",
+      "name": "JioMart kirana programme",
+      "country": "IN",
+      "city": "Mumbai",
+      "founded": 2020,
+      "shut": null,
+      "status": "live",
+      "raised_usd_m": null,
+      "peak_valuation_usd_m": null,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 300000,
+      "tagline": "Reliance Retail and Jio joint kirana partner program. Peak 300,000+ kiranas across 150 cities Mar 2022. May 2023 layoffs (~1,000) and consolidation into Metro Cash & Carry. The closest to a 'won' outcome among India's kirana programs.",
+      "founders": [
+        {"name": "Mukesh Ambani", "role": "Reliance Industries chairman; strategic frame", "prior": ""},
+        {"name": "Damodar Mall", "role": "CEO Grocery Retail at Reliance Retail; public face", "prior": ""}
+      ],
+      "thesis_at_founding": "Tens of millions of kiranas digitized via Reliance's distribution rails, anchored by WhatsApp ordering. Meta took $5.7bn stake in Jio Platforms April 2020 explicitly tied to this commerce play. JioPOS device for kirana onboarding (refundable INR 3,000 deposit), ~40-minute average store onboarding time, WhatsApp-based consumer ordering routed to local kirana fulfilment.",
+      "rounds": [],
+      "experiments": [
+        {"name": "JioPOS device deployment", "year": 2020, "what": "Reliance issued JioPOS billing-and-inventory devices to onboarding kiranas with refundable INR 3,000 deposit and ~40-minute average onboarding time per store.", "outcome": "Wired the kirana into Reliance's wholesale supply, JioMart consumer fulfilment, and digital payments rails."},
+        {"name": "WhatsApp-native consumer ordering", "year": 2021, "what": "Following Meta's $5.7bn investment in Jio Platforms (Apr 2020), integrated JioMart end-to-end shopping into WhatsApp; customers in 200+ Indian cities can browse, place and pay; 7% minimum discount on grocery, 10% on medicines.", "outcome": "Single largest WhatsApp commerce experiment in India; the operational reason Udaan's app-first thesis weakened."},
+        {"name": "Supplier ad revenue layer", "year": 2022, "what": "Reliance reported '4x' YoY supplier ad revenue jump in May 2022 with merchant base growing 4x to 300,000+ across 150 cities.", "outcome": "Advertising lever as structural answer to thin distribution margin; same playbook Udaan tried with similar ceiling."},
+        {"name": "Metro Cash & Carry India acquisition", "year": 2022, "what": "Reliance Retail acquired Metro Cash & Carry India for INR 2,850 Cr (~$344m) Dec 2022, gaining 31 wholesale stores and 3m registered B2B customers (1m frequent buyers).", "outcome": "Strategic pivot point; post-deal Reliance consolidated JioMart B2B into Metro's footprint."},
+        {"name": "May 2023 layoffs and consolidation", "year": 2023, "what": "Laid off 1,000+ employees in JioMart B2B unit (500 corporate, 500 ground); closed more than half of 150+ JioMart fulfillment centers; shut JioMart Express (quick-commerce arm) entirely.", "outcome": "Workforce in JioMart B2B cut from 15,000 pre-cut; another 9,000 jobs reportedly at risk."},
+        {"name": "Metro store conversion to Reliance Market", "year": 2024, "what": "Reliance Retail rechristened Metro stores as Reliance Market and added 30 stores in the quarter ending Jul 2024.", "outcome": "B2B function now runs through consolidated Metro/Reliance Market network rather than original JioMart Partner channel."}
+      ],
+      "pivots": [
+        {"year": 2023, "from": "Three parallel rails (JioMart Partner, Reliance Mitra, Metro)", "to": "Single Metro-anchored B2B channel", "trigger": "Three-rail overlap unsustainable; kirana decision fatigue", "outcome": "1,000+ layoffs; ~75+ of 150 fulfillment centers shut; JioMart Express closed"},
+        {"year": 2024, "from": "Kirana intermediation as flagship lever", "to": "Direct retail (Reliance Market, Reliance Smart, JioMart consumer app) primary", "trigger": "Strategic deprioritization", "outcome": "Mitra continues but materially scaled back"}
+      ],
+      "operating_arc": "JioMart launched late 2019 / early 2020 as Reliance Retail and Jio joint initiative. The kirana partner program ramped through 2020-2021: JioPOS device deployment, ~40-minute store onboarding, WhatsApp-based consumer ordering integrated post-Meta's $5.7bn Apr 2020 stake in Jio Platforms. By Jul 2020 Reliance had onboarded 13,500 kiranas; by Mar 2022 the program reached 300,000+ kiranas across 150 cities with supplier ad revenue jumping 4x YoY. The Metro Cash & Carry India acquisition Dec 2022 (INR 2,850 Cr) brought 31 wholesale stores and 3m registered B2B customers. May 2023 layoffs (~1,000 in JioMart B2B unit) and consolidation: closed more than half of 150+ JioMart fulfillment centers; shut JioMart Express. 2024: Metro stores rebranded as Reliance Market with 30 added in Q1 FY25. The original Mukesh Ambani thesis (millions of digitized kiranas) has been narrowed to a smaller, profitability-focused merchant base served through the consolidated Metro footprint.",
+      "voice": [
+        {"who": "BusinessToday EXCLUSIVE", "when": "May 2022", "context": "Peak optimism", "text": "Reliance's JioMart kirana stores find new revenue stream in supplier ads; revenue jumps 4x; merchant base grows 4x to 300,000+ across 150 cities.", "source_url": "https://www.businesstoday.in/latest/corporate/story/exclusive-reliances-jiomart-kirana-stores-find-new-revenue-stream-in-supplier-ads-merchant-base-grows-4x-332838-2022-05-09", "source_label": "BusinessToday"},
+        {"who": "The Ken trade reporting", "when": "2022-2023", "context": "Operational realities", "text": "JioMart ups its B2B service, but kiranas aren't quite convinced. Kiranas would not switch to a single supplier when the existing distributor relationship offered credit, returns, and personal trust; the JioPOS hardware deployment cost was real and adoption was patchy; three Reliance-internal kirana channels created confusion.", "source_url": "https://the-ken.com/tradetricks/jiomart-ups-its-b2b-service-but-kiranas-arent-quite-convinced/", "source_label": "The Ken"},
+        {"who": "Anonymous kirana shop owner", "when": "2020-2021 launch period", "context": "Daily order growth", "text": "Daily orders have seen a surge of 2X, with potential to reach 4X high demand after the lockdown ends.", "source_url": "https://www.logisticsinsider.in/jiomart-joins-hands-with-whatsapp-to-propel-kirana-stores-into-an-online-retail-platform/", "source_label": "Logistics Insider"},
+        {"who": "Anonymous kirana shop owner", "when": "2020-2021", "context": "Wholesale price benefit", "text": "Could bulk buy a two-tube combo of Colgate MaxFresh toothpaste through JioMart for about Rs 115 as against Rs 154 from traditional distributors.", "source_url": "https://www.logisticsinsider.in/jiomart-joins-hands-with-whatsapp-to-propel-kirana-stores-into-an-online-retail-platform/", "source_label": "Logistics Insider"},
+        {"who": "Salestors.com framing", "when": "Jan 2024", "context": "Strategic pivot", "text": "As JioMart shuts down, Reliance Retail expands to direct consumer channels.", "source_url": "https://supplychainnuggets.com/how-jiomart-kirana-partnership-transformed-grocery-supply/", "source_label": "Salestors.com"}
+      ],
+      "failure_mode": "Reliance's program is the closest to a 'won' outcome among India's kirana programs because it had infinite balance sheet, native WhatsApp distribution via Meta's stake in Jio Platforms, and physical real-estate proximity. But even with all three structural advantages, the kirana adoption curve plateaued, per-merchant economics did not deliver, and Reliance chose to consolidate (not double down) once Metro Cash & Carry was bought. Reliance still has a kirana program; it does not have the millions-of-digitized-stores outcome that the 2020 announcement implied.",
+      "aftermath": "Mukesh Ambani, Isha Ambani, V Subramaniam continue with the broader Reliance Retail business; the kirana digitization story is no longer the flagship narrative. Direct retail (Reliance Smart, Reliance Market, Reliance Digital) and consumer channels (JioMart consumer app, WhatsApp commerce) are the post-2024 strategic anchors. Damodar Mall (CEO Grocery Retail at Reliance Retail) has been the public face. Specific exits not detailed in surfaced reporting; the 1,000+ layoffs in May 2023 were primarily junior and middle-management. The 1,000+ laid-off staff dispersed into adjacent Indian retail, FMCG and last-mile logistics.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "Kiranas validate that they want wholesale price discovery and order routing convenience; they do not validate a switch away from incumbent distributor relationships.",
+        "product_truth": "WhatsApp-native ordering is the clearest UX winner in the cohort; the JioPOS hardware overlay was operationally heavy.",
+        "equity_transferability": "WhatsApp commerce stack (built with Meta) is the most defensible IP and is already strategically owned by Reliance.",
+        "value_creation_sizing": "Even with infinite balance sheet, native WhatsApp distribution and physical retail proximity, Reliance narrowed the kirana program to a Metro-anchored B2B operation rather than the millions-of-digitized-stores outcome originally projected.",
+        "competitive_dynamics": "Reliance is the dominant kirana-facing player but the dominance is in its own retail footprint, not in the kirana digitization layer per se.",
+        "learnability": "Most instructive in the cohort because Reliance had the three structural advantages (capital, WhatsApp, real estate) that Amazon, Walmart-Flipkart and Udaan all lacked, and the kirana program still narrowed. For Masan, the IC takeaway: WhatsApp-native order channel is the right UX bet; kirana onboarding cost (hardware + training) is the trap; realistic path is Reliance-shaped consolidation around a strategic owner's existing physical footprint (in Masan's case, WCM stores plus Phuc Long touchpoints), not a venture-scale standalone kirana platform."
+      },
+      "logo_file": "jiomart.svg",
+      "lat": 19.0760,
+      "lng": 72.8777,
+      "modes": [0,1,0,0,0,1,0,0,1,0],
+      "assets": [1,1,1,0.5]
+    },
+    {
+      "id": "reliancemitra",
+      "name": "Reliance Mitra",
+      "country": "IN",
+      "city": "Mumbai",
+      "founded": 2020,
+      "shut": null,
+      "status": "live",
+      "raised_usd_m": null,
+      "peak_valuation_usd_m": null,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": null,
+      "tagline": "Reliance Retail partner-merchant program; ran in parallel to JioMart Partner. Consolidated under Metro Cash & Carry post-2023; brand quietly walked back. The partner-program version of the same outcome documented at JioMart Partner.",
+      "founders": [
+        {"name": "Mukesh Ambani", "role": "Reliance Industries chairman", "prior": ""},
+        {"name": "Isha Ambani", "role": "Director, Reliance Retail Ventures", "prior": ""},
+        {"name": "V Subramaniam", "role": "Director, Reliance Retail", "prior": ""}
+      ],
+      "thesis_at_founding": "Onboard small retailers as nodes in Reliance's distribution network: stores receive supply from Reliance Retail's wholesale infrastructure and can optionally serve as fulfilment touchpoints for JioMart consumer orders. Built on the same Jio-Reliance digital rails as JioMart Partner. Distinct from franchised JioMart-branded retail stores.",
+      "rounds": [],
+      "experiments": [
+        {"name": "Mitra-as-distribution-rail layer", "year": 2020, "what": "Partner-merchant program for the supply-and-distribution side of the kirana relationship; same JioPOS device, partner app rails, WhatsApp ordering integration, distinct branding aimed at small retailers receiving Reliance wholesale supply.", "outcome": "Aggregate footprint 300,000-1,000,000 merchants depending on scope and date claimed."},
+        {"name": "Three-rail overlap", "year": 2020, "what": "Through 2020-2022 Reliance ran Mitra and JioMart Partner as parallel rails into broadly the same kirana base; kiranas reported being approached by separate Reliance field reps for overlapping propositions in the same week.", "outcome": "Decision fatigue rather than incremental adoption."},
+        {"name": "Dec 2022 Metro acquisition as consolidation trigger", "year": 2022, "what": "Reliance Retail acquired Metro Cash & Carry India for INR 2,850 Cr (~$344m), gaining 31 wholesale stores and 3m registered B2B customer base.", "outcome": "Metro had 12+ years of B2B operating discipline that Mitra and JioMart Partner did not."},
+        {"name": "May 2023 layoffs and consolidation execution", "year": 2023, "what": "~1,000 layoffs in JioMart B2B unit (overlapping Mitra), closure of ~75+ of 150 JioMart fulfillment centers, shutdown of JioMart Express, folding kirana supply into Metro's footprint.", "outcome": "Mitra absorbed into Metro-anchored channel."},
+        {"name": "Metro to Reliance Market conversion", "year": 2024, "what": "Q1 FY25 reporting showed 30 new Metro / Reliance Market stores added; consolidated B2B channel now operating under Metro / Reliance Market banner.", "outcome": "Mitra brand quietened; strategic narrative pivot to direct retail."},
+        {"name": "Strategic narrative pivot to direct retail", "year": 2024, "what": "Communicated focus shifted from intermediating kiranas at scale to operating own retail footprint plus serving kirana segment through smaller, more profitable Metro-anchored B2B channel.", "outcome": "Salestors.com (Jan 2024) framed as 'As JioMart shuts down, Reliance Retail expands to direct consumer channels.'"}
+      ],
+      "pivots": [
+        {"year": 2023, "from": "Three parallel rails (Mitra, JioMart Partner, Metro)", "to": "Single Metro-anchored B2B channel", "trigger": "Three-rail overlap unsustainable", "outcome": "Mitra absorbed; ~1,000 layoffs"},
+        {"year": 2024, "from": "Kirana intermediation as primary growth lever", "to": "Direct retail and consumer channels primary", "trigger": "Strategic deprioritization", "outcome": "Mitra continues but materially scaled back"}
+      ],
+      "operating_arc": "Reliance Mitra launched 2020 as Reliance Retail's kirana/partner-merchant program for the supply-and-distribution side of the kirana relationship, distinct from JioMart Partner (consumer fulfilment) but on the same JioPOS rails. Through 2020-2022 the two ran in parallel. Mukesh Ambani's AGM 2020-2022 messaging was the high-water mark of optimism; BusinessToday May 2022 reported supplier ad revenue 4x YoY and 300,000+ merchants across 150 cities. The Dec 2022 Metro Cash & Carry India acquisition (INR 2,850 Cr, 31 stores, 3m registered B2B customers) became the consolidation trigger. May 2023 layoffs (~1,000 in JioMart B2B unit, overlapping Mitra) and ~75+ of 150 fulfillment center closures executed the consolidation. Through 2024 Metro stores rebranded as Reliance Market (30 added Q1 FY25); Mitra brand quietened. The strategic narrative pivoted from kirana intermediation to direct retail and consumer channels.",
+      "voice": [
+        {"who": "BusinessToday EXCLUSIVE", "when": "May 2022", "context": "Peak optimism on Mitra-style program", "text": "Supplier ad revenue 4x YoY; merchant base grew 4x to 300,000+ across 150 cities.", "source_url": "https://www.businesstoday.in/latest/corporate/story/exclusive-reliances-jiomart-kirana-stores-find-new-revenue-stream-in-supplier-ads-merchant-base-grows-4x-332838-2022-05-09", "source_label": "BusinessToday"},
+        {"who": "Metro India brand framing", "when": "Post-acquisition", "context": "On focus", "text": "Metro's focus on small traders is aimed at helping kiranas become more competitive and profitable. It helps them enhance their offerings with sharper assortments and more efficient inventory management, greater hygiene in the handling and storage of goods, and improved ambience and services for their customers.", "source_url": "https://www.metro.co.in/aboutus.html", "source_label": "Metro India"},
+        {"who": "Reliance Retail public framing", "when": "Jul 2024", "context": "Q1 FY25 update", "text": "The grocery new commerce business continued to expand its kirana partner base, with the Metro Cash and Carry format adding 30 new stores in the quarter.", "source_url": "https://www.business-standard.com/companies/news/reliance-retail-scales-b2b-store-count-after-acquiring-metro-s-india-ops-124072100432_1.html", "source_label": "Business Standard"}
+      ],
+      "failure_mode": "Reliance Mitra is the partner-program version of the same outcome documented at JioMart Partner: massive announcement scale, 4x growth narrative through 2022, mass layoffs and consolidation in 2023, quieter post-2024 footprint anchored on Metro Cash & Carry's existing kirana relationships. The instructive read for an FMCG strategic operator: even with Reliance's balance sheet, retail real-estate, telco distribution, and Meta's WhatsApp partnership, the kirana digitization promise narrowed to a Metro-anchored B2B wholesale operation rather than the millions-of-digitized-stores outcome originally projected. The failure mode is not an explosion; it is the strategic narrative quietly being walked back.",
+      "aftermath": "Reliance Retail leadership (Mukesh Ambani, Isha Ambani, V Subramaniam) continue with the broader business; Mitra brand is no longer flagship. Arvind Mediratta was Metro Cash & Carry India CEO at the acquisition; subsequent role within Reliance Retail not detailed in surfaced reporting. Mitra-specific staff dispersal: the May 2023 layoffs were aggregated as JioMart B2B; Mitra-specific share is not disclosed. The Mitra brand is not formally discontinued. The merchant program continues under Metro Cash & Carry-led B2B operations. Reliance Retail has not published an updated Mitra merchant count since the consolidation.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "Kiranas confirmed wholesale price benefit but did not abandon the distributor relationship; the consumer truth is hybrid adoption, not switching.",
+        "product_truth": "Mitra distribution rail worked at unit level on price, failed at workflow because of three-rail overlap and JioPOS friction.",
+        "equity_transferability": "Mitra has no separable IP outside Reliance's broader retail stack; not transferable.",
+        "value_creation_sizing": "Mitra is internal to Reliance Retail's CapEx, not separately disclosed; the strategic value sits in Reliance Retail's blended P&L.",
+        "competitive_dynamics": "Mitra-as-program plus JioMart Partner plus Metro is the dominant Indian kirana-facing channel, but the dominance reflects Reliance's broader retail position, not Mitra's standalone strength.",
+        "learnability": "Most informative datapoint is the silent narrative walk-back through 2024-2025. Reliance announced millions of digitized kiranas, ramped to 300,000+, and then narrowed the program to a Metro-anchored B2B operation while pivoting strategic energy toward direct retail and consumer channels. For WinX, this argues for narrow product-market fit (selected merchants, selected categories, integrated into WCM and Phuc Long footprints) rather than a millions-of-merchants ambition that requires capital Masan does not have."
+      },
+      "logo_file": "reliance.svg",
+      "lat": 19.0760,
+      "lng": 72.8777,
+      "modes": [0,1,0,0,0,1,0,0,1,0],
+      "assets": [1,0.5,1,0.5]
+    },
+    {
+      "id": "bukuwarung",
+      "name": "BukuWarung",
+      "country": "ID",
+      "city": "Jakarta",
+      "founded": 2019,
+      "shut": null,
+      "status": "plateau",
+      "raised_usd_m": 80,
+      "peak_valuation_usd_m": 250,
+      "peak_revenue_usd_m": 1.7,
+      "merchants_peak": 9000000,
+      "tagline": "YC S20 ledger app for Indonesia's micro-merchants; Series A $60m Jun 2021 led by Valar and Goodwater. Plateaued at $1.7m FY23 revenue against ~$250m peak valuation; Mekari acquisition signal 2023. 100 layoffs Nov 2022 (~25%).",
+      "founders": [
+        {"name": "Abhinay Peddisetty", "role": "CEO", "prior": ""},
+        {"name": "Chinmay Chauhan", "role": "Co-founder, President; exited operating role 2023", "prior": ""}
+      ],
+      "thesis_at_founding": "Khatabook-style mobile ledger for Indonesia's claimed 60m micro-merchants, on top of which BukuWarung would layer payments, then credit.",
+      "rounds": [
+        {"date": "Apr 2020", "stage": "Seed", "amount_usd_m": null, "lead": "East Ventures, AC Ventures, Quona", "post_money_usd_m": null},
+        {"date": "2020", "stage": "Seed extension", "amount_usd_m": null, "lead": "DST Global Partners, Partech, Golden Gate Ventures", "post_money_usd_m": null},
+        {"date": "Jun 2021", "stage": "Series A", "amount_usd_m": 60, "lead": "Valar Ventures, Goodwater Capital", "post_money_usd_m": 250}
+      ],
+      "experiments": [
+        {"name": "Bookkeeping ledger launch", "year": 2019, "what": "Free Android digital ledger ('catatan utang') for Indonesia's claimed 60m micro-merchants, modelled on Khatabook.", "outcome": "Registration funnel reached claimed 9m+ MSMEs by 2022; the merchant base every later product tried to monetize."},
+        {"name": "BukuWarung Pay and PPOB", "year": 2021, "what": "Layered QRIS acceptance and PPOB (pulsa, electricity, water, BPJS, gaming vouchers) on the ledger app through 2021.", "outcome": "Take rate sub-1% on QRIS, 1-3% on pulsa. PPOB became steadiest revenue line; QRIS acceptance never reached scale."},
+        {"name": "BukuAgen EDC / Mini ATM", "year": 2022, "what": "Separate Android app for 'agen' sub-merchant agents, positioned as Aplikasi EDC / Mini ATM for cash-in/cash-out and digital products. Partnered with Xendit (Bank Indonesia license holder).", "outcome": "Survived as the one durable monetization layer post-2022 cuts."},
+        {"name": "Lending push", "year": 2022, "what": "Pivot to MSME lending structured through regulated lending partners; intent was to layer working-capital loans on transaction history.", "outcome": "KYC, collections and credit-decision plumbing required to make this work at scale was never built; Nov 2022 layoff of 100 employees followed."},
+        {"name": "November 2022 layoff", "year": 2022, "what": "On 25 November 2022, Peddisetty announced 100 layoffs (~25% of staff) in a company-wide meeting; severance included unused leave encashment, ESOP vesting, extended family health insurance, career support.", "outcome": "Headcount post-cut: roughly 300, dropping to ~211 by Crunchbase 2024."},
+        {"name": "Profitability reset", "year": 2023, "what": "Founder blog and public framing emphasised 'profitability is the new growth.' Net loss 2022 $25.3m; net loss 2023 cut by 75% versus 2022, implying ~$6m. Revenue 2023 $1.7m, up 72% y/y.", "outcome": "Revenue base far below valuation implied; implied revenue multiple at $250m peak valuation roughly 150x."},
+        {"name": "Mekari acquisition signal", "year": 2023, "what": "Tracxn and CB Insights aggregator profiles indicate BukuWarung was acquired by Mekari (Indonesian SME business software platform) mid-2023; both founders transitioning into Mekari structure.", "outcome": "Standalone venture path closed; primary press confirmation thin."}
+      ],
+      "pivots": [
+        {"year": 2021, "from": "Free ledger only", "to": "Payments and PPOB layered on", "trigger": "Need to monetise post-Series A", "outcome": "Fraud, sub-1% take rate, head-to-head with Mitra Bukalapak"},
+        {"year": 2022, "from": "Payments-led", "to": "Lending-led plus BukuAgen EDC", "trigger": "Take rates too thin", "outcome": "KYC and collections never properly built; lending sub-scale"},
+        {"year": 2023, "from": "Standalone fintech-for-warungs", "to": "Consolidation under Mekari SME software stack", "trigger": "Profitability reset on $1.7m revenue base", "outcome": "Standalone venture path closed"}
+      ],
+      "operating_arc": "BukuWarung incorporated 2019, joined YC S20, closed seed Apr 2020 and a seed extension. Series A Jun 2021 ($60m, Valar Ventures and Goodwater Capital lead) at implied $225-250m post-money. Through 2021 the company layered QRIS payments and PPOB; through 2022 it pivoted to MSME lending which never built KYC, collections, or credit-decision plumbing at scale. November 2022 layoff of 100 (~25%). Net loss 2022 $25.3m up 33% from $19m in 2021; employee benefits up 176% to $13.8m. By 2023, profitability reset with 75% loss reduction ($6m implied) on $1.7m revenue (up 72% y/y). BukuAgen EDC/Mini ATM became the durable monetization layer. Tracxn/CB Insights aggregators indicate Mekari acquisition mid-2023 with both founders transitioning into Mekari. Chinmay Chauhan exited operating role per LinkedIn 2023; Peddisetty remains CEO of operating entity. The 2024-onwards public framing emphasises agent payments / EDC, not bookkeeping.",
+      "voice": [
+        {"who": "Abhinay Peddisetty, CEO", "when": "Nov 2022", "context": "Layoff announcement", "text": "We have made the difficult decision after exploring every possible avenue to remain sustainable in the last six months.", "source_url": "https://startupnews.fyi/2023/10/03/bukuwarungs-losses-swell-33-in-2022/", "source_label": "StartupNews / DealStreetAsia"},
+        {"who": "Abhinay Peddisetty, CEO", "when": "Recipes for Growth podcast (2021 era)", "context": "Founding thesis", "text": "Indonesia's MSMEs do not need a digital ledger that looks like an Indian one. They need one that fits their behaviour, which is mostly tracking debt with customers, not bookkeeping for tax.", "source_url": "https://recipesforgrowth.substack.com/p/01-krishnan-menon", "source_label": "Recipes for Growth"},
+        {"who": "DealStreetAsia analyst", "when": "Oct 2023", "context": "On widening losses", "text": "The widening loss raises questions about whether BukuWarung can sustainably build out lending without burning through its remaining runway.", "source_url": "https://startupnews.fyi/2023/10/03/bukuwarungs-losses-swell-33-in-2022/", "source_label": "DealStreetAsia"},
+        {"who": "Y Combinator BukuWarung profile", "when": "Persistent listing", "context": "Original framing", "text": "Accounting, Payments & Credit app for 60M micro-businesses in Indonesia.", "source_url": "https://www.ycombinator.com/companies/bukuwarung", "source_label": "Y Combinator"}
+      ],
+      "failure_mode": "Ledger apps have negligible willingness-to-pay in Indonesia at the warung tier. Monetization requires moving down-funnel into payments or up-funnel into lending; both demand capabilities (fraud ops, KYC, balance sheet) that a $60m Series A cannot support against incumbent banks, telcos and platform giants. The Series A landed June 2021 at peak ZIRP timing; product had 6 months to find rev model before macro turned. Glassdoor pattern: 'Strategy changed every quarter. Lending was supposed to save the business; KYC and collections were never properly built.'",
+      "aftermath": "Abhinay Peddisetty: still CEO of BukuWarung; folded into Mekari structure per Tracxn aggregator signal. Public LinkedIn role remains 'Co-Founder & CEO @ BukuWarung.' Chinmay Chauhan: exited operating role per LinkedIn signal in 2023; now running a separate venture. Crunchbase still lists him as Co-Founder and President. Senior leadership diaspora: a portion of the Indonesia commercial team rotated into Xendit, Ajaib, Mekari (post-acquisition pull), and adjacent SaaS/fintech. Bengaluru engineering org dispersed across Razorpay, Cred, Khatabook (the original Indian comp), and Postman. LinkedIn search signals on 'ex-BukuWarung' (Apr 2026 sample): roughly 30% absorbed by Mekari, 25% by Indonesian fintech, 20% by Indian SaaS, 25% to consulting / new ventures. Capital recovery not publicly disclosed; the Mekari acquisition signal would imply all-stock or mixed acquisition at marked-down valuation versus $225-250m peak.",
+      "customer_voice": [
+        {"who": "Anonymous warung owner, Google Play review (Bahasa Indonesia)", "when": "2023-2024", "context": "Verification friction pattern", "text": "saya sudah verifikasi berkali-kali (I have verified multiple times).", "source_url": "https://play.google.com/store/apps/details?id=com.bukuwarung", "source_label": "Google Play"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Warungs use the free ledger and PPOB but do not pay for it.",
+        "product_truth": "Ledger and PPOB hold; lending and payments did not converge to durable economics.",
+        "equity_transferability": "Playbook does not transfer to Masan because Masan does not need to build a ledger app; the WinCommerce + Reddi base already gives the merchant funnel.",
+        "value_creation_sizing": "$80-100m raised, peak valuation $250m, FY2023 revenue $1.7m, FY2023 net loss roughly $6m; recovery path is consolidation under Mekari at a markdown, not a venture-scale outcome.",
+        "competitive_dynamics": "Against Mitra Bukalapak's 16.8m registered Mitra and GoTo's QRIS network, the standalone fintech-for-warungs position has no defensible moat.",
+        "learnability": "Ledger-only is a free utility, not a venture; payments and lending each require capabilities (fraud ops, KYC, credit decisioning, collections) that a SaaS-priced venture does not generate margin to fund. The November 2022 layoff and the 2023 profitability reset are the right managerial moves; the 'abrupt' Glassdoor pattern is the cost of executing them late."
+      },
+      "logo_file": null,
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "modes": [1,1,1,0,1,1,0,1,0,0],
+      "assets": [0,0.5,0,0]
+    },
+    {
+      "id": "lummo",
+      "name": "Lummo / BukuKas",
+      "country": "ID",
+      "city": "Jakarta",
+      "founded": 2019,
+      "shut": 2023,
+      "status": "shut",
+      "raised_usd_m": 140,
+      "peak_valuation_usd_m": 290,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 6300000,
+      "tagline": "Founded as BukuKas Dec 2019, rebranded Lummo Jan 2022 with $80m Series C (Tiger Global, Sequoia, CapitalG). Voluntary liquidation Sep 2023; ~$70m returned to investors. Pivoted four times in four years.",
+      "founders": [
+        {"name": "Krishnan Menon", "role": "CEO", "prior": "Lazada, Zalora, Fabelio, FreeCharge, AlphaBeta Labs"},
+        {"name": "Lorenzo Peracchione", "role": "Co-founder", "prior": ""}
+      ],
+      "thesis_at_founding": "Digital ledger for Indonesian MSMEs (Khatabook clone), with later layers for D2C commerce, payments and lending.",
+      "rounds": [
+        {"date": "2020", "stage": "Seed", "amount_usd_m": null, "lead": "Surge (Sequoia India accelerator)", "post_money_usd_m": null},
+        {"date": "Jan 2021", "stage": "Series A", "amount_usd_m": 10, "lead": "Sequoia Capital India", "post_money_usd_m": null},
+        {"date": "Aug 2021", "stage": "Series B", "amount_usd_m": 50, "lead": "Sequoia Capital India", "post_money_usd_m": null},
+        {"date": "Jan 2022", "stage": "Series C", "amount_usd_m": 80, "lead": "Tiger Global, Sequoia Capital India", "post_money_usd_m": 290}
+      ],
+      "experiments": [
+        {"name": "BukuKas ledger", "year": 2019, "what": "Free Android ledger app for catatan utang (debt records) in Jakarta, modelled on Khatabook.", "outcome": "By April 2021 claimed 6.3m registered MSMEs and $25.9bn annualised transaction value through ledger (vanity metric)."},
+        {"name": "Tokko D2C storefront", "year": 2020, "what": "Launched November 2020 as Shopify-style D2C storefront builder for Indonesian SMBs; free template-based store, WhatsApp checkout, integrated payments through Xendit.", "outcome": "Free tier acquired tens of thousands of merchant signups; paid tier conversion stayed in low single digit percentage."},
+        {"name": "BukuKasPay payments and PPOB", "year": 2021, "what": "Layered QRIS acceptance and PPOB (pulsa, electricity, water, BPJS) mirroring Khatabook-Paytm and BukuWarung's playbook.", "outcome": "Take rate on pulsa 1-3%, on QRIS sub-1%. Payments fraud surfaced within 2021; quietly deprioritized through 2022."},
+        {"name": "LummoSHOP rebrand and Series C deployment", "year": 2022, "what": "Series C closed 19 January 2022 ($80m, Tiger Global lead with Sequoia, CapitalG, Hedosophia, Sosa, Bittner). Rebrand to Lummo and product rename to LummoSHOP same week.", "outcome": "Headcount peaked at 600+ through Q1 2022 across Jakarta and Bengaluru; survived nine months before first 150-person layoff in June 2022."},
+        {"name": "First Bengaluru cull", "year": 2022, "what": "Around 7 June 2022, Lummo terminated 50-60 Indian employees in a single day. Most cuts in product, engineering, and design teams.", "outcome": "Came less than 5 months after Series C close; communicated by 1:1 video and access revocation."},
+        {"name": "Indonesia retreat", "year": 2022, "what": "Roughly 100-150 additional roles cut in Indonesia in H2 2022; total Indonesia + India staff to roughly 250-300 by year-end. Lending and payments deprioritized; narrowed to LummoSHOP only.", "outcome": "Did not produce conversion on D2C SaaS unit economics."},
+        {"name": "Second Bengaluru cull", "year": 2023, "what": "April 2023 cut another 50% of remaining Indian workforce.", "outcome": "Inc42 broke story; DealStreetAsia followed with reporting that Lummo was weighing shutdown or sale."},
+        {"name": "Voluntary liquidation", "year": 2023, "what": "Voluntary liquidation filed with Singapore ACRA September 2023; roughly $70m of remaining capital returned to investors pro-rata to preference.", "outcome": "Decision signed off by Menon and the board."}
+      ],
+      "pivots": [
+        {"year": 2021, "from": "Free ledger only", "to": "Payments + PPOB", "trigger": "Need to monetise post-Series A", "outcome": "Fraud, sub-1% take rate"},
+        {"year": 2021, "from": "Ledger + payments", "to": "Tokko D2C storefront", "trigger": "Sequoia anchor on D2C thesis", "outcome": "Conversion to paid tier in low single digit %; merchant churn cliff at 12 months"},
+        {"year": 2022, "from": "Tokko", "to": "LummoSHOP rebrand and full SaaS-plus-fintech stack", "trigger": "Series C $80m close", "outcome": "Headcount peak before product traction; June 2022 cuts"},
+        {"year": 2022, "from": "Full stack pitch", "to": "LummoSHOP only doubling-down", "trigger": "Burn unsustainable", "outcome": "Single-product bet on D2C SaaS where unit economics never converged"},
+        {"year": 2023, "from": "Going concern", "to": "Voluntary liquidation", "trigger": "Pivots not converging; investors approve wind-down", "outcome": "$70m returned to investors"}
+      ],
+      "operating_arc": "BukuKas launched December 2019 in Jakarta as a free Khatabook-clone ledger. Through 2020 the team built Tokko, a Shopify-style D2C storefront. Series A January 2021 ($10m Sequoia India) and Series B August 2021 ($50m Sequoia India) funded payments (BukuKasPay, QRIS, PPOB) and Tokko expansion. The $80m Series C January 2022 (Tiger Global lead with Sequoia, CapitalG, Hedosophia, Sosa, Bittner) took Lummo to ~$290m post-money on the rebrand to Lummo with LummoSHOP as flagship. Headcount peaked at 600+ across Jakarta and Bengaluru. June 2022 first cull (50-60 Indian employees). H2 2022 retreat (100-150 additional roles in Indonesia, lending and payments deprioritized). April 2023 second cull (50% of remaining Indian workforce). September 2023 voluntary liquidation filed with Singapore ACRA; ~$70m returned. The TheRunway analysis frames the timeline: pivoted four times in four years.",
+      "voice": [
+        {"who": "Krishnan Menon, CEO", "when": "26 Feb 2022", "context": "Mikal Khoso interview post-Series C", "text": "Lummo is building a merchant operating system comprising accounting, finance, and e-commerce tools for small and medium-sized businesses in Asia.", "source_url": "https://mik.al/2022/02/26/an-interview-with-lummo-ceo-krishnan-menon/", "source_label": "Mikal Khoso"},
+        {"who": "Anonymous ex-employee", "when": "Jun 2022", "context": "Inc42 reporting on June layoff", "text": "It was all of a sudden, I logged in the morning and was asked to join a meeting with the India lead instead of my standup and after that, all access was gone.", "source_url": "https://inc42.com/buzz/sequoia-capital-backed-lummo-lays-off-50-indian-workforce/", "source_label": "Inc42"},
+        {"who": "TheRunway analysis", "when": "2024", "context": "Post-mortem", "text": "Lummo died after pivoting 4 times in 4 years... scrapped previous strategies that failed to resonate with users, leading to its downfall without achieving a solid product-market fit.", "source_url": "https://www.therunway.ventures/p/lummo", "source_label": "The Runway Ventures"},
+        {"who": "Bisnis Indonesia", "when": "20 Jan 2022", "context": "Series C peak framing", "text": "Platform Enabler UMKM Lummo Disuntik Pendanaan Seri C Senilai US$80 Juta.", "source_url": "https://finansial.bisnis.com/read/20220120/563/1491154/platform-enabler-umkm-lummo-disuntik-pendanaan-seri-c-senilai-us80-juta", "source_label": "Bisnis Indonesia"}
+      ],
+      "failure_mode": "No durable wedge: each product (ledger, payments, D2C storefront) had Indonesian incumbents (Mitra Bukalapak, GoTo, Shopify, KitaBisa) with deeper pockets or natural advantages. Pivot velocity destroyed institutional learning: each pivot required new team, new GTM, new investors believing in a new story. ZIRP timing: $80m Series C closed January 2022, three months before Sequoia's adaptation curve memo to founders. D2C SaaS economics: monthly subscription <$30 against retention cliffs of merchant cohorts that closed within 12 months meant ARPU below CAC.",
+      "aftermath": "Krishnan Menon: now partner at Packumen Inc., Dallas-based F&B / restaurants operating company, employs 10-19 people, $0.5-1m revenue per ZoomInfo. Geographic reset out of Asia. Not running a follow-on Indonesian venture. Lorenzo Peracchione: post-Lummo move into early-stage advisory/angel; no operating role at scale. Senior leadership diaspora: Indonesia commercial team rotated into Tokopedia, Mitra Bukalapak, Xendit. Bengaluru engineering org dispersed across Razorpay, Cred, Khatabook and Postman. Capital recovery: roughly $70m returned to investors against ~$140m raised; implied recovery on the dollar roughly 50% before any preference waterfall adjustments. Series C investors (Tiger, Sequoia, CapitalG, Hedosophia, Sosa, Bittner) had liquidation preference and would have recovered close to par on the $80m portion; Series A and B holders received a fraction.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "The merchant did not pay enough for any layer (ledger free, payments sub-1%, D2C SaaS sub-$30/month).",
+        "product_truth": "Four iterations across ledger, payments, D2C and full stack; none reached durable retention.",
+        "equity_transferability": "Menon's playbook does not transfer to a captive FMCG distribution context because the company never owned distribution.",
+        "value_creation_sizing": "$140m raised, ~$70m destroyed, peak valuation $260-290m, terminal recovery ~50% on the dollar; sized as a write-down lesson.",
+        "competitive_dynamics": "Collided in every layer with better-capitalised incumbents (Mitra Bukalapak, GoTo, Shopify).",
+        "learnability": "For Masan, the lesson is the cost of pivot velocity. A captive parent must commit to one wedge for at least 24 months and instrument retention before adding the second product. Lummo's four pivots in four years is the empirical ceiling of how often even Sequoia, Tiger and CapitalG can be persuaded to keep funding before the cliff."
+      },
+      "logo_file": null,
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "modes": [1,1,1,0,1,1,0,1,0,1],
+      "assets": [0,0.5,0,0]
+    },
+    {
+      "id": "warungpintar",
+      "name": "Warung Pintar",
+      "country": "ID",
+      "city": "Jakarta",
+      "founded": 2017,
+      "shut": 2022,
+      "status": "shut",
+      "raised_usd_m": 41.5,
+      "peak_valuation_usd_m": 175,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 100000,
+      "tagline": "Hardware-first warung kiosk; pivoted to software-only Mitra app 2019. Acquired intra-portfolio by SIRCLO Jan 2022 (East Ventures fold-up). Founder Bezharie left for Antler Jul 2023.",
+      "founders": [
+        {"name": "Agung Bezharie Hadinegoro", "role": "CEO; left to Antler Jul 2023", "prior": "ex-East Ventures, ex-Gojek"},
+        {"name": "Sofian Hadiwijaya", "role": "CTO", "prior": ""},
+        {"name": "Andrew Mawikere", "role": "Co-founder", "prior": ""},
+        {"name": "Harya Putra", "role": "Co-founder", "prior": ""}
+      ],
+      "thesis_at_founding": "Convert the unstructured Indonesian street kiosk into a 'smart' branded mini-store with point-of-sale, electricity, Wi-Fi, branded panels and a centralised supply chain. Hardware-first warung in a box.",
+      "rounds": [
+        {"date": "2018", "stage": "Seed", "amount_usd_m": 4, "lead": "East Ventures", "post_money_usd_m": null},
+        {"date": "Jan 2019", "stage": "Series B", "amount_usd_m": 27.5, "lead": "Vertex Ventures, Pavilion Capital", "post_money_usd_m": null},
+        {"date": "Aug 2021", "stage": "Series C (in talks; never closed)", "amount_usd_m": null, "lead": null, "post_money_usd_m": null},
+        {"date": "26 Jan 2022", "stage": "Acquisition (intra-portfolio)", "amount_usd_m": null, "lead": "SIRCLO Group (all-stock, East Ventures portfolio)", "post_money_usd_m": null}
+      ],
+      "experiments": [
+        {"name": "Smart kiosk hardware launch", "year": 2017, "what": "Branded kiosk with POS tablet, Wi-Fi router, solar lighting, signage, costing roughly $1,000+ per unit.", "outcome": "Roughly 5,000 branded kiosks at peak, mostly in Jabodetabek."},
+        {"name": "Mitra Warung Pintar app", "year": 2019, "what": "Pivot from hardware-first to software-only Mitra app for non-branded existing warungs to reduce capex per merchant.", "outcome": "By 2021 claimed 100,000+ Mitra Warung Pintar registered users in addition to 5,000 physical kiosks. App collided with Mitra Bukalapak and Mitra Tokopedia."},
+        {"name": "B2B FMCG sourcing layer", "year": 2020, "what": "Added B2B sourcing through the app, mirroring GudangAda and Mitra Bukalapak models.", "outcome": "Same structural constraint: thin take rate on a 3-5% gross margin pool."},
+        {"name": "Iris by Warung Pintar", "year": 2021, "what": "Ad-tech / brand-activation arm to monetize kiosk panels and Mitra app surface via principal advertising spend.", "outcome": "Real but small revenue (low single-digit million USD); the layer that ultimately attracted SIRCLO's interest."},
+        {"name": "Series C miss", "year": 2021, "what": "In talks for Series C August 2021; DealStreetAsia characterised the effort as challenging given competitive intensity from Mitra Bukalapak and GoTo merger announcement.", "outcome": "Round did not close at the standalone valuation Bezharie was seeking."},
+        {"name": "SIRCLO acquisition", "year": 2022, "what": "On 26 January 2022, SIRCLO Group acquired Warung Pintar in all-stock intra-East Ventures portfolio deal; deal terms not disclosed.", "outcome": "Soft-landing path; East Ventures backed both companies and consolidated to avoid fire sale."},
+        {"name": "SIRCLO November 2022 layoff", "year": 2022, "what": "Combined SIRCLO entity cut 8% of workforce (roughly 160 roles).", "outcome": "Headcount peak combined: roughly 2,000."},
+        {"name": "SIRCLO consolidation under brand programmes", "year": 2024, "what": "From 2024, Warung Pintar centralized all updates into a single access point within SIRCLO's ecosystem; followers directed to SIRCLO LinkedIn.", "outcome": "Standalone Warung Pintar brand effectively absorbed."}
+      ],
+      "pivots": [
+        {"year": 2019, "from": "Hardware-first kiosks ($1,000+ per unit)", "to": "Software-only Mitra app for existing warungs", "trigger": "Capex per kiosk too high to amortise", "outcome": "De facto admission that wedge was wrong; collided with Mitra Bukalapak/Tokopedia"},
+        {"year": 2021, "from": "Standalone Warung Pintar", "to": "Series C effort fails; SIRCLO acquisition path", "trigger": "Competitive intensity, GoTo merger", "outcome": "Round did not close; soft-landing via SIRCLO Jan 2022"},
+        {"year": 2022, "from": "SIRCLO subsidiary", "to": "Brand consolidated under SIRCLO ecosystem", "trigger": "Operational consolidation", "outcome": "Standalone Warung Pintar brand dissolved"}
+      ],
+      "operating_arc": "Warung Pintar founded November 2017 by Agung Bezharie Hadinegoro (ex-East Ventures, ex-Gojek) and three co-founders. Seed $4m East Ventures 2018; Series B $27.5m January 2019 (Vertex Ventures, Pavilion Capital). The hardware-first thesis at $1,000+ per kiosk could not be amortised against any plausible take rate; pivoted 2019 to software-only Mitra app. Through 2020-2021 added B2B FMCG sourcing and Iris ad-tech. Series C talks August 2021 did not close at standalone valuation. SIRCLO Group acquired Warung Pintar 26 January 2022 in all-stock intra-East-Ventures-portfolio deal. Combined SIRCLO entity cut 8% (~160 roles) in November 2022. From 2024, brand consolidated under SIRCLO. Bezharie left operating role and joined Antler as Indonesia Partner July 2023.",
+      "voice": [
+        {"who": "Agung Bezharie Hadinegoro", "when": "Jan 2022", "context": "Post-acquisition framing", "text": "The SIRCLO deal as 'synergy' within the East Ventures portfolio.", "source_url": "https://technode.global/2022/01/26/indonesian-ecommerce-enabler-sirclo-acquires-retail-platform-warung-pintar-to-strengthens-omnichannel-services-for-msmes-to-principals/", "source_label": "TechNode Global"},
+        {"who": "Antler official spokesperson page", "when": "Jul 2023", "context": "On Bezharie's credential", "text": "The largest B2B e-commerce platform in the country, empowering over half a million traditional retailers.", "source_url": "https://www.antler.co/spokesperson/agung-bezharie-hadinegoro", "source_label": "Antler"},
+        {"who": "DealStreetAsia", "when": "2023", "context": "Antler appointment coverage", "text": "VC firm Antler appoints Warung Pintar co-founder as partner.", "source_url": "https://www.dealstreetasia.com/stories/antler-hadinegoro-partner-351529", "source_label": "DealStreetAsia"},
+        {"who": "Sofian Hadiwijaya, MLDSPOT feature", "when": "Pre-pivot", "context": "On the original thesis", "text": "Sulap Warung Tradisional Indonesia Menjadi Warung Pintar.", "source_url": "https://www.mldspot.com/trending/sofian-hadiwijaya-sulap-warung-tradisional-indonesia-menjadi-warung-pintar", "source_label": "MLDSPOT"}
+      ],
+      "failure_mode": "Hardware capex never scaled. A 'smart kiosk' with a tablet and signage requires upfront investment ($1,000+ per kiosk) that the take rate never recouped. The pivot to a software-only Mitra app in 2019 was the de facto admission that the wedge was wrong. Software-only Mitra app put Warung Pintar in head-to-head with Mitra Bukalapak and Mitra Tokopedia, both with bigger ecosystems and free customer acquisition. Iris ad-tech revenue was real but small (low single-digit million USD). Series C never closed; acquisition was the soft-landing path to liquidity.",
+      "aftermath": "Agung Bezharie: Partner at Antler since July 2023, leading 30+ investments in Indonesia in 2023. Career reset from operator to early-stage investor. Sofian Hadiwijaya: post-Warung Pintar, public LinkedIn signals advisory and angel posture; remains an active public voice on Indonesian startup failure modes. Andrew Mawikere, Harya Putra: dispersed to adjacent Indonesian startup roles; specific destinations not publicly tracked. Senior leadership diaspora: portion of Warung Pintar commercial team rotated into SIRCLO Group entities (Tada loyalty, Sirclo Store), Mitra Bukalapak, GoTo, and adjacent FMCG distribution. Iris ad-tech team largely consolidated into SIRCLO's brand-activation arm. Capital recovery: SIRCLO acquisition was all-stock and undisclosed; with $41.5m raised and implied peak valuation $150-200m, the all-stock deal at consolidation valuation likely produced low- to mid-double-digit-percent recovery on the dollar for latest preference holders. Vertex Ventures and Pavilion Capital, as Series B leads, would have been primary loss-takers.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "Warungs valued the kiosk visibility but did not pay enough for the software stack.",
+        "product_truth": "Hardware functioned but the unit economics never scaled.",
+        "equity_transferability": "Hardware-first model only pencils when the parent has a captive distribution capex motivation (i.e., owns the brands and uses kiosks for visibility and routing), not as a standalone venture. This is structurally relevant to Masan, which has that captive motivation through MCH.",
+        "value_creation_sizing": "$41.5m raised, intra-portfolio acquisition at undisclosed terms, recovery on the dollar in low- to mid-double-digit percent range.",
+        "competitive_dynamics": "Collided with Mitra Bukalapak and Mitra Tokopedia in the software layer, with no defensible advantage.",
+        "learnability": "Hardware-driven GT modernisation only works as a captive parent's distribution play, not as a standalone venture-funded business. Bezharie's career rotation to Antler (operator to investor) is the canonical post-failure exit ladder."
+      },
+      "logo_file": null,
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "modes": [1,1,1,1,1,1,0,1,1,0],
+      "assets": [0,1,0,0]
+    },
+    {
+      "id": "gudangada",
+      "name": "GudangAda",
+      "country": "ID",
+      "city": "Jakarta",
+      "founded": 2019,
+      "shut": null,
+      "status": "plateau",
+      "raised_usd_m": 137,
+      "peak_valuation_usd_m": 800,
+      "peak_revenue_usd_m": 16.8,
+      "merchants_peak": 1000000,
+      "tagline": "B2B FMCG marketplace; Series B Jul 2021 ~$135m raised; pivoted to inventory-led 2022 then beauty (Kaka Beauty) 2023-2024. Coordinated investor buyback 2024-2025 at significant markdowns. Revenue 2024 $11.5m down 29.5% y/y.",
+      "founders": [
+        {"name": "Stevensang", "role": "CEO and single founder", "prior": "25 years in Indonesian FMCG and retail before founding"}
+      ],
+      "thesis_at_founding": "B2B FMCG marketplace connecting wholesalers ('agen') directly to retailers (warungs), bypassing the multi-tier traditional distribution chain. An asset-light Alibaba 1688 model for Indonesian groceries.",
+      "rounds": [
+        {"date": "2019", "stage": "Seed", "amount_usd_m": null, "lead": "Undisclosed", "post_money_usd_m": null},
+        {"date": "Sep 2020", "stage": "Series A", "amount_usd_m": 25.4, "lead": "Sequoia Capital India, Alpha JWC", "post_money_usd_m": null},
+        {"date": "Jul 2021", "stage": "Series B", "amount_usd_m": 100, "lead": "Asia Partners, Falcon Edge (Alpha Wave)", "post_money_usd_m": 800}
+      ],
+      "experiments": [
+        {"name": "B2B FMCG marketplace launch", "year": 2019, "what": "Asset-light pass-through marketplace connecting wholesalers ('agen') to retailers (warungs).", "outcome": "Merchant funnel reached 1m+ registered retailers and wholesalers across 500+ cities at peak; founder claim of $100m+ monthly transaction value at Series A."},
+        {"name": "GudangAda Logistics", "year": 2021, "what": "Launched own logistics arm; framed as 'asset-light asset-medium hybrid.'", "outcome": "Capex emerged but did not produce defensible advantage."},
+        {"name": "Inventory-led pivot", "year": 2022, "what": "Transitioned away from pure pass-through to principal-direct sourcing of select FMCG SKUs.", "outcome": "Working capital intensified; asset-light promise broken. Driven by need to control margin (pass-through take rate estimated 1-2% on net order value)."},
+        {"name": "December 2022 layoff", "year": 2022, "what": "Laid off employees December 2022; percentage and absolute number not publicly disclosed.", "outcome": "Headcount through 2022 declined ahead of the layoff; Katadata D-Insights covered with headline 'The Layoffs Continue.'"},
+        {"name": "Beauty pivot, Kaka Beauty", "year": 2023, "what": "Started winding down parts of core FMCG marketplace and pivoting to a vertical play on cosmetics retail under Kaka Beauty brand.", "outcome": "Revenue 2023 $16.8m fell to $11.5m in 2024 (-29.5% y/y); net loss 2024 $2.27m. Single-founder bet on higher-margin category (beauty 30-50% gross margin vs FMCG 3-5%)."},
+        {"name": "Geographic retreat", "year": 2023, "what": "Footprint contracted from 500+ cities at peak to a smaller core footprint by 2024.", "outcome": "Specific city count post-retreat not disclosed."},
+        {"name": "Coordinated investor buyback", "year": 2024, "what": "Coordinated buyback of preference shares from Wavemaker Partners, Asia Partners, Alpha Wave Global, Pavilion Capital, and Peak XV (ex-Sequoia India). Deliberations early 2024; culminated July 2025.", "outcome": "Most exited at significant markdowns. Move consolidated ownership around founders and long-term backers."}
+      ],
+      "pivots": [
+        {"year": 2021, "from": "Pure pass-through marketplace", "to": "Asset-medium hybrid with own logistics", "trigger": "Take rate too thin; quality control on delivery", "outcome": "Capex emerged; defensible advantage did not"},
+        {"year": 2022, "from": "Asset-light marketplace", "to": "Inventory-led model", "trigger": "Need to control margin", "outcome": "Working capital absorbed cash; asset-light promise broken"},
+        {"year": 2023, "from": "FMCG core", "to": "Beauty (Kaka Beauty) vertical", "trigger": "FMCG core structurally low-margin", "outcome": "Revenue shrank 29.5% y/y in 2024 to $11.5m"},
+        {"year": 2024, "from": "Venture-backed marketplace", "to": "Take-private at markdown via buyback", "trigger": "Investor pressure; thesis unwound", "outcome": "Most investors took 30-50% recovery on the dollar"}
+      ],
+      "operating_arc": "GudangAda founded 2019 in Jakarta by Stevensang (single founder, 25 years in Indonesian FMCG). Series A $25.4m September 2020 (Sequoia India, Alpha JWC) against $100m+ monthly transaction value claim. Series B July 2021 over $100m (Asia Partners, Falcon Edge / Alpha Wave Global) at total $135-137m raised; reporting points to Series B post-money roughly $750-800m. Headcount peak roughly 1,000 post-Series B. Through 2022 pivoted away from pure pass-through to principal-direct sourcing of select FMCG SKUs; working capital intensified. December 2022 layoff (number undisclosed). 2023-2024 beauty pivot under Kaka Beauty as single-founder bet on a higher-margin category. Revenue 2023 $16.8m fell to $11.5m in 2024 (-29.5% y/y); net loss 2024 $2.27m. Coordinated investor buyback from Wavemaker, Asia Partners, Alpha Wave, Pavilion, Peak XV; deliberations early 2024 culminating July 2025 with most investors at significant markdowns. Headcount reduced to ~200-300 by 2024.",
+      "voice": [
+        {"who": "Stevensang, founder and CEO", "when": "Peak XV podcast (2022 era)", "context": "Empowerment vs disruption framing", "text": "GudangAda: Building a Business Based on Empowerment Vs. Disruption.", "source_url": "https://www.peakxv.com/podcast/gudangada-building-a-business-based-on-empowerment-vs-disruption/", "source_label": "Peak XV"},
+        {"who": "Alpha JWC portfolio commentary", "when": "2020 era", "context": "Pre-Series B positioning", "text": "Indonesia's largest FMCG B2B marketplace GudangAda raises double-digit millions from Alpha JWC, Wavemaker and Pavilion Capital.", "source_url": "https://www.alphajwc.com/en/indonesias-largest-fmcg-b2b-marketplace-gudangada-raises-double-digit-millions-from-alpha-jwc-wavemaker-and-pavilion-capital/", "source_label": "Alpha JWC"},
+        {"who": "DealStreetAsia analyst note", "when": "2026", "context": "Investor buyback framing", "text": "The $137m B2B model unwinds. Investors took marked-down exits.", "source_url": "https://www.dealstreetasia.com/stories/gudangada-revenue-shrinks-2024-469730", "source_label": "DealStreetAsia"},
+        {"who": "Global Cosmetics News", "when": "2021", "context": "Series B era; tell on later beauty pivot", "text": "Indonesian marketplace GudangAda raises $100 million in Series B funding round.", "source_url": "https://www.globalcosmeticsnews.com/indonesian-marketplace-gudangada-raises-100-million-in-series-b-funding-round/", "source_label": "Global Cosmetics News"}
+      ],
+      "failure_mode": "Indonesian FMCG distribution operates on 3-5% gross margin. After logistics, customer acquisition and competing against incumbent distributors with sunk relationships, contribution margin was negative for years. Working-capital intensity post-pivot to inventory-led model broke the asset-light promise. Competitive crush: Ula, Mitra Bukalapak, GoTo, Wahana, plus incumbent distributors (Charoen Pokphand, Indomarco, hundreds of agen). Macroeconomic timing: Series B closed July 2021 at peak valuations; by late 2022 the cohort of Indonesian B2B marketplaces (GudangAda, Ula, Wahana) all hit the same wall simultaneously. Founder concentration risk: Stevensang the sole founder, no clear bench.",
+      "aftermath": "Stevensang: still founder and CEO of GudangAda, now operating the smaller beauty-led business under Kaka Beauty. LinkedIn and the official GudangAda site list him as Founder and CEO. No evidence of an exit or operating step-down. Senior leadership diaspora: GudangAda was a single-founder company without a strong public bench, which limited cohort effects. Post-2022 cuts dispersed mid-level leaders into Sayurbox, Segari, Indomaret distribution, and adjacent FMCG distribution startups. LinkedIn search signals on 'ex-GudangAda' (Apr 2026 sample): roughly 30% to FMCG distribution and grocery startups, 25% to logistics and last-mile, 15% to fintech, 30% to consulting / non-tech. Capital recovery: buyback at significant markdowns across Series A and B preferences implies 30-50% on the dollar.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "Warungs valued lower-priced sourcing but not enough to switch durably from incumbent agen.",
+        "product_truth": "The marketplace functioned operationally but the take rate was capped by underlying margin pool.",
+        "equity_transferability": "Playbook does not transfer to Masan because Masan owns the brand portfolio and distribution muscle that GudangAda had to rent.",
+        "value_creation_sizing": "$137m raised, peak valuation $750-800m, terminal recovery 30-50% on the dollar via investor buyback at markdowns; sized as a structural write-down.",
+        "competitive_dynamics": "Incumbent distributors with sunk relationships and platform giants with cross-subsidisation. The competitive set is unfair.",
+        "learnability": "Buyback at marked-down preference shares is the cleanest possible signal that the thesis is dead. The single founder's pivot to beauty is a credible category move (beauty 30-50% gross margin) but a different business from warung digitization. For Masan, GudangAda is not a model; it is a counter-model. If Masan wants to monetize the GT layer, do so through brand activation, lending fees through a regulated partner, or own-distribution capex, not on the wholesale spread."
+      },
+      "logo_file": null,
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "modes": [1,1,1,1,0,1,1,1,0,0],
+      "assets": [0,1,0,0]
+    },
+    {
+      "id": "ula",
+      "name": "Ula",
+      "country": "ID",
+      "city": "Jakarta",
+      "founded": 2020,
+      "shut": 2023,
+      "status": "shut",
+      "raised_usd_m": 140,
+      "peak_valuation_usd_m": 600,
+      "peak_revenue_usd_m": 250,
+      "merchants_peak": 86000,
+      "tagline": "Bezos-backed Indonesian B2B inventory-plus-credit marketplace for warungs. Reached $200-300m ARR within two years; shut late 2023 with ~$50m still in bank; capital returned at ~30% on the dollar. The most disciplined wind-down in the cohort.",
+      "founders": [
+        {"name": "Nipun Mehra", "role": "CEO", "prior": "ex-Sequoia India, ex-Flipkart, ex-Amazon"},
+        {"name": "Alan Wong", "role": "CTO", "prior": "ex-Lazada"},
+        {"name": "Derry Sakti", "role": "CCO", "prior": "ex-P&G Indonesia"},
+        {"name": "Riky Tenggara", "role": "COO", "prior": "ex-Lazada"}
+      ],
+      "thesis_at_founding": "Inventory-led B2B platform for Indonesian micro-merchants, replacing the multi-tier traditional distribution chain with same-day delivery, working-capital credit and a single supplier relationship for the warung. Effectively the Indonesian Udaan.",
+      "rounds": [
+        {"date": "Jun 2020", "stage": "Seed", "amount_usd_m": 10.5, "lead": "Sequoia Capital India, Lightspeed", "post_money_usd_m": null},
+        {"date": "May 2021", "stage": "Series A", "amount_usd_m": 20, "lead": "Quona, B Capital", "post_money_usd_m": null},
+        {"date": "Oct 2021", "stage": "Series B", "amount_usd_m": 87, "lead": "Bezos Expeditions, Prosus, Tencent, Tiger Global", "post_money_usd_m": 600},
+        {"date": "2022", "stage": "Series B extension", "amount_usd_m": 23.1, "lead": "Tiger Global, Sachin Bansal (Flipkart co-founder)", "post_money_usd_m": null}
+      ],
+      "experiments": [
+        {"name": "Inventory-led B2B core", "year": 2020, "what": "Own warehouses across East, Central, West Java; same-day or next-day delivery; full SKU range across FMCG (snacks, beverages, personal care, household).", "outcome": "At peak 2022 the network ran roughly 500,000 orders per month and served nearly 86,000 customers in the highest single month."},
+        {"name": "Ula Now BNPL warung credit ladder", "year": 2021, "what": "Pay-later product for warungs scaled aggressively after October 2021 Series B; 30-60 day terms to merchants vs shorter terms to principals.", "outcome": "Credit book grew but was the silent capital sink Mehra later named on the Startup Playbook podcast."},
+        {"name": "Series B Bezos halo", "year": 2021, "what": "Series B led by Bezos Expeditions ($87m), Bezos's first personal investment in Southeast Asia, with Prosus, Tencent, Tiger Global; 2022 extension brought in Sachin Bansal for $23.1m.", "outcome": "Total raised reached ~$140m. Bezos halo accelerated CAC mid-2022; spent against the brand strength faster than unit economics could absorb."},
+        {"name": "Philippines pilot", "year": 2022, "what": "Opened Philippines pilot to test Indonesian inventory-plus-credit model in a comparable archipelago market.", "outcome": "Closed within roughly 12 months. Specifics on outlet count and city footprint never publicly disclosed."},
+        {"name": "Cold chain / fresh SKU attempt", "year": 2022, "what": "Attempted a fresh and cold-chain extension across selected Java warehouses.", "outcome": "Cold-chain capex per warehouse, last-mile reefer cost, and waste rates on fresh produce drove gross margin negative; wound back through Q3 2022."},
+        {"name": "November 2022 layoff", "year": 2022, "what": "Cut 134 employees on 28 November 2022, roughly 23% of headcount; public attribution: 'economic uncertainties.'", "outcome": "Cuts hit ops, sales, growth disproportionately; headcount post-cut roughly 450."},
+        {"name": "East Java retreat", "year": 2023, "what": "After November cuts, retreated from West and Central Java to focus on East Java as highest-margin geography; fresh and cold-chain SKUs cut.", "outcome": "Headcount drifted down through 2023 to roughly 200, then 100, then a skeleton crew of 30-50 by late 2023."},
+        {"name": "Wind-down and capital return", "year": 2023, "what": "Operations paused late 2023; investors offered roughly 30% on the dollar redemption or roll-over into Mehra's next venture; ~$50m remained on balance sheet at wind-down.", "outcome": "Discipline of not zombifying is what investors and founder both publicly cite as cleanest signal of the case."}
+      ],
+      "pivots": [
+        {"year": 2021, "from": "Inventory-led B2B core only", "to": "Inventory plus working-capital credit (Ula Now BNPL)", "trigger": "Series B Bezos lead", "outcome": "30-60 day terms to merchants vs shorter terms to principals; balance sheet absorbed the gap"},
+        {"year": 2022, "from": "Indonesia + Philippines + cold chain expansion", "to": "Indonesia core only", "trigger": "Capital constraint; fresh SKU economics", "outcome": "Philippines closed within 12 months; cold chain wound back"},
+        {"year": 2023, "from": "All Java", "to": "East Java only", "trigger": "Working-capital constraint", "outcome": "None of the contraction restored unit economics"},
+        {"year": 2023, "from": "Going concern", "to": "Wind-down with capital return", "trigger": "No path to positive contribution margin", "outcome": "~$50m on balance sheet at shutdown; ~30% on the dollar to investors"}
+      ],
+      "operating_arc": "Ula founded January 2020 by Nipun Mehra (CEO, ex-Sequoia India, ex-Flipkart, ex-Amazon) with three co-founders. Through 2020-2022 built inventory-led B2B core across East, Central, West Java with full SKU range. Series B October 2021 ($87m, Bezos Expeditions lead with Prosus, Tencent, Tiger Global; Bezos's first SEA personal investment) at ~$600m post-money; 2022 extension ($23.1m, Sachin Bansal) brought total to ~$140m. Ula Now BNPL warung credit launched on Series B capital. Peak 2022: ~500,000 orders per month, ~86,000 customers in highest single month, ~580 headcount. Philippines pilot 2022 closed within 12 months. Cold chain attempt wound back Q3 2022. November 2022 layoff (134 roles, 23%) on 'economic uncertainties.' East Java retreat 2023; headcount drifted to skeleton 30-50 by late 2023. Wind-down late 2023 with ~$50m on balance sheet; investors offered ~30% on the dollar or roll-over into Mehra's next venture (Neoflo).",
+      "voice": [
+        {"who": "Nipun Mehra, CEO", "when": "Aug 2025", "context": "Startup Playbook Podcast Ep218", "text": "We chose to close the company rather than push through... coming to terms with identity, uncertainty, and letting go.", "source_url": "https://startupplaybook.co/2025/08/ep218-nipun-mehra-co-founder-ceo-ula-on-ulas-hypergrowth-bezos-backing-the-hard-call-to-shut-down/", "source_label": "Startup Playbook"},
+        {"who": "Nipun Mehra, CEO", "when": "KrAsia / The Ken (2021)", "context": "Pre-shutdown framing on warung uplift", "text": "Kiosk partners are able to improve their income by about 15% if they frequently use the app.", "source_url": "https://kr-asia.com/with-big-name-backing-ula-digitizes-indonesias-small-retailers-startup-stories", "source_label": "KrAsia"},
+        {"who": "Tech in Asia editorial", "when": "Sep 2025", "context": "On Mehra's second act Neoflo", "text": "After shutting down Ula, Nipun Mehra is back with neoflo.ai, an AI-first BPO backed by Lightspeed, Peak XV & Alter Global ($10M seed). The next evolution of outsourcing? Outcome > headcount.", "source_url": "https://x.com/techinasia/status/1990943363340603518", "source_label": "Tech in Asia"},
+        {"who": "Riky Tenggara, ex-COO", "when": "Current LinkedIn", "context": "Career headline", "text": "Ex-Ula Founder & COO | 0-$200M ARR in 2 Years | Raised $140M (Sequoia/Tiger/Bezos) | Venture Partner.", "source_url": "https://www.linkedin.com/in/rikytenggara/", "source_label": "LinkedIn"},
+        {"who": "DealStreetAsia", "when": "Nov 2022", "context": "Layoff coverage", "text": "Indonesian B2B marketplace Ula lays off 23% staff citing economic uncertainties.", "source_url": "https://www.dealstreetasia.com/stories/ula-staff-layoffs-319247", "source_label": "DealStreetAsia"}
+      ],
+      "failure_mode": "From Mehra's own podcast retro: credit was the silent capital sink. Warungs paid in 30-60 days, principals demanded shorter terms; every dollar of GMV growth required a dollar of working capital. Negative contribution margin persisted: discounting to win merchants from existing distributors meant gross margin sat below operating cost of warehouse, sales rep and last-mile delivery. Macroeconomic timing: Series B closed October 2021; by Q2 2022 follow-on capital had evaporated. Founder discipline to shut early: Mehra publicly cited for returning capital rather than zombifying.",
+      "aftermath": "Nipun Mehra: now Co-Founder and CEO of Neoflo (neoflo.ai), an AI-first BPO platform raising $10m seed Sep/Nov 2025 from Lightspeed, Peak XV and Alter Global; the same investor constellation that backed Ula. Twenty-plus team. Geographic reset (back office for global clients) and product (AI-first, not inventory-heavy). Riky Tenggara (ex-COO): Director GTM at Josys (SaaS management platform); Venture Partner. Alan Wong (ex-CTO): public LinkedIn signals advisory/angel posture. Derry Sakti (ex-CCO): post-Ula returned to FMCG advisory. Senior leadership diaspora: Ula commercial team rotated into Sayurbox, eFishery (before its own collapse), AwanTunai, and adjacent B2B logistics/fintech. Capital recovery: ~30% on the dollar; on $140m raised, that implies ~$42-50m returned in cash. The willingness of Lightspeed and Peak XV to re-up into Neoflo at $10m seed reflects the founder discipline being credited.",
+      "customer_voice": [
+        {"who": "Anonymous warung owner, Google Play reviews (Bahasa Indonesia)", "when": "2022-2023", "context": "Three themes pattern", "text": "Appreciation of next-day delivery and consolidated invoice; frustration with stockouts of high-velocity SKUs in Q3 2022 onwards as Ula tightened working capital; confusion at the East Java retreat in 2023 when warungs in West Java lost service.", "source_url": "https://kr-asia.com/with-big-name-backing-ula-digitizes-indonesias-small-retailers-startup-stories", "source_label": "KrAsia / The Ken"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Indonesian warungs valued credit and consolidated sourcing, but not enough to pay a margin sufficient to fund a startup balance sheet.",
+        "product_truth": "Product worked operationally (500,000 orders/month, $200-300m ARR) but never reached positive contribution margin.",
+        "equity_transferability": "Inventory-plus-credit playbook does not transfer to a captive FMCG conglomerate context unless the parent already has the working capital and brand portfolio (which Masan does, through MCH and MEATLife).",
+        "value_creation_sizing": "$140m in, ~$50m back in cash, peak valuation roughly $600m, terminal recovery ~30-35% on the dollar; the most dilutive lesson available.",
+        "competitive_dynamics": "Incumbent distributors with sunk relationships and a permanent working capital advantage.",
+        "learnability": "Highest-quality lesson in the whole dossier. Three rules transfer to Masan: do not extend credit through a startup balance sheet (use a regulated banking partner); do not subsidize SKUs to win merchants since the discount is the gross margin; do not chase ARR by absorbing distributor working capital. Mehra's discipline to shut early and return capital is the post-mortem signal worth respecting most."
+      },
+      "logo_file": null,
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "modes": [1,1,1,1,0,1,0,1,0,0],
+      "assets": [0,1,0,0]
+    },
+    {
+      "id": "wahyoo",
+      "name": "Wahyoo",
+      "country": "ID",
+      "city": "Jakarta",
+      "founded": 2017,
+      "shut": null,
+      "status": "plateau",
+      "raised_usd_m": 18,
+      "peak_valuation_usd_m": 80,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 27000,
+      "tagline": "Vertical 'Toast for warteg' aggregating Indonesian small eateries (warteg, nasi padang, migas) into a managed F&B services network. Capital-disciplined: $18m raised, no public layoff announcements; launched Wahyoo Ventures 2024 as portfolio investment vehicle.",
+      "founders": [
+        {"name": "Peter Shearer Setiawan", "role": "CEO and single founder", "prior": "Forbes Asia 30 Under 30 alumnus"}
+      ],
+      "thesis_at_founding": "Aggregate Indonesian warteg (small Indonesian eateries, mostly Tegal-style) and nasi padang stalls into a managed F&B services network. Provide raw materials sourcing, cash management, kitchen training, marketing and (later) micro-financing. A vertical 'Toast for warteg' rather than a horizontal warung play.",
+      "rounds": [
+        {"date": "Jul 2019", "stage": "Seed", "amount_usd_m": null, "lead": "Agaeti Ventures, Kinesys Group", "post_money_usd_m": null},
+        {"date": "Aug 2020", "stage": "Series A", "amount_usd_m": 5, "lead": "Intudo Ventures with Coca-Cola Amatil's Amatil X, Kinesys, Arkblu", "post_money_usd_m": null},
+        {"date": "Oct 2022", "stage": "Series B", "amount_usd_m": 6.5, "lead": "Global Brain Corporation, AC Ventures", "post_money_usd_m": null}
+      ],
+      "experiments": [
+        {"name": "Raw material consolidation", "year": 2017, "what": "Bulk-buy of common warteg ingredients (rice, oil, eggs, chili, vegetables) delivered daily to kitchens in Jabodetabek; small margin (5-8%).", "outcome": "Durable core of the business through 2024."},
+        {"name": "Wahyoo Pay cashless layer", "year": 2020, "what": "Cashless payment acceptance and cash-management for kitchens; launched on Series A.", "outcome": "Take rate thin."},
+        {"name": "Micro-finance partnerships", "year": 2021, "what": "Working capital loans channelled through P2P lender partners; Wahyoo earned origination commission, did not carry credit risk on balance sheet.", "outcome": "Mirror of Dagangan's BTPN Syariah Ventura model. Revenue per kitchen from loan origination remained low single-digit USD/month."},
+        {"name": "Cloud kitchen pilot", "year": 2021, "what": "Branded cloud kitchen format under Wahyoo network.", "outcome": "Specifics on outlet count and budget not in primary sourcing; pilot did not break out as a separate disclosed business line."},
+        {"name": "Coca-Cola Amatil X CVC participation", "year": 2020, "what": "Coca-Cola Amatil's CVC arm participated in Series A.", "outcome": "Structural endorsement that warteg is a meaningful FMCG distribution channel for a beverage principal."},
+        {"name": "Geographic discipline", "year": 2017, "what": "Never expanded outside Greater Jakarta at scale; Surabaya, Bandung, Medan not opened.", "outcome": "27,000 kitchens in 2024 concentrated in Jabodetabek; same number as 2021 WIPO case study, indicating limited net merchant growth over three years."},
+        {"name": "Wahyoo Ventures launch", "year": 2024, "what": "Launched Wahyoo Ventures as a separate vehicle to invest in F&B SMEs.", "outcome": "Cleanest signal that core operating business has plateaued and founder is shifting to portfolio approach."}
+      ],
+      "pivots": [
+        {"year": 2024, "from": "Single-vertical operator", "to": "Operator plus F&B SME investment vehicle", "trigger": "Operating business plateau; no growth path", "outcome": "Wahyoo Ventures launches; founder becomes patient strategic investor below operating layer"}
+      ],
+      "operating_arc": "Wahyoo founded 2017 by Peter Shearer Setiawan (single founder, Forbes Indonesia 30 Under 30 alumnus). Original product: bulk-buy of warteg ingredients (rice, oil, eggs, chili, vegetables) delivered daily to Jabodetabek kitchens. Seed Jul 2019 (Agaeti, Kinesys); Series A Aug 2020 ($5m, Intudo with Amatil X, Kinesys, Arkblu); Wahyoo Pay launched on Series A. Through 2021-2022 added micro-finance partnerships (P2P lender origination) and a cloud kitchen pilot. Series B Oct 2022 ($6.5m, Global Brain, AC Ventures) to total ~$18m. Headcount peak ~200 around Series B close. Net merchant count flat at 27,000 from 2021 (WIPO case study) to 2024 (Tracxn). 2024 launched Wahyoo Ventures as separate F&B SME investment vehicle; cleanest signal core business has plateaued. No public layoff announcements; managed headcount through attrition. Roughly four years without primary capital event by Apr 2026 indicates self-sustaining at small scale.",
+      "voice": [
+        {"who": "Peter Shearer Setiawan, founder and CEO", "when": "The Merry Riana Show interview", "context": "Personal narrative", "text": "Dari Tukang Cuci Piring Sampai Ciptakan 13.000 Warteg Wahyoo.", "source_url": "https://www.youtube.com/watch?v=Vu7xXUAqQOw", "source_label": "Merry Riana"},
+        {"who": "Peter Shearer Setiawan, founder and CEO", "when": "Hidden Masters interview", "context": "Cumulative funding framing", "text": "Bantu Warteg Naik Kelas: Peter Shearer Wahyoo Raih Investasi Hingga 14 Juta USD.", "source_url": "https://www.youtube.com/watch?v=aMn27Gm8X1s", "source_label": "Hidden Masters"},
+        {"who": "WIPO case study", "when": "2021", "context": "Operating metric", "text": "More than 27,000 firms use the company's services.", "source_url": "https://www.wipo.int/pressroom/en/stories/wahyoo_2021.html", "source_label": "WIPO"}
+      ],
+      "failure_mode": "Wahyoo has not failed; it has plateaued. Geographic concentration: warteg density and supply-chain density meant unit economics only worked in Jabodetabek; scaling to Java required rebuilding the supply chain. Vertical narrowness: warteg + nasi padang + migas only; excludes more lucrative kopi tiam, bakery, mid-tier F&B. Capital discipline: $18m total raised is small versus Ula or GudangAda; this is both the survival mechanism and the growth ceiling. No clear monetization layer: raw-material margin thin (5-8%), service fees underpriced, loan origination commission small. Revenue per kitchen estimated low single-digit USD/month.",
+      "aftermath": "Peter Shearer: still founder and CEO of Wahyoo. Now also operating Wahyoo Ventures. Career trajectory still operating; not exited. Senior leadership: small team, no public diaspora signal at the senior leadership level. Mid-level operations likely rotate within F&B services and cloud kitchen ecosystem. Capital position: absence of public layoffs and the $6.5m Series B in October 2022 (closed in late-ZIRP window) suggest the company is operating on revenue plus residual cash. Roughly four years without a primary capital event by Apr 2026 indicates the business is self-sustaining at a small scale. LinkedIn search signals on 'ex-Wahyoo': thin. Small headcount (peak ~200) and Jabodetabek concentration mean ex-employees disperse into local F&B (Hangry, Mangkokku, ESB), Indonesian fintech (Xendit, Flip), and traditional FMCG distribution.",
+      "customer_voice": [],
+      "ic_read": {
+        "consumer_truth": "Warteg owners value bulk ingredient sourcing and modest cash management; willingness to pay is real but small.",
+        "product_truth": "The operating model works at small scale within one city.",
+        "equity_transferability": "Playbook does not transfer to Masan at WinX scale, but it is a template for how an FMCG group could run a small, focused F&B services unit (e.g., wrapping micro-eateries that already buy MCH SKUs) without burning capital.",
+        "value_creation_sizing": "$18-25m raised, no public valuation, no exit signal; the path is operating cash flow at small scale, not a venture return.",
+        "competitive_dynamics": "Vertical narrowness (warteg + nasi padang + migas only) is both the survival mechanism and the growth ceiling.",
+        "learnability": "Vertical focus plus geographic discipline plus capital discipline is the survival recipe; the Wahyoo Ventures pivot in 2024 reflects the reality that one-vertical operating businesses of this scale do not produce venture returns. The better outcome may be becoming the patient strategic investor for a smaller cohort below."
+      },
+      "logo_file": null,
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "modes": [0,1,1,0,1,1,0,0,0,0],
+      "assets": [0,0.5,0,0]
+    },
+    {
+      "id": "dagangan",
+      "name": "Dagangan",
+      "country": "ID",
+      "city": "Yogyakarta",
+      "founded": 2019,
+      "shut": null,
+      "status": "live",
+      "raised_usd_m": 30,
+      "peak_valuation_usd_m": null,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 75000,
+      "tagline": "Hub-and-spoke rural e-commerce platform for FMCG in Tier-3 and Tier-4 Indonesian villages. Capital-disciplined; BTPN Syariah Ventura Pre-Series B Jun 2022; Series B May 2024. Three operating founders. The 'lane carve-out' survivor case.",
+      "founders": [
+        {"name": "Ryan Putera Pratama Manafe", "role": "CEO", "prior": "ex-McKinsey, ex-CEO SUN Energy"},
+        {"name": "Wilson Yanaprasetya", "role": "CTO", "prior": ""},
+        {"name": "Maha Willy Chandra", "role": "COO", "prior": ""}
+      ],
+      "thesis_at_founding": "Hub-and-spoke rural e-commerce platform for FMCG and daily essentials in Tier-3 and Tier-4 Indonesian villages, where formal modern trade has zero coverage. Order via Android app or village agent; delivery from local micro-warehouses (hubs) within 24 hours.",
+      "rounds": [
+        {"date": "2020", "stage": "Seed", "amount_usd_m": null, "lead": "500 Global, K3 Ventures", "post_money_usd_m": null},
+        {"date": "Sep 2021", "stage": "Series A", "amount_usd_m": 11.5, "lead": "Monk's Hill Ventures with MMS Group, Spiral Ventures, PnP, K3", "post_money_usd_m": null},
+        {"date": "Jun 2022", "stage": "Pre-Series B", "amount_usd_m": 6.6, "lead": "BTPN Syariah Ventura (SMBC subsidiary)", "post_money_usd_m": null},
+        {"date": "May 2024", "stage": "Series B", "amount_usd_m": null, "lead": "Undisclosed lead and amount; aggregator total $57.6m per Tracxn", "post_money_usd_m": null}
+      ],
+      "experiments": [
+        {"name": "Rural FMCG e-commerce app", "year": 2019, "what": "Android app and WhatsApp ordering for villagers in Tier-3 and Tier-4 Indonesian villages with delivery from local hubs.", "outcome": "Hub network and agen-led ordering channel stuck."},
+        {"name": "Village agent (agen) network expansion", "year": 2021, "what": "Built a network of village-level sub-agents (often ibu-ibu) who aggregate orders from neighbours; social commerce overlay.", "outcome": "By 2024 claimed 30,000+ MSMEs supported as village agents and 25,000+ communities served."},
+        {"name": "BTPN Syariah Ventura financing partnership", "year": 2022, "what": "Pre-Series B June 2022 at $6.6m from BTPN Syariah Ventura (SMBC subsidiary), earmarked for financial-services products.", "outcome": "BTPN Syariah carries balance-sheet credit risk; Dagangan earns origination, not credit risk. Model Ula did not adopt and BukuWarung did not execute properly."},
+        {"name": "Hub-and-spoke physical infrastructure", "year": 2022, "what": "By 2022 Dagangan had 40+ hubs (rural micro-warehouses) spread across Java; through 2024 grew to 50 hubs.", "outcome": "Hub capex matched to geography rather than subsidised growth; each hub small enough to break even per location."},
+        {"name": "Brand activation collaborations", "year": 2022, "what": "Integrated online-to-offline visibility display contests with FMCG principals; Ultra Jaya partnership rewarded warungs displaying Ultra Jaya products on shelves with gold rewards over three months.", "outcome": "Produced 106% growth in gross merchandise value for Ultra Jaya; geographic carve-out makes principal-side ROI more measurable."},
+        {"name": "Series B and impact metrics through 2024", "year": 2024, "what": "Series B closed May 2024 at undisclosed amount and lead; total raised $57.6m per Tracxn (other trackers $18.1m disclosed).", "outcome": "75,000+ traditional market sellers, small shop owners, and MSMEs in rural areas empowered; warung owners reportedly increased income by up to 60%; 8,000+ villages reached; 1m+ rural villagers served."},
+        {"name": "Minyakita government distribution role", "year": 2022, "what": "Distributed 10m units of cooking oil including Minyakita (government-subsidised cooking oil programme).", "outcome": "Anchors Dagangan in the public-sector / rural-affordability narrative with durable legitimacy."}
+      ],
+      "pivots": [],
+      "operating_arc": "Dagangan founded 2019 in Yogyakarta by Ryan Putera Pratama Manafe (ex-McKinsey, ex-CEO SUN Energy), Wilson Yanaprasetya, and Maha Willy Chandra. Three operating founders, atypical of the cohort. Original product: Android app and WhatsApp ordering for villagers in Tier-3 and Tier-4 Indonesian villages with delivery from local hubs. Series A Sep 2021 ($11.5m, Monk's Hill lead). Built village agent network (often ibu-ibu) aggregating orders from neighbours. Pre-Series B Jun 2022 ($6.6m, BTPN Syariah Ventura) earmarked for financial services; BTPN carries credit risk, Dagangan earns origination. By 2022 had 40+ rural micro-warehouse hubs, growing to 50 hubs across Java by 2024. Brand activation collaborations (Ultra Jaya 106% GMV uplift). Series B May 2024 at undisclosed amount and lead. Impact metrics through 2024: 75,000+ MSMEs empowered; warung owners income up to 60%; 8,000+ villages reached; 1m+ rural villagers served; 10m units cooking oil distributed including government-subsidised Minyakita.",
+      "voice": [
+        {"who": "Ryan Manafe, founder and CEO", "when": "Founders Forum profile", "context": "On the rural mission", "text": "To make life easier for people in rural areas by using an efficient logistic model to bring goods directly to them.", "source_url": "https://ff.co/ryan-manafe-dagangan/", "source_label": "Founders Forum"},
+        {"who": "Maha Willy Chandra, COO", "when": "Sep 2021", "context": "TNGlobal Series A coverage", "text": "Currently, we have more than 40 hubs (stock centres) spread over several points in rural areas so that the delivery to customers will be faster and cheaper.", "source_url": "https://technode.global/2021/09/21/indonesia-social-e-commerce-platform-dagangan-raises-11-5m-series-a-led-by-monks-hill-ventures/", "source_label": "TNGlobal"},
+        {"who": "Dagangan blog", "when": "Mar 2023", "context": "2022 impact report", "text": "Dagangan's Impact in 2022 - Empowered Rural Communities with 75,000 Digitalized Warung and MSMEs and Distributed 10 Million Cooking Oil, including Minyakita.", "source_url": "https://blog.dagangan.com/2023/03/20/dagangans-impact-report-2022/", "source_label": "Dagangan blog"},
+        {"who": "Devoteam customer story", "when": "2024", "context": "Hub network update", "text": "Expanded to 50 hubs across Java and reaching over 20,000 villages.", "source_url": "https://www.devoteam.com/success-story/dagangan-delivering-opportunity-to-indonesias-rural-economy-at-scale/", "source_label": "Devoteam"}
+      ],
+      "failure_mode": "Dagangan is not in failure. Risk factors not yet visible: 2024 Series B amount is undisclosed; if it was a flat or down round, the company may be quietly capital-constrained. Rural FMCG demand is structurally smaller per household than urban; ceiling on category expansion. Net merchant count claim shows definitional drift between '75,000 traditional market sellers, small shop owners and MSMEs' (2022) and '30,000+ MSMEs supported as village agents' (2024); the categories overlap but are not identical.",
+      "aftermath": "Status: live, growing, capital-disciplined. Within the cohort, Dagangan is one of two non-failures alongside Mitra Bukalapak / Mitra Tokopedia (which are platform programmes, not standalone companies). Three operating founders continue. Why it has avoided cohort failure modes: geographic carve-out (Tier-3/4 villages where Mitra Bukalapak, Mitra Tokopedia, Ula and GudangAda did not compete); capital discipline (~$18-58m disclosed across rounds vs Ula's $140m); hub-and-spoke physical model with capex matched to geography; BTPN Syariah carries balance-sheet credit risk while Dagangan earns origination; three operating founders versus the single-founder pattern that hurt GudangAda and Wahyoo.",
+      "customer_voice": [
+        {"who": "Dagangan blog impact framing", "when": "2022", "context": "Income uplift", "text": "Warung owners shopping for inventory through the Dagangan app reportedly increased income by up to 60%.", "source_url": "https://blog.dagangan.com/2023/03/20/dagangans-impact-report-2022/", "source_label": "Dagangan blog"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Rural villagers value affordability and consolidation; village agents value income uplift. Both are real.",
+        "product_truth": "Hub-and-spoke network operates; brand activation programmes show measurable ROI.",
+        "equity_transferability": "Model transfers to Vietnam Tier-3 and Tier-4 districts where modern trade penetration is low.",
+        "value_creation_sizing": "$18-58m raised, no peak valuation disclosed, the company is live and growing; not a venture return story yet, but not a write-down either.",
+        "competitive_dynamics": "Incumbent rural distribution is fragmented and inefficient; the entrants from urban warung digitization (Ula, GudangAda) did not compete here.",
+        "learnability": "The lane matters more than the technology. Pick the lane where Bukalapak, Tokopedia, Tiki, Shopee and Lazada have low coverage; build matching physical infrastructure; take origination fees on credit through a regulated partner; avoid subsidising customer acquisition. For Masan, the analogous lane is exactly Tier-3 and Tier-4 districts in Vietnam where the WinCommerce footprint thins and the GT layer is dense. The template most worth studying."
+      },
+      "logo_file": null,
+      "lat": -7.7956,
+      "lng": 110.3695,
+      "modes": [0,1,0,0,0,1,0,0,0,0],
+      "assets": [0,0.5,0,0]
+    },
+    {
+      "id": "mitrabuka",
+      "name": "Mitra Bukalapak",
+      "country": "ID",
+      "city": "Jakarta",
+      "founded": 2017,
+      "shut": null,
+      "status": "profitable",
+      "raised_usd_m": null,
+      "peak_valuation_usd_m": 1500,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 16800000,
+      "tagline": "Warung-partner programme inside PT Bukalapak.com Tbk (IDX: BUKA), launched 2017. After Bukalapak's January 2025 marketplace shutdown, Mitra became the company's primary operating engine. Bukalapak swung to profit in 2025 with revenue +46%. The 'this works' comp.",
+      "founders": [
+        {"name": "Howard Gani", "role": "Mitra Bukalapak CEO", "prior": ""},
+        {"name": "Teddy Oetomo", "role": "Bukalapak group President / Director", "prior": ""},
+        {"name": "Achmad Zaky", "role": "Bukalapak co-founder; exited operating role 2020", "prior": ""},
+        {"name": "Nugroho Herucahyono", "role": "Bukalapak co-founder", "prior": ""},
+        {"name": "Fajrin Rasyid", "role": "Bukalapak co-founder", "prior": ""}
+      ],
+      "thesis_at_founding": "Convert existing warungs into Bukalapak-affiliated points-of-presence for digital products (PPOB pulsa, electricity, BPJS, virtual goods) and B2B FMCG sourcing. Use the warung as a distribution channel, not as a customer.",
+      "rounds": [
+        {"date": "Aug 2021", "stage": "Bukalapak parent IPO (IDX: BUKA)", "amount_usd_m": 1500, "lead": "Indonesian Stock Exchange listing at IDR 850", "post_money_usd_m": null}
+      ],
+      "experiments": [
+        {"name": "PPOB digital goods launch", "year": 2017, "what": "Mitra Bukalapak launched 2017 inside Bukalapak as the warung-partner programme for digital products: pulsa, electricity tokens, BPJS premium payment, gaming vouchers, virtual goods.", "outcome": "PPOB-first design was deliberate: near-zero working capital, 1-3% take rate at scale, used the warung as a distribution point not a customer."},
+        {"name": "B2B FMCG sourcing layer", "year": 2020, "what": "Layered B2B FMCG sourcing on the Mitra app from 2020 onwards; warung orders FMCG SKUs from Bukalapak's wholesaler-network and gets next-day delivery.", "outcome": "Layer added once PPOB relationship was established."},
+        {"name": "Take rate discipline reset", "year": 2023, "what": "Bukalapak management raised take rates and cut promotional subsidies on Mitra programme.", "outcome": "Lever that produced the 2025 profitability swing. Forced by quarterly IDX reporting; private peers (Lummo, Ula) deferred similar resets until too late."},
+        {"name": "Marketplace shutdown", "year": 2025, "what": "On 9 January 2025, Bukalapak announced it would phase out its physical-goods marketplace, which had fallen to less than 3% of group revenue.", "outcome": "Mitra and virtual goods became the surviving operating engine. Single most consequential management decision of the BUKA story: refusing to defend marketplace against Shopee, Tokopedia and TikTok Shop."},
+        {"name": "FY2024 to FY2025 turnaround", "year": 2025, "what": "Net loss in FY2024 was IDR 1.55 trillion (~$95m USD), up 12% y/y from IDR 1.38 trillion in 2023.", "outcome": "Bukalapak swung to profit in 2025 with revenue up 46%."},
+        {"name": "Google partnership for warung digitization", "year": 2024, "what": "Bukalapak partnered with Google to empower Indonesian warungs to digitise.", "outcome": "Structural endorsement of the Mitra programme as the de-facto Indonesian warung digitization channel."}
+      ],
+      "pivots": [
+        {"year": 2023, "from": "Subsidy-heavy growth mode", "to": "Take rate discipline", "trigger": "Quarterly IDX reporting accountability", "outcome": "Drove FY2025 profit swing"},
+        {"year": 2025, "from": "Marketplace plus Mitra parity", "to": "Mitra and virtual goods only; marketplace phased out", "trigger": "Marketplace fell to <3% of revenue against Shopee/Tokopedia/TikTok Shop", "outcome": "Mitra is the operating engine; FY2025 profit swing"}
+      ],
+      "operating_arc": "Mitra Bukalapak launched 2017 inside Bukalapak as the warung-partner programme for digital products (PPOB: pulsa, electricity, BPJS, gaming vouchers). Through 2020-2022 added B2B FMCG sourcing. Bukalapak parent IPO'd on IDX August 2021 at IDR 850 (raised IDR 21.9 trillion / ~$1.5bn USD); stock has fallen more than 85% from IPO. By March 2023 16.8m Mitra registered (up from 13.1m March 2022); Q1 2023 Mitra accounted for 46% of group TPV. 2023 take rate discipline reset; FY2024 net loss IDR 1.55 trillion (~$95m), up 12% y/y. 9 January 2025: Bukalapak announced phase-out of physical-goods marketplace (less than 3% of revenue). Q4 2024: revenue +7% q-o-q, marketplace +21% q-o-q. FY2025: Bukalapak swung to profit with revenue +46%. Active warungs transacting monthly: ~1.8m. Income uplift for warung owners (company claim): up to 3x. Achmad Zaky exited operating role 2020 to focus on Init6.",
+      "voice": [
+        {"who": "Howard Gani, Mitra Bukalapak CEO", "when": "DealStreetAsia partner content", "context": "On the warung-as-economic-centre thesis", "text": "Mitras won't just be the commercial centre within a town, but its economic centre.", "source_url": "https://www.dealstreetasia.com/partner-content/warung-tech-o2o-ecommerce-mitra-bukalapak-howard-gani", "source_label": "DealStreetAsia"},
+        {"who": "Teddy Oetomo, Bukalapak President", "when": "Inside Bukalapak Medium", "context": "Archipelago framing", "text": "Mitra Bukalapak Makes More Sense. With 17,000 Indonesian islands.", "source_url": "https://medium.com/inside-bukalapak/mitra-bukalapak-makes-more-sense-4070171bb385", "source_label": "Medium / Inside Bukalapak"},
+        {"who": "Howard Gani, Mitra Bukalapak CEO", "when": "DealStreetAsia partner content", "context": "On Mitra impact", "text": "Warung operators increase revenue by three times on average through digitalization via Mitra Bukalapak.", "source_url": "https://www.dealstreetasia.com/partner-content/mitra-bukalapak-warung-tech", "source_label": "DealStreetAsia"},
+        {"who": "500 Global memo", "when": "2022", "context": "Pre-marketplace-shutdown read", "text": "To gauge Bukalapak's value, look at its Mitra strategy.", "source_url": "https://500.co/content/to-gauge-bukalapak-s-value-look-at-its-mitra-strategy", "source_label": "500 Global"},
+        {"who": "DealStreetAsia analyst", "when": "FY2024 coverage", "context": "Restructuring outlook", "text": "Bukalapak sees restructuring paying off from Q1 2025 but macro uncertainty looms.", "source_url": "https://www.dealstreetasia.com/stories/bukalapak-q4-2024-earnings-analysis-435339", "source_label": "DealStreetAsia"}
+      ],
+      "failure_mode": "Mitra Bukalapak is not in failure. Unresolved structural threats: TikTok Shop and Shopee bypassing the Mitra channel and reaching warungs directly through livestream ordering. Take rate ceiling: with FMCG margin pool at 3-5%, Mitra's revenue per warung is structurally capped. 2024 net loss still rose y/y; 2025 profit swing partly one-offs (deconsolidation effects, restructuring credits) and partly cost reduction.",
+      "aftermath": "Howard Gani still CEO of PT Buka Mitra Indonesia. Career operating, not exited. Teddy Oetomo still in director / president role. Achmad Zaky exited operating role in 2020 to focus on Init6 (his own VC vehicle); not active in Mitra Bukalapak operations. Mitra Bukalapak is alive and structurally important. After the January 2025 marketplace shutdown, Mitra is effectively the company's primary operating engine alongside virtual goods. The IDX listing (BUKA) provides public-market accountability that private peers (Lummo, Ula, BukuWarung) did not have, which produced the cost discipline that drove the 2025 profit swing.",
+      "customer_voice": [
+        {"who": "Anonymous Mitra Bukalapak Facebook reviewer", "when": "Live", "context": "Specific complaint pattern", "text": "Balance frozen for over 3 months with reported amounts including Rp 9,463,212 frozen due to alleged account violations.", "source_url": "https://www.facebook.com/mitrabukalapakindonesia/reviews/", "source_label": "Facebook"},
+        {"who": "Nielsen 2022 survey cited by Bukalapak", "when": "2022", "context": "Independent verification", "text": "Mitra Bukalapak is the largest O2O player in Indonesia among competitors for two years in a row, comparable to the size of the next three largest competitors combined.", "source_url": "https://en.prnasia.com/releases/apac/behind-mitra-bukalapak-s-success-in-harnessing-the-power-of-indonesia-s-micro-businesses-402408.shtml", "source_label": "PR Newswire"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Warungs value PPOB transactional volume and B2B sourcing access; willingness to participate is high (16.8m registered Mitra) and income uplift is real (3x company claim, partially survey-validated).",
+        "product_truth": "The programme operates at scale across the Indonesian archipelago.",
+        "equity_transferability": "The warung programme survives because it sits on top of an existing customer-side marketplace; CAC was zero. Masan's analogue is WinCommerce footprint plus Reddi/MoMo cross-base.",
+        "value_creation_sizing": "BUKA market cap has fallen 85%+ from IPO, but the operating asset (Mitra) is now profitable in 2025. The relevant valuation is the Mitra-only valuation; the marketplace shutdown clarified this.",
+        "competitive_dynamics": "TikTok Shop and Shopee can bypass Mitra through livestream ordering, but the warung-as-physical-touchpoint defensibility remains.",
+        "learnability": "Highest in the cohort. Three transferable rules: digital goods first, FMCG second, since PPOB has near-zero working capital and 1-3% take rate at scale; take rate discipline matters more than top-line growth at peak; public-market accountability forces honest accounting that private players (Lummo, Ula) deferred. If WinX is owned by a listed parent (MSN), use that as a feature, not a constraint."
+      },
+      "logo_file": "bukalapak.svg",
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "modes": [0,1,0,0,0,1,0,0,1,0],
+      "assets": [0,1,0,0.5]
+    },
+    {
+      "id": "mitratokopedia",
+      "name": "Mitra Tokopedia",
+      "country": "ID",
+      "city": "Jakarta",
+      "founded": 2018,
+      "shut": null,
+      "status": "live",
+      "raised_usd_m": null,
+      "peak_valuation_usd_m": 8000,
+      "peak_revenue_usd_m": null,
+      "merchants_peak": 14000000,
+      "tagline": "Warung-partner programme inside Tokopedia, launched 2018. Tokopedia merged with TikTok Shop Indonesia Dec 2023 after government Regulation 31/2023. TikTok / ByteDance acquired controlling stake 31 Jan 2024 for ~$1.5bn; GoTo retains 24.99%.",
+      "founders": [
+        {"name": "William Tanuwijaya", "role": "Tokopedia co-founder; stepped back from operating role through 2023", "prior": ""},
+        {"name": "Leontinus Alpha Edison", "role": "Tokopedia co-founder", "prior": ""},
+        {"name": "Patrick Walujo", "role": "GoTo CEO from 2023", "prior": ""}
+      ],
+      "thesis_at_founding": "Aggregate Indonesian warungs and ibu-ibu sub-agents into a digital products + FMCG sourcing platform under Tokopedia. Mirror of Mitra Bukalapak with marketplace cross-subsidy.",
+      "rounds": [
+        {"date": "Apr 2022", "stage": "GoTo parent IPO (IDX: GOTO)", "amount_usd_m": 1100, "lead": "Indonesian Stock Exchange listing at IDR 338", "post_money_usd_m": null},
+        {"date": "31 Jan 2024", "stage": "TikTok / ByteDance controlling stake", "amount_usd_m": 1500, "lead": "TikTok / ByteDance for 75.01% of Tokopedia", "post_money_usd_m": 8000}
+      ],
+      "experiments": [
+        {"name": "PPOB layer launch", "year": 2018, "what": "Mitra Tokopedia launched 2018 inside Tokopedia mirroring Mitra Bukalapak's PPOB-first design: pulsa, electricity, BPJS, gaming vouchers.", "outcome": "Free customer acquisition through Tokopedia's existing user base; take rate 1-3% at scale, near-zero working capital."},
+        {"name": "B2B FMCG sourcing", "year": 2020, "what": "Layered B2B FMCG sourcing on the Mitra Tokopedia app from 2020 onwards; partnership with FMCG principals.", "outcome": "Same structural constraint as the cohort: thin take rate on 3-5% gross margin pool."},
+        {"name": "GoPay-Tokopedia QRIS integration", "year": 2022, "what": "Mitra Tokopedia warungs became QRIS acceptance points for GoPay; first meaningful payments-side scale-up specific to warung partners.", "outcome": "By 2023 GoPay had 420,000+ QRIS-enabled merchants nationwide. Pre-2024 Tokopedia internal survey reported 80%+ of Mitra partners said they had 'more customers since joining the platform.'"},
+        {"name": "TikTok Shop merger", "year": 2023, "what": "TikTok Shop Indonesia merged with Tokopedia December 2023 after Indonesian government banned social-commerce-as-marketplace under TikTok brand (Regulation 31/2023).", "outcome": "Tokopedia operated as the licensed local entity. Merger preserved Tokopedia and gave Mitra Tokopedia access to TikTok's content / discovery layer."},
+        {"name": "Tokopedia deconsolidation", "year": 2024, "what": "On 31 January 2024, TikTok / ByteDance acquired controlling stake in Tokopedia for ~$1.5bn. GoTo retained 24.99% minority stake.", "outcome": "From that date Tokopedia (and Mitra Tokopedia) ceased to be consolidated in GOTO financials. Mitra Tokopedia continues to operate but under new majority owner."},
+        {"name": "Government collaboration", "year": 2018, "what": "Tokopedia signed cooperation agreement with Cooperatives and SMEs Ministry on warung digitalisation programme; collaboration continued for three years through deconsolidation period.", "outcome": "Public-sector legitimacy."}
+      ],
+      "pivots": [
+        {"year": 2023, "from": "Tokopedia as marketplace operator", "to": "TikTok's licensed local entity post-Regulation 31/2023", "trigger": "Government social-commerce-as-marketplace ban", "outcome": "Merger preserved Tokopedia; TikTok content discovery layer added"},
+        {"year": 2024, "from": "GoTo-controlled Tokopedia", "to": "TikTok-controlled Tokopedia; GoTo 24.99% minority", "trigger": "TikTok/ByteDance $1.5bn acquisition 31 Jan 2024", "outcome": "Mitra Tokopedia operates under new majority owner; GoTo deconsolidates"}
+      ],
+      "operating_arc": "Mitra Tokopedia launched 2018 inside Tokopedia (founded 2009 by William Tanuwijaya and Leontinus Alpha Edison) mirroring Mitra Bukalapak. PPOB layer (2018-2020); B2B FMCG sourcing (2020-2021); GoPay-Tokopedia QRIS integration (2022-2023). GoTo (parent) IPO'd on IDX April 2022 at IDR 338 (raised IDR 15.8 trillion / ~$1.1bn). December 2023: TikTok Shop Indonesia merged with Tokopedia after Indonesian government Regulation 31/2023 banned social-commerce-as-marketplace under TikTok brand. 31 January 2024: TikTok / ByteDance acquired controlling stake in Tokopedia for ~$1.5bn (implying total enterprise value ~$8bn pre-money for 75.01%); GoTo retained 24.99%. From that date Tokopedia (and Mitra Tokopedia) ceased to be consolidated in GOTO financials. Tokopedia (parent) had 14m+ registered merchants as of 2024, 99% Indonesian kabupaten/kota coverage. GoTo ecosystem MAU 60m+. GoPay 420,000+ QRIS-enabled merchants. Pre-2024 Tokopedia internal survey reported 80%+ of Mitra partners said they had 'more customers since joining the platform.'",
+      "voice": [
+        {"who": "William Tanuwijaya, Tokopedia co-founder", "when": "4 Nov 2020", "context": "Jakarta Post on warung adoption", "text": "Tokopedia struggles to incorporate warung, cites digital divide.", "source_url": "https://www.thejakartapost.com/news/2020/11/04/tokopedia-struggles-to-incorporate-warung-cites-digital-divide.html", "source_label": "Jakarta Post"},
+        {"who": "GoTo annual report 2024", "when": "2024", "context": "Deconsolidation framing", "text": "Deconsolidation of Tokopedia as of 31 Jan 2024 explicitly described; Mitra Tokopedia not separately discussed in post-deconsolidation segment notes.", "source_url": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202504/7d1db75486_6290c470f5.pdf", "source_label": "GoTo annual report"},
+        {"who": "KBValbury equity research", "when": "Apr 2025", "context": "Strategic focus", "text": "GoTo's go-forward operating focus is GoPay + Gojek mobility / food + on-demand financial services; Mitra Tokopedia is not in the GoTo standalone story anymore.", "source_url": "https://www.kbvalbury.com/cfind/source/files/goto_20250424a.pdf", "source_label": "KBValbury"},
+        {"who": "36Kr Focus Analysis", "when": "2025", "context": "Cross-border competitive framing", "text": "Chinese cross-border e-commerce is taking over Indonesia, and the local unicorns can't hold up.", "source_url": "https://eu.36kr.com/en/p/3131238103866112", "source_label": "36Kr"}
+      ],
+      "failure_mode": "Mitra Tokopedia's standalone economics are now opaque post-deconsolidation. Investors cannot see the take rate or active warung economics directly. TikTok Shop's product strategy may deprioritize the warung-partner programme in favour of livestream-led D2C, where TikTok already wins. Competitive overlap with Mitra Bukalapak unresolved. Even super-app parents cannot run warung programmes at standalone profit; the path was to fold under TikTok Shop, where content and discovery feed the merchant side.",
+      "aftermath": "Mitra Tokopedia continues to operate but under TikTok / ByteDance majority ownership. Standalone economics are opaque post-deconsolidation. William Tanuwijaya stepped back from Tokopedia operating role through 2023; focused on advisory. Patrick Walujo (GoTo CEO from 2023) leading GoTo post-deconsolidation focus on GoPay + Gojek mobility / food. Andre Soelistyo (former GoTo CEO): exited operating role in 2023. GoTo retained 24.99% minority stake as an upside hook on the new combined entity, while shedding the operating burden of Tokopedia's loss profile. The deconsolidation cleared GoTo's headline loss number and let the parent focus on financial-services and on-demand. Senior leadership diaspora: a portion of Tokopedia and Mitra Tokopedia commercial team remains under TikTok-Tokopedia post-merger; the cohort that left dispersed into Indonesian fintech (Xendit, Ajaib, Pluang), GoPay, Sea Group / Shopee, and adjacent SaaS / SEA tech.",
+      "customer_voice": [
+        {"who": "Tokopedia internal survey", "when": "Oct 2023", "context": "Headline warung-side data point", "text": "80%+ of Mitra partners reported 'more customers since joining the platform.' Methodology not public; survey is Tokopedia-internal.", "source_url": "https://www.thejakartapost.com/news/2021/11/08/msmes-take-center-stage-at-3rd-mitra-tokopedia-anniversary.html", "source_label": "Jakarta Post"}
+      ],
+      "ic_read": {
+        "consumer_truth": "Warungs valued PPOB and FMCG sourcing; the GoPay QRIS integration extended the relationship into payments.",
+        "product_truth": "Programme operates at scale but standalone economics are now opaque post-deconsolidation.",
+        "equity_transferability": "Playbook works only with a captive customer-side platform; a standalone venture cannot replicate it.",
+        "value_creation_sizing": "January 2024 TikTok deal valued Tokopedia at approximately $6bn for 75.01% (implying total enterprise value ~$8bn pre-money), well below IPO-era valuations. Mitra programme not separately valued.",
+        "competitive_dynamics": "TikTok Shop's content / discovery layer is the new front of competition; Mitra Tokopedia's role under the new owner may be deprioritised in favour of livestream-led D2C.",
+        "learnability": "Warung programmes work when they are layered on top of an existing two-sided platform that already does customer-side acquisition. They do not work as standalone ventures. Even super-app parents cannot run them at standalone profit; the path was to fold under TikTok Shop. For Masan, this maps directly onto WinCommerce + MoMo + MCH + Phuc Long: a captive ecosystem can support a warung programme that no standalone venture-backed peer can. Caveat: do not expect the GT layer to stand alone profitably without the full ecosystem stack."
+      },
+      "logo_file": "tokopedia.svg",
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "modes": [0,1,0,0,0,1,0,0,1,0],
+      "assets": [0,0.5,0,0.5]
+    }
+  ]
+};

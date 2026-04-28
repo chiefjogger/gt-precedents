@@ -1,0 +1,17 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Temp / scratch
+*.tmp
+*.bak
+*.log
+
+# Old archive (keep in git history if desired; uncomment to exclude)
+# _archive/
+
+# Local build outputs (none currently)

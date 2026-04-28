@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Twenty-three companies. Five billion dollars. The cohort that came before WinX.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0a0a0c;
+  --bg-2:#0f0f12;
+  --bg-3:#141418;
+  --ink:#e8e6e1;
+  --ink-mute:#9a9892;
+  --ink-dim:#5a5854;
+  --ink-faint:#3a3834;
+  --line:#1f1f24;
+  --line-strong:#2a2a2e;
+  --amber:#c39872;
+  --amber-mute:#7a5e44;
+  --amber-glow:rgba(195,152,114,0.15);
+  --teal:#5b8c8c;
+  --steel:#7d8b9d;
+  --shut:#c39872;
+  --plateau:#9a9892;
+  --live:#e8e6e1;
+  --profitable:#a3c9a8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+html,body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,sans-serif;font-weight:300;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+.mono{font-family:"IBM Plex Mono",monospace;font-feature-settings:"tnum" 1}
+.serif{font-family:"IBM Plex Serif",serif}
+.smallcaps{font-variant:all-small-caps;letter-spacing:0.08em;font-weight:400}
+::selection{background:var(--amber);color:#000}
+a{color:var(--amber);text-decoration:none;border-bottom:1px solid transparent;transition:border-color 200ms}
+a:hover{border-bottom-color:var(--amber)}
+
+/* topbar */
+.topbar{position:fixed;top:0;left:0;right:0;height:48px;display:flex;align-items:center;padding:0 28px;z-index:1000;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);background:rgba(10,10,12,0.78);border-bottom:1px solid transparent;transition:background 280ms,border-color 280ms}
+.topbar.scrolled{border-bottom-color:var(--line)}
+.topbar .brand{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:0.1em;color:var(--ink-mute)}
+.topbar .brand b{color:var(--ink);font-weight:500}
+.topbar .nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase}
+.topbar .nav a{color:var(--ink-dim);border:none;cursor:pointer;padding:6px 0;transition:color 180ms;border-bottom:1px solid transparent}
+.topbar .nav a:hover,.topbar .nav a.active{color:var(--amber)}
+.topbar .pres-toggle{padding:5px 12px;border:1px solid var(--line-strong);border-radius:2px;cursor:pointer;background:transparent;color:var(--ink-mute);font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;transition:all 180ms;margin-left:6px}
+.topbar .pres-toggle:hover{border-color:var(--amber-mute);color:var(--amber)}
+.topbar .pres-toggle.on{background:var(--amber);color:#000;border-color:var(--amber)}
+.section-indicator{display:none;position:fixed;top:14px;right:28px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--amber);z-index:1001;letter-spacing:0.1em}
+body.presenter .section-indicator{display:block}
+body.presenter .topbar .nav .lbl{display:none}
+
+/* sections */
+section{position:relative;padding:140px 0 100px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 36px}
+.wrap-narrow{max-width:820px;margin:0 auto;padding:0 36px}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:0.18em;color:var(--amber);text-transform:uppercase;margin-bottom:28px}
+.section-title{font-family:"IBM Plex Sans",sans-serif;font-weight:300;font-size:clamp(28px,3.4vw,44px);line-height:1.18;letter-spacing:-0.012em;color:var(--ink);margin-bottom:36px;max-width:840px}
+.section-lede{font-family:"IBM Plex Serif",serif;font-size:17px;line-height:1.65;color:var(--ink-mute);max-width:720px;margin-bottom:56px}
+p{margin-bottom:20px;max-width:720px;color:var(--ink)}
+p.lede{font-family:"IBM Plex Serif",serif;font-size:17px;line-height:1.7;color:var(--ink)}
+.divider{height:1px;background:var(--line);margin:80px auto;max-width:1240px}
+
+/* hero */
+#hero{padding:0;height:100vh;min-height:680px;position:relative;display:flex;align-items:center;overflow:hidden}
+#hero canvas{position:absolute;top:0;left:0;width:100%;height:100%;display:block;z-index:1;pointer-events:none}
+.hero-content{position:relative;z-index:3;width:100%;padding:0 36px}
+.hero-content .wrap{max-width:1240px;margin:0 auto}
+.hero-brand{position:absolute;top:60px;left:36px;z-index:5;display:flex;align-items:center;gap:14px}
+.hero-brand img{height:24px;max-width:130px;filter:brightness(0) invert(0.92)}
+.hero-brand .div{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-mute);letter-spacing:0.16em;text-transform:uppercase;border-left:1px solid var(--line-strong);padding-left:14px}
+.hero-eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:0.18em;color:var(--amber);text-transform:uppercase;margin-bottom:36px;display:flex;gap:24px;flex-wrap:wrap}
+.hero-eyebrow span{color:var(--ink-mute)}
+.hero-title{font-family:"IBM Plex Sans",sans-serif;font-weight:300;font-size:clamp(28px,3.6vw,48px);line-height:1.22;letter-spacing:-0.015em;color:var(--ink);max-width:980px;margin-bottom:48px}
+.hero-title em{color:var(--amber);font-style:normal}
+.hero-meta{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;margin-top:64px;max-width:980px}
+.hero-meta .stat{font-family:"IBM Plex Mono",monospace}
+.hero-meta .stat .n{display:block;font-size:22px;font-weight:500;color:var(--ink);line-height:1;letter-spacing:-0.01em}
+.hero-meta .stat .l{display:block;font-size:9.5px;color:var(--ink-mute);text-transform:uppercase;letter-spacing:0.12em;margin-top:8px;line-height:1.4}
+.scroll-cue{position:absolute;bottom:36px;left:50%;transform:translateX(-50%);font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-dim);text-transform:uppercase;letter-spacing:0.18em;display:flex;flex-direction:column;align-items:center;gap:8px;animation:bob 3.4s ease-in-out infinite;z-index:4}
+.scroll-cue::after{content:"";width:1px;height:28px;background:var(--ink-dim)}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,6px)}}
+
+/* graveyard 3D */
+#graveyard{padding:0}
+#graveyard .gv-frame{position:relative;height:240vh}
+#graveyard .gv-sticky{position:sticky;top:0;height:100vh;display:flex;align-items:center;overflow:hidden}
+#gv-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:1;cursor:crosshair}
+#graveyard .gv-overlay{position:absolute;inset:0;z-index:2;width:100%;padding:0 36px;pointer-events:none;display:flex;align-items:center}
+#graveyard .gv-overlay .wrap{max-width:1240px;margin:0 auto;width:100%}
+#graveyard .gv-text{pointer-events:auto;max-width:480px;padding:24px 28px;background:rgba(10,10,12,0.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid var(--line);border-radius:2px}
+#gv-tooltip{position:fixed;background:rgba(10,10,12,0.96);border:1px solid var(--amber-mute);padding:14px 16px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink);pointer-events:none;opacity:0;transition:opacity 140ms;z-index:1500;max-width:300px;border-radius:2px}
+#gv-tooltip strong{color:var(--amber);font-weight:500;display:block;margin-bottom:8px;letter-spacing:0.04em;font-size:12px}
+#gv-tooltip .row{display:flex;justify-content:space-between;color:var(--ink-mute);margin-top:4px}
+#gv-tooltip .row span:last-child{color:var(--ink)}
+#gv-tooltip .note{margin-top:12px;color:var(--ink-mute);font-size:10px;line-height:1.55;font-family:"IBM Plex Sans",sans-serif}
+
+/* sankey */
+#capital{padding:140px 0}
+#capital svg.sankey{display:block;width:100%;height:auto;margin-top:24px}
+#capital .sankey-link{fill:none;stroke-opacity:0.32;mix-blend-mode:screen}
+#capital .sankey-link:hover{stroke-opacity:0.55}
+#capital .sankey-node rect{stroke:none}
+#capital .sankey-node text{fill:var(--ink-mute);font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:0.04em}
+
+/* logo strip */
+.logo-strip{display:flex;flex-wrap:wrap;align-items:center;gap:36px 32px;margin:48px 0 0;padding:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.logo-strip .logo-eyebrow{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-dim);text-transform:uppercase;letter-spacing:0.18em;width:100%;margin-bottom:6px}
+.logo-strip img{height:20px;max-width:110px;width:auto;object-fit:contain;filter:brightness(0) invert(0.55);transition:filter 240ms}
+.logo-strip img:hover{filter:brightness(0) invert(0.92)}
+.logo-strip.brand-strip img{filter:grayscale(0.3) brightness(0.92) opacity(0.85)}
+.logo-strip.brand-strip img:hover{filter:grayscale(0) brightness(1) opacity(1)}
+
+/* failure modes */
+#failure-modes{padding:140px 0}
+#failure-modes .matrix-wrap{overflow-x:auto;margin-top:36px;padding-bottom:8px}
+#failure-modes table.matrix{border-collapse:collapse;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:0.04em;color:var(--ink-mute);min-width:1100px}
+#failure-modes th,#failure-modes td{padding:7px 9px;text-align:center;border:1px solid var(--line)}
+#failure-modes th.companyName,#failure-modes td.companyName{text-align:left;color:var(--ink);font-weight:400;white-space:nowrap;padding-right:18px;background:var(--bg-2);font-size:11px}
+#failure-modes th.modeHead{writing-mode:vertical-rl;transform:rotate(180deg);height:160px;color:var(--ink-mute);font-weight:400;background:var(--bg-2);padding:8px}
+#failure-modes td.cell-yes{background:var(--amber);color:#000;font-weight:500}
+#failure-modes td.cell-partial{background:var(--amber-mute);color:#000;opacity:0.6}
+#failure-modes td.cell-no{background:transparent}
+#failure-modes .freq-bar{margin-top:80px}
+#failure-modes .freq-bar h4{font-family:"IBM Plex Sans",sans-serif;font-weight:400;font-size:18px;color:var(--ink);margin-bottom:28px}
+#failure-modes .freq-bar .row{display:grid;grid-template-columns:340px 1fr 64px;align-items:center;gap:18px;font-family:"IBM Plex Mono",monospace;font-size:11px;margin-bottom:8px}
+#failure-modes .freq-bar .label{color:var(--ink)}
+#failure-modes .freq-bar .label .num{color:var(--amber);margin-right:10px}
+#failure-modes .freq-bar .bar{height:10px;background:var(--bg-2);position:relative;overflow:hidden}
+#failure-modes .freq-bar .bar .fill{height:100%;background:var(--amber)}
+#failure-modes .freq-bar .count{color:var(--ink-mute);text-align:right;font-size:10px}
+
+/* four-assets */
+#four-assets{padding:140px 0;background:linear-gradient(180deg,var(--bg) 0%,var(--bg-2) 100%)}
+#four-assets table.dotgrid{border-collapse:collapse;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-mute);width:100%;max-width:1020px;margin:36px auto 0}
+#four-assets th,#four-assets td{padding:11px 14px;text-align:center;border-bottom:1px solid var(--line)}
+#four-assets th.compName,#four-assets td.compName{text-align:left;color:var(--ink);font-weight:400;white-space:nowrap}
+#four-assets th{font-weight:400;color:var(--ink);font-size:11px;letter-spacing:0.04em;border-bottom:1px solid var(--amber-mute)}
+#four-assets td.dot-full{color:var(--amber)}
+#four-assets td.dot-partial{color:var(--amber-mute)}
+#four-assets td.dot-none{color:var(--ink-faint)}
+#four-assets tr.winx{background:linear-gradient(90deg,rgba(195,152,114,0.10) 0%,rgba(195,152,114,0.02) 100%);border-top:1px solid var(--amber);border-bottom:1px solid var(--amber)}
+#four-assets tr.winx td.compName{color:var(--amber);font-weight:500}
+.callout{margin:60px auto 0;max-width:760px;padding:24px 28px;border-left:2px solid var(--amber);background:rgba(195,152,114,0.04);font-family:"IBM Plex Serif",serif;font-size:16px;color:var(--ink);line-height:1.65}
+
+/* drilldown (the cohort) */
+#cohort{padding:140px 0;background:var(--bg)}
+#cohort .cohort-intro{margin-bottom:80px}
+#cohort .cohort-nav{display:flex;flex-wrap:wrap;gap:6px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:48px;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:0.04em}
+#cohort .cohort-nav .country-group{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}
+#cohort .cohort-nav .country-label{color:var(--ink-dim);text-transform:uppercase;letter-spacing:0.16em;margin-right:8px;font-size:10px}
+#cohort .cohort-nav a{color:var(--ink-mute);padding:5px 10px;border:1px solid var(--line);border-radius:2px;cursor:pointer;transition:all 180ms}
+#cohort .cohort-nav a:hover{color:var(--amber);border-color:var(--amber-mute)}
+#cohort .cohort-nav a.shut{border-left:2px solid var(--amber)}
+#cohort .cohort-nav a.plateau{border-left:2px solid var(--ink-mute)}
+#cohort .cohort-nav a.live{border-left:2px solid var(--ink)}
+#cohort .cohort-nav a.profitable{border-left:2px solid var(--profitable)}
+
+.company-panel{padding:80px 0;border-top:1px solid var(--line);scroll-margin-top:80px}
+.company-panel:first-child{border-top:none;padding-top:0}
+.company-panel .panel-header{display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center;margin-bottom:36px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.company-panel .panel-header .logo-block{display:flex;align-items:center;gap:18px}
+.company-panel .panel-header .logo-block img{height:30px;max-width:130px;filter:brightness(0) invert(0.85)}
+.company-panel .panel-header .logo-block .country-tag{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-mute);letter-spacing:0.16em;padding:3px 8px;border:1px solid var(--line-strong);border-radius:2px}
+.company-panel .panel-header h3{font-family:"IBM Plex Sans",sans-serif;font-weight:400;font-size:30px;color:var(--ink);line-height:1.15;letter-spacing:-0.015em}
+.company-panel .panel-header h3 .city{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-mute);font-weight:300;letter-spacing:0.04em;margin-left:14px;text-transform:uppercase}
+.company-panel .panel-header .stats{display:flex;gap:28px;font-family:"IBM Plex Mono",monospace;font-size:11px;text-align:right}
+.company-panel .panel-header .stats .item .n{color:var(--amber);font-size:18px;font-weight:500;display:block;line-height:1}
+.company-panel .panel-header .stats .item .l{color:var(--ink-mute);font-size:9px;letter-spacing:0.12em;text-transform:uppercase;margin-top:6px;display:block}
+.company-panel .status-bar{display:flex;align-items:center;gap:14px;margin-bottom:32px;padding:14px 18px;background:var(--bg-2);font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink);border-radius:2px}
+.company-panel .status-bar .status-tag{padding:3px 10px;font-size:9px;letter-spacing:0.16em;text-transform:uppercase;border-radius:2px}
+.company-panel .status-bar .status-tag.shut{background:var(--amber);color:#000}
+.company-panel .status-bar .status-tag.plateau{background:var(--bg-3);color:var(--plateau);border:1px solid var(--ink-mute)}
+.company-panel .status-bar .status-tag.live{background:var(--bg-3);color:var(--live);border:1px solid var(--ink)}
+.company-panel .status-bar .status-tag.profitable{background:var(--profitable);color:#000}
+
+.company-panel .panel-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;margin-bottom:48px}
+.company-panel .panel-section{margin-bottom:36px}
+.company-panel .panel-section h4{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--amber);text-transform:uppercase;letter-spacing:0.16em;margin-bottom:18px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.company-panel .panel-section p{font-size:14px;line-height:1.65;color:var(--ink);margin-bottom:14px;max-width:none}
+.company-panel .panel-section .thesis{font-family:"IBM Plex Serif",serif;font-size:15px;line-height:1.7;color:var(--ink);font-style:italic;border-left:2px solid var(--amber-mute);padding:6px 0 6px 18px;margin:6px 0 0}
+
+.company-panel .founders-list{font-family:"IBM Plex Sans",sans-serif;font-size:13px;line-height:1.6}
+.company-panel .founders-list .founder{padding:8px 0;border-bottom:1px dotted var(--line)}
+.company-panel .founders-list .founder:last-child{border-bottom:none}
+.company-panel .founders-list .founder .name{color:var(--ink);font-weight:400}
+.company-panel .founders-list .founder .role{color:var(--amber);font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:0.06em;text-transform:uppercase;margin-left:8px}
+.company-panel .founders-list .founder .prior{color:var(--ink-mute);font-size:12px;margin-top:3px}
+
+.company-panel .rounds-table{width:100%;border-collapse:collapse;font-family:"IBM Plex Mono",monospace;font-size:11px}
+.company-panel .rounds-table th,.company-panel .rounds-table td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;color:var(--ink)}
+.company-panel .rounds-table th{color:var(--ink-dim);font-weight:400;text-transform:uppercase;letter-spacing:0.06em;font-size:9.5px}
+.company-panel .rounds-table td.amount{color:var(--amber);text-align:right;font-weight:500}
+.company-panel .rounds-table td.lead{color:var(--ink-mute);font-size:10px}
+
+.company-panel .experiments-list{list-style:none;padding:0}
+.company-panel .experiments-list li{padding:14px 0;border-bottom:1px solid var(--line);font-family:"IBM Plex Sans",sans-serif;font-size:13px;line-height:1.6}
+.company-panel .experiments-list li:last-child{border:none}
+.company-panel .experiments-list .ex-name{color:var(--amber);font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:0.04em;display:block;margin-bottom:5px}
+.company-panel .experiments-list .ex-name .yr{color:var(--ink-mute);margin-left:10px}
+.company-panel .experiments-list .ex-what{color:var(--ink);font-size:13px;margin-bottom:6px}
+.company-panel .experiments-list .ex-outcome{color:var(--ink-mute);font-size:12px;font-style:italic}
+
+.company-panel .pivots-ladder{position:relative;padding-left:24px}
+.company-panel .pivots-ladder::before{content:"";position:absolute;left:6px;top:8px;bottom:8px;width:1px;background:var(--amber-mute)}
+.company-panel .pivots-ladder .pivot{position:relative;padding:10px 0 10px 16px;font-family:"IBM Plex Sans",sans-serif;font-size:13px;line-height:1.55}
+.company-panel .pivots-ladder .pivot::before{content:"";position:absolute;left:-24px;top:14px;width:13px;height:13px;border:2px solid var(--amber);background:var(--bg);border-radius:50%}
+.company-panel .pivots-ladder .pivot .yr{color:var(--amber);font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:0.06em;display:block;margin-bottom:4px}
+.company-panel .pivots-ladder .pivot .arrow{color:var(--ink-mute)}
+.company-panel .pivots-ladder .pivot .trigger{color:var(--ink-mute);font-size:11px;font-style:italic;display:block;margin-top:4px}
+
+.company-panel .voice-list .quote{padding:18px 0 18px 24px;border-left:2px solid var(--amber-mute);margin-bottom:18px;background:rgba(195,152,114,0.02);padding-right:18px;padding-top:14px;padding-bottom:14px;border-radius:0 2px 2px 0}
+.company-panel .voice-list .quote .text{font-family:"IBM Plex Serif",serif;font-style:italic;font-size:14px;line-height:1.6;color:var(--ink);margin-bottom:10px}
+.company-panel .voice-list .quote .text::before{content:"\201C";color:var(--amber);font-size:18px;line-height:0}
+.company-panel .voice-list .quote .text::after{content:"\201D";color:var(--amber);font-size:18px;line-height:0}
+.company-panel .voice-list .quote .attr{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-mute);letter-spacing:0.04em;line-height:1.5}
+.company-panel .voice-list .quote .attr b{color:var(--amber);font-weight:500}
+.company-panel .voice-list .quote .attr .ctx{color:var(--ink-dim);display:block;margin-top:3px}
+.company-panel .voice-list .quote .attr a{color:var(--ink-mute);font-size:9.5px;border-bottom:1px dotted var(--ink-dim)}
+
+.company-panel .panel-footer{padding-top:36px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-bottom:24px}
+.company-panel .panel-footer .footer-block{padding:14px 0}
+.company-panel .panel-footer .footer-block h5{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--amber);text-transform:uppercase;letter-spacing:0.16em;margin-bottom:14px}
+.company-panel .panel-footer .footer-block p{font-size:13px;line-height:1.65;color:var(--ink);max-width:none;margin-bottom:0}
+.company-panel .ic-read{margin-top:24px;padding:24px 28px;background:var(--bg-2);border-left:2px solid var(--amber);font-family:"IBM Plex Sans",sans-serif;font-size:12.5px;line-height:1.65}
+.company-panel .ic-read h5{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--amber);text-transform:uppercase;letter-spacing:0.16em;margin-bottom:18px}
+.company-panel .ic-read .gate{padding:9px 0;border-bottom:1px dotted var(--line)}
+.company-panel .ic-read .gate:last-child{border:none}
+.company-panel .ic-read .gate .label{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-mute);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:5px;display:block}
+.company-panel .ic-read .gate .body{color:var(--ink)}
+
+/* voice (cross-cohort greatest hits) */
+#voice{padding:160px 0;background:#08080a}
+#voice .quote{max-width:780px;margin:0 auto 96px;opacity:0.5;transition:opacity 600ms ease}
+#voice .quote.in{opacity:1}
+#voice .quote .text{font-family:"IBM Plex Serif",serif;font-style:italic;font-size:24px;line-height:1.45;color:var(--ink);margin-bottom:22px}
+#voice .quote .text::before{content:"\201C";color:var(--amber);font-size:32px;line-height:0;margin-right:4px}
+#voice .quote .text::after{content:"\201D";color:var(--amber);font-size:32px;line-height:0}
+#voice .quote .attr{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-mute);letter-spacing:0.04em;line-height:1.6}
+#voice .quote .attr b{color:var(--amber);font-weight:500}
+#voice .quote .attr a{color:var(--ink-mute);font-size:10px;border-bottom:1px dotted var(--ink-dim);margin-left:8px}
+
+/* alignment */
+#alignment{padding:160px 0;background:linear-gradient(180deg,#08080a 0%,var(--bg) 100%)}
+#alignment .grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:56px;align-items:start}
+#alignment .partner-card{background:var(--bg-2);border:1px solid var(--line);padding:36px;border-radius:2px}
+#alignment .partner-card.tcb{border-color:var(--amber-mute)}
+#alignment .partner-card .head{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+#alignment .partner-card .head .label{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-mute);letter-spacing:0.16em;text-transform:uppercase}
+#alignment .partner-card .head img{height:24px;max-width:160px;filter:brightness(0) invert(0.92)}
+#alignment .partner-card.tcb .head img{filter:none;opacity:0.95}
+#alignment .partner-card h3{font-family:"IBM Plex Sans",sans-serif;font-weight:300;font-size:21px;color:var(--ink);margin-bottom:18px;line-height:1.35}
+#alignment .partner-card p{font-family:"IBM Plex Sans",sans-serif;font-size:13.5px;line-height:1.65;color:var(--ink-mute);margin-bottom:18px;max-width:none}
+#alignment .partner-card .stat-row{display:flex;justify-content:space-between;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line);font-family:"IBM Plex Mono",monospace;font-size:12px}
+#alignment .partner-card .stat-row:last-child{border:none}
+#alignment .partner-card .stat-row .lbl{color:var(--ink-mute)}
+#alignment .partner-card .stat-row .val{color:var(--amber);font-weight:500}
+#alignment blockquote{border-left:2px solid var(--amber);padding:14px 20px;margin:18px 0;font-family:"IBM Plex Serif",serif;font-style:italic;color:var(--ink);font-size:13.5px;line-height:1.6;background:rgba(195,152,114,0.04)}
+#alignment blockquote cite{display:block;font-style:normal;font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-mute);margin-top:10px;letter-spacing:0.04em}
+#alignment .convergence{margin-top:96px;padding:48px;background:radial-gradient(ellipse at center,rgba(195,152,114,0.06) 0%,transparent 70%);border:1px solid var(--amber-mute);text-align:center;border-radius:2px}
+#alignment .convergence h3{font-family:"IBM Plex Sans",sans-serif;font-weight:300;font-size:24px;color:var(--ink);margin-bottom:24px;line-height:1.35;max-width:760px;margin-left:auto;margin-right:auto}
+#alignment .convergence .cite{font-family:"IBM Plex Serif",serif;color:var(--ink-mute);font-size:15px;max-width:680px;margin:0 auto 16px;line-height:1.6}
+#alignment .convergence small{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-dim);letter-spacing:0.04em}
+#alignment .agm-context{margin-top:80px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+#alignment .agm-context .card{padding:24px;border:1px solid var(--line);background:var(--bg-2);border-radius:2px}
+#alignment .agm-context .card .n{font-family:"IBM Plex Mono",monospace;font-size:24px;font-weight:500;color:var(--amber);line-height:1;display:block;margin-bottom:10px}
+#alignment .agm-context .card .l{font-family:"IBM Plex Sans",sans-serif;font-size:11.5px;color:var(--ink-mute);line-height:1.55}
+
+/* delta (six gates) */
+#delta{padding:160px 0}
+#delta .gates-intro{margin-bottom:64px;max-width:920px}
+#delta .gates-list{display:grid;gap:36px}
+#delta .gate{background:var(--bg-2);border:1px solid var(--line);border-radius:2px;padding:36px 40px;display:grid;grid-template-columns:auto 1fr auto;gap:36px;align-items:start}
+#delta .gate .gate-num{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--amber);letter-spacing:0.16em;text-transform:uppercase;writing-mode:vertical-rl;transform:rotate(180deg);align-self:start;padding-top:6px}
+#delta .gate .gate-body h4{font-family:"IBM Plex Sans",sans-serif;font-weight:400;font-size:22px;color:var(--ink);line-height:1.3;margin-bottom:18px}
+#delta .gate .gate-body p{font-family:"IBM Plex Sans",sans-serif;font-size:14.5px;line-height:1.7;color:var(--ink-mute);margin-bottom:14px;max-width:none}
+#delta .gate .gate-body p.lead{color:var(--ink);font-family:"IBM Plex Serif",serif;font-size:15.5px;line-height:1.7}
+#delta .gate .gate-body p.caveat{color:var(--ink-mute);font-style:italic;font-size:13px;border-left:2px solid var(--amber-mute);padding-left:14px;margin-top:18px}
+#delta .gate .verdict{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;writing-mode:vertical-rl;transform:rotate(180deg);align-self:end;padding-bottom:6px;color:var(--ink-mute)}
+#delta .gate .verdict.pass{color:var(--profitable)}
+#delta .gate .verdict.conditional{color:var(--amber)}
+#delta .gate .verdict.open{color:var(--ink-mute)}
+
+#delta .closing{margin:96px auto 0;max-width:880px;padding:48px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:left}
+#delta .closing h4{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--amber);text-transform:uppercase;letter-spacing:0.18em;margin-bottom:24px}
+#delta .closing p{font-family:"IBM Plex Serif",serif;font-size:17px;line-height:1.7;color:var(--ink);margin-bottom:18px}
+#delta .closing p:last-child{margin-bottom:0;color:var(--ink-mute);font-size:14px;font-family:"IBM Plex Sans",sans-serif}
+
+/* footer */
+footer{padding:80px 0 56px;border-top:1px solid var(--line);background:var(--bg-2);color:var(--ink-mute);font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:0.04em}
+footer .wrap{display:flex;justify-content:space-between;align-items:start;flex-wrap:wrap;gap:36px}
+footer a{color:var(--ink-mute);border-bottom:1px dotted var(--ink-dim)}
+footer a:hover{color:var(--amber);border-bottom-color:var(--amber)}
+footer .meta{font-size:10px;color:var(--ink-dim);max-width:560px;line-height:1.6}
+
+/* presenter mode */
+body.presenter{font-size:18px}
+body.presenter .section-title{font-size:48px}
+body.presenter .section-lede,body.presenter p.lede{font-size:20px}
+body.presenter .hero-title{font-size:clamp(32px,4.6vw,58px) !important}
+body.presenter footer{display:none}
+body.presenter #cohort .panel-section p{font-size:15px}
+
+/* mobile */
+@media (max-width:1000px){
+  .hero-meta{grid-template-columns:repeat(3,1fr)}
+  .company-panel .panel-grid{grid-template-columns:1fr;gap:36px}
+  .company-panel .panel-footer{grid-template-columns:1fr}
+  #alignment .grid{grid-template-columns:1fr;gap:36px}
+  #alignment .agm-context{grid-template-columns:repeat(2,1fr)}
+  #delta .gate{grid-template-columns:auto 1fr;gap:18px}
+  #delta .gate .verdict{display:none}
+}
+@media (max-width:680px){
+  section{padding:96px 0 64px}
+  .wrap,.wrap-narrow{padding:0 22px}
+  .section-title{font-size:26px}
+  .hero-meta{grid-template-columns:repeat(2,1fr)}
+  .company-panel .panel-header{grid-template-columns:1fr;gap:14px}
+  .company-panel .panel-header .stats{justify-content:flex-start;flex-wrap:wrap}
+  #voice .quote .text{font-size:18px}
+  .scroll-cue{display:none}
+  #failure-modes table.matrix{font-size:9px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar" id="topbar">
+  <div class="brand"><b>WinX</b> &nbsp;//&nbsp; the cohort</div>
+  <div class="nav">
+    <a href="#hero" data-sec="hero" class="active"><span class="lbl">I. Open</span></a>
+    <a href="#graveyard" data-sec="graveyard"><span class="lbl">II. Graveyard</span></a>
+    <a href="#capital" data-sec="capital"><span class="lbl">III. Capital</span></a>
+    <a href="#failure-modes" data-sec="failure-modes"><span class="lbl">IV. Modes</span></a>
+    <a href="#four-assets" data-sec="four-assets"><span class="lbl">V. Assets</span></a>
+    <a href="#cohort" data-sec="cohort"><span class="lbl">VI. Cohort</span></a>
+    <a href="#voice" data-sec="voice"><span class="lbl">VII. Voice</span></a>
+    <a href="#alignment" data-sec="alignment"><span class="lbl">VIII. Alignment</span></a>
+    <a href="#delta" data-sec="delta"><span class="lbl">IX. Six gates</span></a>
+    <button class="pres-toggle" id="presBtn" title="Presenter mode (P)">Present</button>
+  </div>
+</div>
+<div class="section-indicator" id="secInd">I / IX</div>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="heroCanvas"></canvas>
+  <div class="hero-brand">
+    <img src="logos/masangroup_official.png" alt="Masan Group" onerror="this.style.display='none'">
+    <span class="div">Strategy &amp; Development</span>
+  </div>
+  <div class="hero-content">
+    <div class="wrap">
+      <div class="hero-eyebrow"><span>WinX Software Holdings</span><span>Cohort post-mortem</span><span>April 2026</span></div>
+      <h1 class="hero-title">Twenty-three companies tried to digitise traditional retail in India, Indonesia, and Vietnam between 2014 and 2026. Approximately <em>five billion dollars</em> of capital. Most of it is gone.</h1>
+      <div class="hero-meta">
+        <div class="stat"><span class="n">23</span><span class="l">Companies in cohort</span></div>
+        <div class="stat"><span class="n">~$4bn</span><span class="l">Priced VC equity</span></div>
+        <div class="stat"><span class="n">~$1-2bn</span><span class="l">Strategic sponsor capital</span></div>
+        <div class="stat"><span class="n">0</span><span class="l">Closed-loop POS at GT scale</span></div>
+        <div class="stat"><span class="n">17.9m</span><span class="l">Stores in addressable scope</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue">Scroll</div>
+</section>
+
+<!-- GRAVEYARD -->
+<section id="graveyard">
+  <div class="gv-frame">
+    <div class="gv-sticky">
+      <canvas id="gv-canvas"></canvas>
+      <div class="gv-overlay">
+        <div class="wrap">
+          <div class="gv-text">
+            <div class="eyebrow">II. The graveyard</div>
+            <h2 class="section-title" style="font-size:30px;margin-bottom:20px">Twenty-three companies, plotted by year founded, capital raised, and status today.</h2>
+            <p class="section-lede" style="font-size:14.5px;margin-bottom:18px">Each marker is a venture, a corporate-funded play, or a still-operating programme. White is operating, off-white is plateaued, amber is shut or marked down. Hover for the one-line read; click through to the full company panel below.</p>
+            <p class="mono" style="font-size:11px;color:var(--ink-mute);max-width:520px;line-height:1.7">Y axis: capital raised, log scale.<br>X axis: market (Vietnam, Indonesia, India).<br>Z axis: time, 2014 to 2026.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="gv-tooltip"></div>
+</section>
+
+<!-- CAPITAL -->
+<section id="capital">
+  <div class="wrap">
+    <div class="eyebrow">III. Capital flow</div>
+    <h2 class="section-title">Where the capital came from. Where it ended up.</h2>
+    <p class="section-lede">VC firms on the left, ventures in the middle, status on the right. Width of each ribbon is dollars deployed. Tiger Global, Peak XV, Lightspeed, Tencent, and Bezos Expeditions account for the majority of priced VC exposure across the cohort. Strategic sponsor capital from Reliance, Walmart-Flipkart, Amazon, and Vingroup-Techcombank is layered on top.</p>
+    <div class="logo-strip">
+      <div class="logo-eyebrow">The funders</div>
+      <img src="logos/tiger.png" alt="Tiger Global" onerror="this.style.display='none'">
+      <img src="logos/sequoia.svg" alt="Sequoia / Peak XV" onerror="this.style.display='none'">
+      <img src="logos/lightspeed.svg" alt="Lightspeed" onerror="this.style.display='none'">
+      <img src="logos/tencent.svg" alt="Tencent" onerror="this.style.display='none'">
+      <img src="logos/dst.svg" alt="DST Global" onerror="this.style.display='none'">
+      <img src="logos/prosus.svg" alt="Prosus" onerror="this.style.display='none'">
+      <img src="logos/alibaba.svg" alt="Alibaba" onerror="this.style.display='none'">
+      <img src="logos/softbank.svg" alt="SoftBank" onerror="this.style.display='none'">
+      <img src="logos/reliance.svg" alt="Reliance" onerror="this.style.display='none'">
+      <img src="logos/walmart.svg" alt="Walmart" onerror="this.style.display='none'">
+      <img src="logos/amazon.svg" alt="Amazon" onerror="this.style.display='none'">
+      <img src="logos/vingroup.svg" alt="Vingroup" onerror="this.style.display='none'">
+      <img src="logos/acventures.png" alt="AC Ventures" onerror="this.style.display='none'">
+    </div>
+    <svg id="sankey" viewBox="0 0 1180 660" preserveAspectRatio="xMidYMid meet"></svg>
+    <p class="mono" style="font-size:10.5px;color:var(--ink-dim);margin-top:24px;max-width:none">Source amounts are total raised at company level, allocated proportionally across named lead investors per round. Status reflects April 2026.</p>
+  </div>
+</section>
+
+<!-- FAILURE MODES -->
+<section id="failure-modes">
+  <div class="wrap">
+    <div class="eyebrow">IV. Failure modes</div>
+    <h2 class="section-title">Ten structural failure modes recur across the cohort.</h2>
+    <p class="section-lede">Each row is a company. Each column is a structural failure mode the post-mortems surfaced. Filled cells indicate the mode applied at meaningful severity; half-filled cells are partial. The frequency bar below ranks modes by occurrence across the 23 companies. Wholesale-only economics, missing closed-loop POS attribution, and merchant CAC unamortisable on take rate are the three modes the cohort cannot escape.</p>
+    <div class="matrix-wrap">
+      <table class="matrix" id="modeMatrix"></table>
+    </div>
+    <div class="freq-bar" id="freqBar"></div>
+  </div>
+</section>
+
+<!-- FOUR ASSETS -->
+<section id="four-assets">
+  <div class="wrap">
+    <div class="eyebrow">V. The four assets retail media requires</div>
+    <h2 class="section-title">No company in the cohort had all four. WCM plus Retail Supreme plus MCH plus identified-receipt density is a configuration that did not exist in Vietnam before December 2019.</h2>
+    <p class="section-lede">Four assets define a retail-media platform: a modern-trade footprint that anchors impression density, a general-trade wedge that captures the long tail, first-party FMCG brand ownership that funds the first dollar of advertising, and identified POS receipts that close the attribution loop. The matrix below tests each player against the four. The closest Asian analogues had three of four; both reached profitability only as parent-funded programmes, not as venture-funded standalones. WCM, Retail Supreme, MCH, and the post-divestment identified-receipt rate together describe the configuration WinX is built on.</p>
+    <table class="dotgrid" id="assetGrid"></table>
+    <div class="callout">JioMart kirana programme (three of four through Reliance Retail) is profitable as a logistics extension, not as a standalone P&amp;L. Mitra Bukalapak (three of four) reached profit in FY25 only after parent Bukalapak shut its consumer 3P marketplace. The pattern is that the all-four configuration, where it exists, sits inside an existing retail-and-brand operating company. The Vingroup divestment of WCM to Masan in December 2019 made the four-asset configuration available in Vietnam for the first time.</div>
+  </div>
+</section>
+
+<!-- COHORT (the deep drilldown) -->
+<section id="cohort">
+  <div class="wrap">
+    <div class="cohort-intro">
+      <div class="eyebrow">VI. The cohort, company by company</div>
+      <h2 class="section-title">Each company. The thesis they bet on, the experiments they ran, what their founders and investors said, what came after.</h2>
+      <p class="section-lede">The order below is by capital raised, descending, within each market. Click any name to jump.</p>
+    </div>
+    <div class="cohort-nav" id="cohortNav"></div>
+    <div id="cohortPanels"></div>
+  </div>
+</section>
+
+<!-- VOICE -->
+<section id="voice">
+  <div class="wrap-narrow">
+    <div class="eyebrow" style="text-align:center;margin-bottom:96px">VII. The voice layer, cross-cohort</div>
+    <div id="quotesContainer"></div>
+  </div>
+</section>
+
+<!-- ALIGNMENT -->
+<section id="alignment">
+  <div class="wrap">
+    <div class="eyebrow">VIII. Strategic alignment</div>
+    <h2 class="section-title">WinX sits inside the Group strategy and inside Techcombank's published commitment.</h2>
+    <p class="section-lede">The Masan AGM (April 2026) frames the same four assets as the Consumer Operating System, with WinX named as the Digital Engine connector. The Techcombank investor presentation (January 2026) names the merchant-finance pattern WinX inherits and asks the bank to scale it. Both anchors are public and sourced.</p>
+
+    <div class="grid">
+      <div class="partner-card">
+        <div class="head">
+          <span class="label">Masan AGM 2026</span>
+          <img src="logos/masangroup_official.png" alt="Masan Group" onerror="this.style.display='none'">
+        </div>
+        <h3>WinX is named as the Digital Engine of the Consumer Operating System.</h3>
+        <p>AGM slide 38 reads: WinX, the connector to consumer, retail, and brand. The cOS framework names three engines (Retail, Brand, Digital). The WinX cheque sits inside the Digital Engine. The capital ask is small relative to the Group cash flow trajectory.</p>
+        <div class="stat-row"><span class="lbl">Group target FY26 cash flow</span><span class="val">$500m</span></div>
+        <div class="stat-row"><span class="lbl">Group target FY30 cash flow</span><span class="val">$700m to $1bn</span></div>
+        <div class="stat-row"><span class="lbl">WinX cumulative ask FY26-FY30</span><span class="val">$63m</span></div>
+        <div class="stat-row"><span class="lbl">FY26 incremental cheque</span><span class="val">$3.8m (0.76% of FY26 CF)</span></div>
+        <blockquote>"WCM is not just our retail arm; it is the connector to modernise Vietnam retail infrastructure."<cite>Masan AGM 2026, slide 12</cite></blockquote>
+        <blockquote>"When they stand alone, everyone suffers."<cite>Masan AGM 2026, slide 6, on fragmented Vietnamese distribution</cite></blockquote>
+      </div>
+
+      <div class="partner-card tcb">
+        <div class="head">
+          <span class="label">Techcombank Jan 2026 deck and 25 Apr AGM</span>
+          <img src="logos/techcombank.png" alt="Techcombank" onerror="this.style.display='none'">
+        </div>
+        <h3>TCB has named the merchant-finance bundle in its public deck. The pattern aligns with WinX Stream 2.</h3>
+        <p>TCB's January 2026 investor presentation names Embedded Finance as one of four growth pillars and lists "Retail and SME Commerce: working capital, payments, credit (via OneMount)" and "Start a Shop: onboarding by VinShop while TCB provides SME loan, payment and digital wallet services" as core embedded-finance bundles. WinX is the structurally adjacent extension of the same pattern, with the four assets VinShop did not have.</p>
+        <div class="stat-row"><span class="lbl">Merchants on TCB rails</span><span class="val">2.2m</span></div>
+        <div class="stat-row"><span class="lbl">SME customers</span><span class="val">259k</span></div>
+        <div class="stat-row"><span class="lbl">Merchant lending YoY growth</span><span class="val">+700%</span></div>
+        <div class="stat-row"><span class="lbl">SME book growth FY25</span><span class="val">+55% YoY</span></div>
+        <div class="stat-row"><span class="lbl">Transaction banking market share</span><span class="val">16.3% (#1)</span></div>
+        <div class="stat-row"><span class="lbl">5Y strategy: TOI growth</span><span class="val">4x by 2030</span></div>
+        <div class="stat-row"><span class="lbl">5Y strategy: TOI market share</span><span class="val">5% to 11%</span></div>
+        <div class="stat-row"><span class="lbl">2026 PBT plan</span><span class="val">VND 35-37.5T</span></div>
+        <blockquote>"Risk-cost advantage via ecosystem integration: smarter underwriting with use of better data, lower CAC through owned platforms, higher conversion through embedded moments."<cite>TCB Investor Presentation, Jan 2026, p.26</cite></blockquote>
+        <blockquote>"From this position of strength, we are embarking on a new five-year strategy that will see us continue to lead and shape the industry, deepen our ecosystem connectivity."<cite>Jens Lottner, TCB CEO, FY25 results call, 20 Jan 2026</cite></blockquote>
+      </div>
+    </div>
+
+    <div class="convergence">
+      <h3>Two anchors. The same play.</h3>
+      <div class="cite">Masan owns the four assets retail media requires. Techcombank owns the transaction-banking and SME-credit infrastructure embedded finance requires. The FY26 cheque buys the option to assemble both inside one operating system within the Decree 70 compliance window.</div>
+      <small>Sources: Masan AGM 2026 deck (24 Apr 2026); TCB Investor Presentation Jan 2026; TCB FY25 Press Release 20 Jan 2026; TCB AGM resolutions 25 Apr 2026.</small>
+    </div>
+
+    <div class="agm-context">
+      <div class="card"><span class="n">90%</span><span class="l">Weighted distribution at the One Masan Operating Platform level (slide 47).</span></div>
+      <div class="card"><span class="n">+VND 370bn</span><span class="l">Monthly revenue lift per additional SKU per GT order through Retail Supreme (slide 27).</span></div>
+      <div class="card"><span class="n">$1.3bn &rarr; $3.0bn</span><span class="l">MCH brand portfolio revenue 2025 to 2030 (slide 30); the captive-demand pipe for WinX Ads.</span></div>
+      <div class="card"><span class="n">2% &rarr; 30/30/40</span><span class="l">Branded meat market share today vs MML 2030 plan (slide 35).</span></div>
+    </div>
+
+    <div style="margin-top:64px">
+      <div class="logo-strip brand-strip">
+        <div class="logo-eyebrow">The Masan stack referenced in the AGM</div>
+        <img src="logos/masangroup_official.png" alt="Masan Group" onerror="this.style.display='none'">
+        <img src="logos/wincommerce.png" alt="WinCommerce" onerror="this.style.display='none'">
+        <img src="logos/winmart.png" alt="WinMart+" onerror="this.style.display='none'">
+        <img src="logos/masanconsumer.png" alt="Masan Consumer" onerror="this.style.display='none'">
+        <img src="logos/meatlife.png" alt="MEATLife / MEATDeli" onerror="this.style.display='none'">
+        <img src="logos/chinsu.png" alt="Chin-su" onerror="this.style.display='none'">
+        <img src="logos/techcombank.png" alt="Techcombank" onerror="this.style.display='none'">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DELTA: SIX GATES -->
+<section id="delta">
+  <div class="wrap">
+    <div class="eyebrow">IX. The WinX delta, against Dr. Quang's six IC gates</div>
+    <h2 class="section-title">Six structural questions. The cohort evidence on each. The WinX position on each.</h2>
+    <div class="gates-intro">
+      <p class="lede">Dr. Quang's framework starts with consumer truth and tests through product truth, equity transferability, value creation sizing, competitive dynamics, and learnability. The cohort post-mortems generate the comparison set. The WinX position below is the analytical read, not advocacy.</p>
+    </div>
+    <div class="gates-list" id="gatesList"></div>
+    <div class="closing">
+      <h4>Closing read</h4>
+      <p>The cohort evidence does not refute the WinX thesis and does not endorse it. The four-asset configuration is now available in Vietnam where it was not before December 2019. The compliance forcing function exists in Vietnam where it does not exist in India or Indonesia. Captive demand from MCH funds the first dollar of WinX Ads. The bank-balance-sheet credit design avoids the working-capital trap that ended Ula and Telio.</p>
+      <p>The four open operational questions, in falling order of risk: identified-receipt density rising to 55-65%; external FMCG brand willingness to commit at $4 CPM and 20% fill rate; merchant retention beyond the Decree 70 compliance moment; the Zalo MSA delivering the carve-outs the platform depends on. The FY26 cheque is the right size to test the first two. The remaining two are tranche-gateable at EOY FY26.</p>
+      <p>The IC retains full optionality to stop funding at any tranche gate without further commitment. The cumulative $63m through FY30 is approximately 0.76% of the Group's FY26 cash flow target. The downside is bounded; the upside is large only if the four operational questions land. The cohort post-mortems describe what does not work; whether WinX is structurally different is the operational test of the next 18 to 24 months.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div style="margin-bottom:8px">Internal // Masan Group Strategy and Development</div>
+      <div class="meta">Compiled from 23 company post-mortems across India, Indonesia, and Vietnam, the Masan AGM 2026 deck, and the Techcombank January 2026 investor presentation. Every number cited carries a footnote with source and date. Where the figure could not be verified to a primary source, the closest sourced estimate is flagged inline. The full source bibliography sits in <a href="sources.md">output/sources.md</a>; per-company markdowns in <a href="../research/">research/</a>; QC log in <a href="../synthesis/qc_findings_log.md">synthesis/qc_findings_log.md</a>.</div>
+    </div>
+    <div style="text-align:right">
+      <div>v2.0 // April 2026</div>
+      <div style="margin-top:8px;color:var(--ink-dim)">Press <b style="color:var(--amber)">P</b> for presenter mode<br>Press <b style="color:var(--amber)">J / K</b> to jump sections</div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+<script src="companies.js"></script>
+<script>
+"use strict";
+
+// ============================================================
+// DATA shortcuts
+// ============================================================
+const COMPANIES = (window.COMPANY_DATA && window.COMPANY_DATA.companies) || [];
+
+const FAILURE_MODES = [
+  {n:"01", label:"Wholesale-only economics, no demand anchor"},
+  {n:"02", label:"No closed-loop POS attribution"},
+  {n:"03", label:"Merchant CAC unamortisable on take rate"},
+  {n:"04", label:"Working capital intensity (principal model)"},
+  {n:"05", label:"App-first behaviour rejected by GT retailer"},
+  {n:"06", label:"No compliance forcing function"},
+  {n:"07", label:"Brand resistance to digital price transparency"},
+  {n:"08", label:"ZIRP-era valuation overhang"},
+  {n:"09", label:"Single-platform / parent dependency"},
+  {n:"10", label:"Founder / governance / cap-table defects"},
+];
+
+const ASSET_LABELS = ["MT density", "GT wedge", "First-party FMCG", "Identified POS receipts"];
+
+const CROSS_QUOTES = [
+  {text:"We chose to close the company rather than push through. Coming to terms with identity, uncertainty, and letting go.", who:"Nipun Mehra, founder, Ula", when:"Aug 2025, on the decision to wind down with $50m still in bank", src:"https://startupplaybook.co/2025/08/ep218-nipun-mehra-co-founder-ceo-ula-on-ulas-hypergrowth-bezos-backing-the-hard-call-to-shut-down/", srcLbl:"Startup Playbook Ep.218"},
+  {text:"Telio's scale wasn't big enough to make money selling small transactions at higher prices.", who:"Bui Sy Phong, founder, Telio", when:"Aug 2024, before Telio's wind-down", src:"https://www.therunway.ventures/p/telio", srcLbl:"The Runway Ventures, 22 Jun 2025"},
+  {text:"Bui incorporated Telio as planned, and was its sole shareholder, pending the Plaintiff's decision on how the shares of Telio should be split. However, before such a decision was reached, the Defendant applied for Telio to enter into an accelerator program and signed a term sheet with a venture capital firm.", who:"Singapore High Court, OOPA Pte Ltd v Bui Sy Phong", when:"Jun 2021", src:"https://www.mondaq.com/shareholders/1104662/", srcLbl:"Mondaq, 2021"},
+  {text:"Over the last 3 years, we have transformed the business by building cost as a capability and a competitive advantage. We have reduced our EBITDA burn by 40% every year for the last 3 years.", who:"Vaibhav Gupta, CEO, Udaan", when:"Feb 2025, on the Series G", src:"https://yourstory.com/2025/02/udaan-raises-75-million-existing-investors-ceo-vaibhav-gupta", srcLbl:"YourStory, 17 Feb 2025"},
+  {text:"Lummo died after pivoting four times in four years.", who:"The Runway Ventures", when:"2024, post-mortem on Lummo's voluntary liquidation", src:"https://www.therunway.ventures/p/lummo", srcLbl:"The Runway Ventures, 2024"},
+  {text:"Evolving from VinShop, which launched five years ago, OneShop now encompasses over 120,000 convenience stores nationwide.", who:"One Mount Group, OneShop launch", when:"Oct 2025; the framing 'evolving from' is corporate code for: the original VinShop product was insufficient.", src:"https://en.vietnamplus.vn/oneshop-launches-modern-digital-commerce-platform-for-vietnamese-small-retailers-post331423.vnp", srcLbl:"VietnamPlus, 2025"},
+  {text:"From this position of strength, we are embarking on a new five-year strategy that will see us continue to lead and shape the industry, deepen our ecosystem connectivity and create more value for our customers and shareholders.", who:"Jens Lottner, CEO, Techcombank", when:"Jan 2026, FY25 results call, anchoring TCB's commitment to embedded finance and SME / merchant scale", src:"https://techcombank.com/content/dam/techcombank/public-site/documents/FY25-Press-Release-ENG.pdf", srcLbl:"TCB FY25 Press Release, p.1"},
+  {text:"WCM is just not our retail arm, it is the connector to modernize Vietnam retail infrastructure.", who:"Masan Group, AGM 2026", when:"24 Apr 2026, slide 12, framing WCM as the operating system anchor", src:"#", srcLbl:"Masan AGM 2026 deck"},
+];
+
+const SIX_GATES = [
+  {
+    num:"01 // Consumer truth",
+    title:"What is the atomic behaviour the platform bets on, and is the behaviour permanent?",
+    cohort:"The cohort bet on a consistent atomic behaviour: GT retailers will switch to a digital platform if it offers wider catalogue, better prices, and faster delivery. The behaviour is real (Telio reached 60,000 merchants; Udaan reached 3 million) but the willingness to pay is not. The kirana, warung, or tap hoa retailer adopts but does not pay enough to amortise the platform's cost stack.",
+    winx:"WinX inverts the question. The atomic behaviour the platform monetises is consumer purchase decisions made on identified receipts at WCM tills, with the GT retailer treated as a free analytics and compliance tool that captures the consumer-side identity wedge through Decree 70. The consumer behaviour (returning to WCM, redeeming WIN points, accepting personalised offers) is observed and growing (active rate 3.7% Q2/2024 to 32.0% Q1/2026). The compliance window is temporary; the post-compliance retention question is the open operational gate.",
+    verdict:"conditional",
+    verdictLabel:"Conditional pass"
+  },
+  {
+    num:"02 // Product truth",
+    title:"Does the product actually deliver what the brand promises, or is the platform a marketing layer?",
+    cohort:"The cohort delivered on the order rail (Udaan, Telio, JioMart, Mitra Bukalapak) but failed on the closed-loop POS rail. Walmart Connect, Amazon Ads, Toast Capital, Kroger 84.51 demonstrate that retail media plus partner-bank credit at scale require first-party POS and identified consumer data; the cohort did not have the latter at GT scale. The product truth across the cohort was: distribution works, monetisation through ads or lending does not.",
+    winx:"WinX's product truth is the closed-loop attribution that the cohort lacked. WinMart Zalo OA at the MT till plus WinX Tap Hoa at the GT till plus WIN ID linking both is the configuration that produces measured impression-to-receipt attribution from FY26. The attribution layer is the first product, not the last. The Meat Deli reallocation pilot is the FY26 proof point: targeted advertising at measurable ROAS versus blanket discount.",
+    verdict:"conditional",
+    verdictLabel:"Conditional pass"
+  },
+  {
+    num:"03 // Equity transferability",
+    title:"Is this a single-product business or a platform that compounds across categories?",
+    cohort:"Most cohort companies built single-product B2B distribution. Telio's vertical extensions (Lifestyle, Healthcare) and Teliobooks did not stick. Lummo pivoted four times across ledger, payments, and D2C without compounding. Mitra Bukalapak became a platform only after the parent shut its consumer marketplace. JioMart compounds because it sits inside Reliance Retail. The pattern: equity transfers when the platform sits inside a multi-category parent; not when the platform is the parent.",
+    winx:"WinX is designed as a platform from inception. Three streams (Retail Media, Embedded Finance, Data Insight) share the data backbone. The platform compounds across MT, GT, brand, and bank. Adjacencies named in the v17 memo: V-Green for high-frequency surfaces, MEATLife for category-specific attribution, MML for branded meat acceleration, MCH for international export attribution.",
+    verdict:"pass",
+    verdictLabel:"Pass"
+  },
+  {
+    num:"04 // Value creation sizing",
+    title:"Does the opportunity reach the $500m to $1bn value creation bar?",
+    cohort:"Across the cohort, zero ventures cleared the bar standalone. Udaan at $1.6bn raised plateaued at $1.7-1.8bn EV. Lummo and Ula returned partial capital below the bar. Jumbotail at unicorn ($1.8bn) is at the bar but pre-IPO. Strategic sponsor outcomes (Reliance Dunzo writeoff $200m, Amazon Easy ~$227m wound down) destroyed value rather than created it. The bar is reachable only inside an existing operating system, not standalone.",
+    winx:"The WinX revenue forecast reaches $35.4m by FY30 and $130.9m by FY32. Standalone EV at retail-media-comparable multiples (Walmart Connect, Kroger 84.51, Toast) lands the platform at multi-hundred-million range; ecosystem uplift to WCM, MCH, MML adds Layer-2 value. The headline EV is deliberately not in the v17 memo; the cumulative $63m capital ask through FY30 is small relative to the bar. The path to $500m to $1bn requires the operational gates to deliver; the math is conservative under base assumptions and is not the binding constraint.",
+    verdict:"pass",
+    verdictLabel:"Pass"
+  },
+  {
+    num:"05 // Competitive dynamics",
+    title:"Is there a structural gap no incumbent is positioned to fill, and does Masan have the structural advantage to fill it?",
+    cohort:"The cohort filled real structural gaps (FMCG distribution inefficiency in India, Indonesia, Vietnam) but had no defensible advantage. Tiger and Sequoia funded the wedge; the wedge could be replicated. VinShop with Vingroup and Techcombank capital reached only ~8.5% of the 1.4m TAM in five years. The gap is owned by structural balance sheets, not by venture capital.",
+    winx:"The structural gap in Vietnam is the four-asset configuration that did not exist before December 2019. Bach Hoa Xanh has MT but no first-party FMCG brand pipe. TikTok Shop has chat data but no physical POS. VinShop / OneShop has GT plus banking pipe but no MT and no first-party FMCG. None of the named competitors have all four. The structural advantage is the asset stack; replication requires a new MT estate (Bach Hoa Xanh would need to add brand ownership) or a new GT relationship (an entrant would need 5+ years of Retail Supreme equivalent). The Decree 70 window is 12-18 months.",
+    verdict:"pass",
+    verdictLabel:"Pass"
+  },
+  {
+    num:"06 // Learnability",
+    title:"Can the IC develop conviction on the category to give input post-close?",
+    cohort:"FMCG distribution is technically learnable; the category is well-trodden. The cohort post-mortems show that operational discipline (Mitra Bukalapak shutting the marketplace, Mehra returning Ula capital, Toast Capital partnering with WebBank) matters more than category novelty. The IC could develop conviction on the category. The question is whether the conviction extends to backing the operating model.",
+    winx:"The WinX team is internal to Masan. The category is FMCG distribution plus retail media plus embedded finance, all three of which Masan operates today. The post-close operating levers are named: identified-receipt density, external brand attach, merchant retention KPI, Zalo MSA. Each is observable with named owners. The IC retains tranche-gate optionality.",
+    verdict:"pass",
+    verdictLabel:"Pass"
+  },
+];
+
+// ============================================================
+// HERO PARTICLE FIELD
+// ============================================================
+(function initHero(){
+  const canvas = document.getElementById('heroCanvas');
+  if (!canvas || !window.THREE) return;
+  const reduced = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  const isMobile = window.innerWidth < 720;
+  const particlesPerCluster = isMobile ? 1500 : 5000;
+
+  const renderer = new THREE.WebGLRenderer({canvas, alpha:true, antialias:false});
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.setSize(canvas.clientWidth, canvas.clientHeight, false);
+
+  const scene = new THREE.Scene();
+  const cam = new THREE.PerspectiveCamera(50, canvas.clientWidth/canvas.clientHeight, 0.1, 2000);
+  cam.position.set(0, 0, 200);
+
+  const clusters = [
+    {label:"Vietnam GT", pos:[-100, 22, -10], count:Math.round(particlesPerCluster*0.34), color:0xc39872, radius:32},
+    {label:"Indonesia warungs", pos:[-5, -10, 12], count:Math.round(particlesPerCluster*0.84), color:0xd8d4cd, radius:48},
+    {label:"India kiranas", pos:[100, 5, -22], count:Math.round(particlesPerCluster*1.28), color:0x9aa8b6, radius:72},
+  ];
+
+  const groups = [];
+  clusters.forEach((c, idx) => {
+    const geom = new THREE.BufferGeometry();
+    const positions = new Float32Array(c.count * 3);
+    for (let i = 0; i < c.count; i++) {
+      const r = c.radius * Math.cbrt(Math.random());
+      const t = Math.random() * Math.PI * 2;
+      const p = Math.acos(2 * Math.random() - 1);
+      positions[i*3]   = r * Math.sin(p) * Math.cos(t);
+      positions[i*3+1] = r * Math.sin(p) * Math.sin(t);
+      positions[i*3+2] = r * Math.cos(p);
+    }
+    geom.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    const mat = new THREE.PointsMaterial({color:c.color, size:1.4, sizeAttenuation:true, transparent:true, opacity:0.7, blending:THREE.AdditiveBlending, depthWrite:false});
+    const pts = new THREE.Points(geom, mat);
+    pts.position.set(c.pos[0], c.pos[1], c.pos[2]);
+    scene.add(pts);
+    groups.push(pts);
+  });
+
+  let mx = 0, my = 0;
+  window.addEventListener('mousemove', e => { mx = (e.clientX/window.innerWidth)*2-1; my = -(e.clientY/window.innerHeight)*2+1; });
+
+  function resize(){
+    renderer.setSize(canvas.clientWidth, canvas.clientHeight, false);
+    cam.aspect = canvas.clientWidth / canvas.clientHeight;
+    cam.updateProjectionMatrix();
+  }
+  window.addEventListener('resize', resize);
+
+  let t = 0;
+  function loop(){
+    t += reduced ? 0 : 0.0016;
+    groups.forEach((g, i) => {
+      g.rotation.y = t * (1 + i * 0.18);
+      g.rotation.x = Math.sin(t * (0.6 + i*0.1)) * 0.16;
+      const breathe = 1 + Math.sin(t * 0.7 + i * 1.2) * 0.022;
+      g.scale.setScalar(breathe);
+    });
+    cam.position.x += (mx * 6 - cam.position.x) * 0.04;
+    cam.position.y += (my * 4 - cam.position.y) * 0.04;
+    cam.lookAt(0, 0, 0);
+    renderer.render(scene, cam);
+    requestAnimationFrame(loop);
+  }
+  loop();
+})();
+
+// ============================================================
+// GRAVEYARD 3D
+// ============================================================
+(function initGraveyard(){
+  const canvas = document.getElementById('gv-canvas');
+  if (!canvas || !window.THREE || !COMPANIES.length) return;
+  const tooltip = document.getElementById('gv-tooltip');
+
+  const renderer = new THREE.WebGLRenderer({canvas, alpha:true, antialias:true});
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.setSize(canvas.clientWidth, canvas.clientHeight, false);
+
+  const scene = new THREE.Scene();
+  const cam = new THREE.PerspectiveCamera(48, canvas.clientWidth/canvas.clientHeight, 0.1, 2200);
+  cam.position.set(0, 90, 280);
+  cam.lookAt(0, 0, 0);
+
+  // ground grid (subtle)
+  const grid = new THREE.GridHelper(620, 30, 0x1c1c20, 0x131316);
+  grid.position.y = -42;
+  scene.add(grid);
+
+  const yearMin = 2014, yearMax = 2026;
+  const xByCountry = {VN:-180, ID:-30, IN:140};
+  const colorMap = {shut:0xc39872, plateau:0x9a9892, live:0xe8e6e1, profitable:0xa3c9a8};
+
+  const markers = [];
+  const ray = new THREE.Raycaster();
+  const mouse = new THREE.Vector2();
+
+  COMPANIES.forEach(c => {
+    const x = (xByCountry[c.country] || 0) + (Math.random() - 0.5) * 32;
+    const raised = c.raised_usd_m || 5;
+    const yLog = Math.log10(Math.max(raised, 1));
+    const y = -32 + yLog * 30;
+    const z = (yearMin - c.founded) * 22 + 80;
+    const sz = 4 + Math.min(yLog * 1.5, 8);
+    const color = colorMap[c.status] || 0xe8e6e1;
+    const mat = new THREE.MeshBasicMaterial({color:color, transparent:true, opacity:0.85});
+    const mesh = new THREE.Mesh(new THREE.SphereGeometry(sz, 16, 16), mat);
+    mesh.position.set(x, y, z);
+    mesh.userData = c;
+    scene.add(mesh);
+
+    const lineGeo = new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(x, y, z), new THREE.Vector3(x, -42, z)]);
+    const lineMat = new THREE.LineBasicMaterial({color:color, transparent:true, opacity:0.16});
+    scene.add(new THREE.Line(lineGeo, lineMat));
+
+    if (c.shut) {
+      const dz = (yearMin - c.shut) * 22 + 80;
+      const extGeo = new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(x, y, z), new THREE.Vector3(x, y, dz)]);
+      const extMat = new THREE.LineBasicMaterial({color:0xc39872, transparent:true, opacity:0.42});
+      scene.add(new THREE.Line(extGeo, extMat));
+      const dMesh = new THREE.Mesh(new THREE.SphereGeometry(sz*0.7, 12, 12), new THREE.MeshBasicMaterial({color:0x5a3a20, transparent:true, opacity:0.6}));
+      dMesh.position.set(x, y, dz);
+      scene.add(dMesh);
+    }
+    markers.push(mesh);
+  });
+
+  for (let y = yearMin; y <= yearMax; y += 2){
+    const z = (yearMin - y) * 22 + 80;
+    const cv = document.createElement('canvas');
+    cv.width = 128; cv.height = 32;
+    const ctx = cv.getContext('2d');
+    ctx.font = '14px IBM Plex Mono, monospace';
+    ctx.fillStyle = '#5a5854';
+    ctx.fillText(String(y), 0, 20);
+    const tex = new THREE.CanvasTexture(cv);
+    const sprite = new THREE.Sprite(new THREE.SpriteMaterial({map:tex, transparent:true, opacity:0.55}));
+    sprite.scale.set(28, 8, 1);
+    sprite.position.set(-280, -40, z);
+    scene.add(sprite);
+  }
+
+  Object.entries(xByCountry).forEach(([country, x]) => {
+    const labels = {VN:"Vietnam", ID:"Indonesia", IN:"India"};
+    const cv = document.createElement('canvas');
+    cv.width = 256; cv.height = 64;
+    const ctx = cv.getContext('2d');
+    ctx.font = '20px IBM Plex Sans, sans-serif';
+    ctx.fillStyle = '#9a9892';
+    ctx.textAlign = 'center';
+    ctx.fillText(labels[country], 128, 40);
+    const tex = new THREE.CanvasTexture(cv);
+    const sprite = new THREE.Sprite(new THREE.SpriteMaterial({map:tex, transparent:true, opacity:0.7}));
+    sprite.scale.set(40, 10, 1);
+    sprite.position.set(x, -38, 150);
+    scene.add(sprite);
+  });
+
+  let scrollPct = 0;
+  const frame = document.querySelector('#graveyard .gv-frame');
+  function onScroll(){
+    if (!frame) return;
+    const rect = frame.getBoundingClientRect();
+    const total = rect.height - window.innerHeight;
+    if (total <= 0) { scrollPct = 0.5; return; }
+    scrollPct = Math.max(0, Math.min(1, (-rect.top) / total));
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  function resize(){
+    renderer.setSize(canvas.clientWidth, canvas.clientHeight, false);
+    cam.aspect = canvas.clientWidth / canvas.clientHeight;
+    cam.updateProjectionMatrix();
+  }
+  window.addEventListener('resize', resize);
+
+  let hovered = null;
+
+  canvas.addEventListener('mousemove', e => {
+    const rect = canvas.getBoundingClientRect();
+    mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+    mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+    ray.setFromCamera(mouse, cam);
+    const ints = ray.intersectObjects(markers);
+    if (ints.length){
+      const m = ints[0].object;
+      if (hovered !== m){
+        hovered = m;
+        const c = m.userData;
+        const raised = c.raised_usd_m ? '$' + c.raised_usd_m + 'm' : 'corporate-funded';
+        tooltip.innerHTML =
+          '<strong>' + c.name + '</strong>' +
+          '<div class="row"><span>Founded</span><span>' + c.founded + (c.shut?' &middot; shut ' + c.shut:'') + '</span></div>' +
+          '<div class="row"><span>Country</span><span>' + (c.city||'') + ', ' + c.country + '</span></div>' +
+          '<div class="row"><span>Total raised</span><span>' + raised + '</span></div>' +
+          '<div class="row"><span>Status</span><span>' + c.status + '</span></div>' +
+          (c.tagline ? '<div class="note">' + c.tagline.replace(/</g,'&lt;') + '</div>' : '') +
+          '<div class="note" style="color:var(--amber);margin-top:8px">Click to jump to full panel</div>';
+      }
+      const tx = Math.min(e.clientX + 16, window.innerWidth - 320);
+      const ty = Math.min(e.clientY + 16, window.innerHeight - 220);
+      tooltip.style.left = tx + 'px';
+      tooltip.style.top = ty + 'px';
+      tooltip.style.opacity = '1';
+    } else {
+      hovered = null;
+      tooltip.style.opacity = '0';
+    }
+  });
+  canvas.addEventListener('mouseleave', () => { tooltip.style.opacity = '0'; hovered = null; });
+  canvas.addEventListener('click', e => {
+    const rect = canvas.getBoundingClientRect();
+    mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+    mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+    ray.setFromCamera(mouse, cam);
+    const ints = ray.intersectObjects(markers);
+    if (ints.length){
+      const id = ints[0].object.userData.id;
+      const el = document.getElementById('panel-' + id);
+      if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+  });
+
+  function loop(){
+    const camZ = 280 + scrollPct * (-320);
+    cam.position.set(Math.sin(scrollPct * 0.6) * 38, 90 - scrollPct * 42, camZ);
+    cam.lookAt(0, 0, camZ - 220);
+    renderer.render(scene, cam);
+    requestAnimationFrame(loop);
+  }
+  loop();
+})();
+
+// ============================================================
+// SANKEY
+// ============================================================
+(function initSankey(){
+  if (!window.d3 || !COMPANIES.length) return;
+  const svg = d3.select('#sankey');
+  const W = 1180, H = 660;
+
+  const VCs = [
+    {id:"tiger", name:"Tiger Global", exposure:["telio","udaan","ula","lummo","ninjacart"]},
+    {id:"peakxv", name:"Peak XV / Sequoia", exposure:["telio","ula","bukuwarung","lummo","gudangada","jumbotail"]},
+    {id:"lightspeed", name:"Lightspeed", exposure:["udaan","ula"]},
+    {id:"tencent", name:"Tencent", exposure:["udaan","ula"]},
+    {id:"ggv", name:"GGV", exposure:["telio","udaan"]},
+    {id:"bezos", name:"Bezos Expeditions", exposure:["ula"]},
+    {id:"prosus", name:"Prosus", exposure:["ula"]},
+    {id:"vng", name:"VNG", exposure:["telio"]},
+    {id:"reliance", name:"Reliance", exposure:["dunzo","jiomart","reliancemitra"]},
+    {id:"walmart", name:"Walmart / Flipkart", exposure:["flipkartwhole","ninjacart"]},
+    {id:"amazon", name:"Amazon", exposure:["amazoneasy"]},
+    {id:"vingroup", name:"Vingroup / Techcombank", exposure:["vinshop","vinid"]},
+    {id:"japaneses", name:"Japanese strategics", exposure:["kamereo"]},
+    {id:"east", name:"East Ventures", exposure:["bukuwarung","warungpintar"]},
+    {id:"ac", name:"AC Ventures", exposure:["ula"]},
+    {id:"others", name:"Other VCs", exposure:["shopx","storeking","wahyoo","dagangan","mitrabuka","mitratokopedia"]},
+  ];
+  const statusGroups = {shut:"Shut / dissolved", plateau:"Plateaued / marked down", live:"Operating", profitable:"Profitable"};
+  const nodes = [], links = [];
+  const idMap = new Map();
+  function addNode(id, name, col){
+    if (idMap.has(id)) return idMap.get(id);
+    const idx = nodes.length;
+    nodes.push({name, col, id});
+    idMap.set(id, idx);
+    return idx;
+  }
+  VCs.forEach(v => addNode("vc:"+v.id, v.name, 0));
+  COMPANIES.forEach(c => addNode("co:"+c.id, c.name, 1));
+  Object.entries(statusGroups).forEach(([k,v]) => addNode("st:"+k, v, 2));
+  VCs.forEach(v => {
+    v.exposure.forEach(coId => {
+      const co = COMPANIES.find(c => c.id === coId);
+      if (!co) return;
+      const raised = co.raised_usd_m || 50;
+      const share = raised / Math.max(1, v.exposure.length);
+      links.push({source:idMap.get("vc:"+v.id), target:idMap.get("co:"+coId), value:share, country:co.country});
+    });
+  });
+  COMPANIES.forEach(c => {
+    const raised = c.raised_usd_m || 50;
+    links.push({source:idMap.get("co:"+c.id), target:idMap.get("st:"+c.status), value:raised, country:c.country});
+  });
+  const sankey = d3.sankey().nodeId(d=>d.name).nodeWidth(8).nodePadding(7).extent([[12,16],[W-12,H-16]]).nodeAlign(d3.sankeyJustify);
+  const result = sankey({nodes:nodes.map(n=>Object.assign({},n)), links:links.map(l=>Object.assign({},l))});
+  const countryColor = {VN:"#c39872", ID:"#7d8b9d", IN:"#5b8c8c"};
+  const statusColor = {shut:"#c39872", plateau:"#9a9892", live:"#e8e6e1", profitable:"#a3c9a8"};
+  svg.append('g').selectAll('path').data(result.links).join('path').attr('class','sankey-link').attr('d',d3.sankeyLinkHorizontal()).attr('stroke',d=>countryColor[d.country]||"#5a5854").attr('stroke-width',d=>Math.max(0.6,d.width));
+  const node = svg.append('g').selectAll('g').data(result.nodes).join('g').attr('class','sankey-node');
+  node.append('rect').attr('x',d=>d.x0).attr('y',d=>d.y0).attr('height',d=>Math.max(0,d.y1-d.y0)).attr('width',d=>d.x1-d.x0).attr('fill',d=>{
+    if (d.col===0) return '#9a9892';
+    if (d.col===2) return statusColor[d.id.replace('st:','')] || '#9a9892';
+    const co = COMPANIES.find(x=>"co:"+x.id===d.id);
+    return co ? (countryColor[co.country]||'#5a5854') : '#9a9892';
+  });
+  node.append('text').attr('x',d=>d.col===2?d.x0-8:d.x1+8).attr('y',d=>(d.y0+d.y1)/2).attr('dy','0.34em').attr('text-anchor',d=>d.col===2?'end':'start').text(d=>(d.col===1 && (d.y1-d.y0)<9)?'':d.name);
+})();
+
+// ============================================================
+// FAILURE MATRIX
+// ============================================================
+(function initFailureMatrix(){
+  const tbl = document.getElementById('modeMatrix');
+  if (!tbl || !COMPANIES.length) return;
+  const sorted = COMPANIES.slice().sort((a,b)=>(b.raised_usd_m||0)-(a.raised_usd_m||0));
+  let hdr = '<thead><tr><th class="companyName">&nbsp;</th>';
+  FAILURE_MODES.forEach(m => hdr += '<th class="modeHead" title="'+m.label+'"><span style="font-family:\'IBM Plex Mono\',monospace;color:var(--amber)">'+m.n+'</span> &nbsp; '+m.label+'</th>');
+  hdr += '<th class="modeHead" style="background:transparent">Total</th></tr></thead>';
+  let body = '<tbody>';
+  sorted.forEach(c => {
+    body += '<tr><td class="companyName">'+c.name+' <span style="color:var(--ink-dim);font-size:9px;margin-left:5px">'+c.country+'</span></td>';
+    let total = 0;
+    (c.modes||[]).forEach(v => {
+      const cls = v===1?'cell-yes':(v===0.5?'cell-partial':'cell-no');
+      const sym = v===1?'■':(v===0.5?'▤':'');
+      body += '<td class="'+cls+'">'+sym+'</td>';
+      total += v;
+    });
+    body += '<td style="color:var(--amber);font-weight:500">'+total+'</td></tr>';
+  });
+  body += '</tbody>';
+  tbl.innerHTML = hdr+body;
+
+  const freqBar = document.getElementById('freqBar');
+  freqBar.innerHTML = '<h4>Frequency across the cohort, ranked</h4>';
+  const counts = FAILURE_MODES.map((m,i)=>{ let c=0; COMPANIES.forEach(co=>{c+=(co.modes||[])[i]||0;}); return {m,c}; });
+  counts.sort((a,b)=>b.c-a.c);
+  counts.forEach(({m,c}) => {
+    const pct = (c/COMPANIES.length)*100;
+    freqBar.innerHTML += '<div class="row"><div class="label"><span class="num">'+m.n+'</span>'+m.label+'</div><div class="bar"><div class="fill" style="width:'+pct.toFixed(0)+'%"></div></div><div class="count">'+c.toFixed(1)+' / '+COMPANIES.length+'</div></div>';
+  });
+})();
+
+// ============================================================
+// FOUR-ASSETS
+// ============================================================
+(function initAssets(){
+  const tbl = document.getElementById('assetGrid');
+  if (!tbl || !COMPANIES.length) return;
+  const winx = {name:"WinX (Masan, proposed)", country:"VN", assets:[1,1,1,1]};
+  const allRows = [winx, ...COMPANIES];
+  let hdr = '<thead><tr><th class="compName">Company</th>';
+  ASSET_LABELS.forEach(l => hdr += '<th>'+l+'</th>');
+  hdr += '<th>All four</th></tr></thead>';
+  let body = '<tbody>';
+  allRows.forEach((r,i) => {
+    const cls = i===0?'winx':'';
+    body += '<tr class="'+cls+'"><td class="compName">'+r.name+(r.country?' <span style="color:var(--ink-dim);font-size:10px;margin-left:6px">'+r.country+'</span>':'')+'</td>';
+    let allYes = true;
+    (r.assets||[0,0,0,0]).forEach(a => {
+      let cls2='dot-none', sym='○';
+      if (a===1) { cls2='dot-full'; sym='●'; }
+      else if (a===0.5) { cls2='dot-partial'; sym='◐'; allYes=false; }
+      else { allYes=false; }
+      body += '<td class="'+cls2+'" style="font-size:18px">'+sym+'</td>';
+    });
+    body += '<td style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:'+(allYes?'var(--amber)':'var(--ink-dim)')+'">'+(allYes?'YES':'no')+'</td></tr>';
+  });
+  body += '</tbody>';
+  tbl.innerHTML = hdr+body;
+})();
+
+// ============================================================
+// COHORT DRILLDOWN PANELS
+// ============================================================
+function escapeHtml(s){
+  if (s == null) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+function renderPanel(c){
+  const raised = c.raised_usd_m ? '$' + c.raised_usd_m + 'm' : 'corporate';
+  const peakRev = c.peak_revenue_usd_m ? '$' + c.peak_revenue_usd_m + 'm' : 'n.d.';
+  let peakValStr = 'n.d.';
+  if (c.peak_valuation_usd_m){
+    if (c.peak_valuation_usd_m >= 1000) peakValStr = '$' + (c.peak_valuation_usd_m/1000).toFixed(1) + 'bn';
+    else peakValStr = '$' + c.peak_valuation_usd_m + 'm';
+  }
+  const merchants = c.merchants_peak ? c.merchants_peak.toLocaleString() : 'n.d.';
+  const logo = c.logo_file ? '<img src="logos/' + c.logo_file + '" alt="' + escapeHtml(c.name) + '" onerror="this.style.display=&#39;none&#39;">' : '';
+
+  const founders = (c.founders||[]).map(f =>
+    '<div class="founder"><span class="name">' + escapeHtml(f.name||'') + '</span>' +
+    '<span class="role">' + escapeHtml(f.role||'') + '</span>' +
+    (f.prior ? '<div class="prior">' + escapeHtml(f.prior) + '</div>' : '') +
+    '</div>'
+  ).join('');
+
+  const rounds = (c.rounds||[]).map(r =>
+    '<tr><td>' + escapeHtml(r.date||'') + '</td>' +
+    '<td>' + escapeHtml(r.stage||'') + '</td>' +
+    '<td class="amount">' + (r.amount_usd_m ? '$'+r.amount_usd_m+'m' : 'n.d.') + '</td>' +
+    '<td class="lead">' + escapeHtml(r.lead||'') + '</td></tr>'
+  ).join('');
+
+  const experiments = (c.experiments||[]).map(e =>
+    '<li><span class="ex-name">' + escapeHtml(e.name||'') + '<span class="yr">' + (e.year||'') + '</span></span>' +
+    '<div class="ex-what">' + escapeHtml(e.what||'') + '</div>' +
+    (e.outcome ? '<div class="ex-outcome">' + escapeHtml(e.outcome) + '</div>' : '') +
+    '</li>'
+  ).join('');
+
+  const pivots = (c.pivots||[]).map(p =>
+    '<div class="pivot"><span class="yr">' + (p.year||'') + '</span>' +
+    '<span>' + escapeHtml(p.from||'') + ' <span class="arrow">&rarr;</span> ' + escapeHtml(p.to||'') + '</span>' +
+    (p.trigger ? '<span class="trigger">Trigger: ' + escapeHtml(p.trigger) + '</span>' : '') +
+    '</div>'
+  ).join('');
+
+  function renderQuotes(arr){
+    return (arr||[]).map(q =>
+      '<div class="quote"><div class="text">' + escapeHtml(q.text||'') + '</div>' +
+      '<div class="attr"><b>' + escapeHtml(q.who||'') + '</b>' +
+      (q.when ? ' &middot; ' + escapeHtml(q.when) : '') +
+      (q.context ? '<span class="ctx">' + escapeHtml(q.context) + '</span>' : '') +
+      (q.source_url && q.source_url !== '#' ? ' <a href="' + q.source_url + '" target="_blank" rel="noopener">' + escapeHtml(q.source_label||'source') + '</a>' : '') +
+      '</div></div>'
+    ).join('');
+  }
+  const voice = renderQuotes(c.voice);
+  const customerVoice = renderQuotes(c.customer_voice);
+
+  const ic = c.ic_read || {};
+  const icHtml =
+    '<div class="ic-read"><h5>IC clearance read against the six gates</h5>' +
+    '<div class="gate"><span class="label">Consumer truth</span><div class="body">' + escapeHtml(ic.consumer_truth||'n.d.') + '</div></div>' +
+    '<div class="gate"><span class="label">Product truth</span><div class="body">' + escapeHtml(ic.product_truth||'n.d.') + '</div></div>' +
+    '<div class="gate"><span class="label">Equity transferability</span><div class="body">' + escapeHtml(ic.equity_transferability||'n.d.') + '</div></div>' +
+    '<div class="gate"><span class="label">Value creation sizing</span><div class="body">' + escapeHtml(ic.value_creation_sizing||'n.d.') + '</div></div>' +
+    '<div class="gate"><span class="label">Competitive dynamics</span><div class="body">' + escapeHtml(ic.competitive_dynamics||'n.d.') + '</div></div>' +
+    '<div class="gate"><span class="label">Learnability</span><div class="body">' + escapeHtml(ic.learnability||'n.d.') + '</div></div>' +
+    '</div>';
+
+  const cityHtml = c.city ? '<span class="city">' + escapeHtml(c.city) + '</span>' : '';
+  const founded = c.founded + (c.shut ? ' &middot; shut ' + c.shut : '');
+
+  return (
+    '<article class="company-panel" id="panel-' + c.id + '">' +
+      '<div class="panel-header">' +
+        '<div class="logo-block">' + logo + '<span class="country-tag">' + c.country + '</span></div>' +
+        '<div><h3>' + escapeHtml(c.name) + cityHtml + '</h3></div>' +
+        '<div class="stats">' +
+          '<div class="item"><span class="n">' + raised + '</span><span class="l">Total raised</span></div>' +
+          '<div class="item"><span class="n">' + peakRev + '</span><span class="l">Peak revenue</span></div>' +
+          '<div class="item"><span class="n">' + peakValStr + '</span><span class="l">Peak valuation</span></div>' +
+          '<div class="item"><span class="n">' + merchants + '</span><span class="l">Merchants peak</span></div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="status-bar">' +
+        '<span class="status-tag ' + c.status + '">' + c.status + '</span>' +
+        '<span>' + founded + '</span>' +
+        '<span style="color:var(--ink-mute);margin-left:auto">' + escapeHtml(c.tagline||'') + '</span>' +
+      '</div>' +
+      '<div class="panel-grid">' +
+        '<div>' +
+          '<div class="panel-section"><h4>Founders &amp; thesis at founding</h4>' +
+            '<div class="founders-list">' + founders + '</div>' +
+            (c.thesis_at_founding ? '<div class="thesis">' + escapeHtml(c.thesis_at_founding) + '</div>' : '') +
+          '</div>' +
+          '<div class="panel-section"><h4>Capital history</h4>' +
+            '<table class="rounds-table"><thead><tr><th>Date</th><th>Stage</th><th>Amount</th><th>Lead</th></tr></thead>' +
+            '<tbody>' + (rounds || '<tr><td colspan="4" style="color:var(--ink-mute)">No priced rounds disclosed.</td></tr>') + '</tbody></table>' +
+          '</div>' +
+          '<div class="panel-section"><h4>Experiments &amp; initiatives</h4>' +
+            '<ul class="experiments-list">' + (experiments || '<li style="color:var(--ink-mute)">No experiments documented in primary sources.</li>') + '</ul>' +
+          '</div>' +
+          (pivots ? '<div class="panel-section"><h4>Pivot ladder</h4><div class="pivots-ladder">' + pivots + '</div></div>' : '') +
+        '</div>' +
+        '<div>' +
+          '<div class="panel-section"><h4>Operating arc</h4><p>' + escapeHtml(c.operating_arc||'n.d.') + '</p></div>' +
+          '<div class="panel-section"><h4>Voice: founders, investors, employees</h4>' +
+            '<div class="voice-list">' + (voice || '<p style="color:var(--ink-mute)">No public voice corpus available.</p>') + '</div>' +
+          '</div>' +
+          (customerVoice ? '<div class="panel-section"><h4>Customer voice (merchants &amp; shoppers)</h4><div class="voice-list">' + customerVoice + '</div></div>' : '') +
+        '</div>' +
+      '</div>' +
+      '<div class="panel-footer">' +
+        '<div class="footer-block"><h5>Failure mode</h5><p>' + escapeHtml(c.failure_mode||'n.d.') + '</p></div>' +
+        '<div class="footer-block"><h5>Aftermath</h5><p>' + escapeHtml(c.aftermath||'n.d.') + '</p></div>' +
+      '</div>' +
+      icHtml +
+    '</article>'
+  );
+}
+
+(function initCohort(){
+  const navEl = document.getElementById('cohortNav');
+  const panelsEl = document.getElementById('cohortPanels');
+  if (!navEl || !panelsEl || !COMPANIES.length) return;
+  const sorted = COMPANIES.slice().sort((a,b) => {
+    const cmp = a.country.localeCompare(b.country);
+    if (cmp !== 0) return cmp;
+    return (b.raised_usd_m||0) - (a.raised_usd_m||0);
+  });
+  const groups = {VN:[], IN:[], ID:[]};
+  sorted.forEach(c => groups[c.country].push(c));
+  const groupLabels = {VN:"Vietnam", IN:"India", ID:"Indonesia"};
+  let navHtml = '';
+  ['VN','IN','ID'].forEach(country => {
+    navHtml += '<div class="country-group"><span class="country-label">' + groupLabels[country] + '</span>';
+    groups[country].forEach(c => {
+      navHtml += '<a href="#panel-' + c.id + '" class="' + c.status + '">' + escapeHtml(c.name) + '</a>';
+    });
+    navHtml += '</div>';
+  });
+  navEl.innerHTML = navHtml;
+  let panelsHtml = '';
+  sorted.forEach(c => { panelsHtml += renderPanel(c); });
+  panelsEl.innerHTML = panelsHtml;
+})();
+
+// ============================================================
+// VOICE (cross-cohort)
+// ============================================================
+(function initVoice(){
+  const ctn = document.getElementById('quotesContainer');
+  if (!ctn) return;
+  let html = '';
+  CROSS_QUOTES.forEach(q => {
+    html += '<div class="quote"><div class="text">' + q.text + '</div>' +
+      '<div class="attr"><b>' + q.who + '</b> &nbsp;//&nbsp; ' + q.when + ' ' +
+      (q.src && q.src !== '#' ? '<a href="' + q.src + '" target="_blank" rel="noopener">' + q.srcLbl + '</a>' : '<span style="color:var(--ink-dim)">' + q.srcLbl + '</span>') +
+      '</div></div>';
+  });
+  ctn.innerHTML = html;
+  if ('IntersectionObserver' in window){
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+    }, {threshold:0.3});
+    document.querySelectorAll('#voice .quote').forEach(q => io.observe(q));
+  } else {
+    document.querySelectorAll('#voice .quote').forEach(q => q.classList.add('in'));
+  }
+})();
+
+// ============================================================
+// SIX GATES
+// ============================================================
+(function initGates(){
+  const list = document.getElementById('gatesList');
+  if (!list) return;
+  let html = '';
+  SIX_GATES.forEach(g => {
+    html += '<div class="gate"><div class="gate-num">' + g.num + '</div>' +
+      '<div class="gate-body"><h4>' + g.title + '</h4>' +
+      '<p class="lead"><b style="color:var(--amber);font-family:&#39;IBM Plex Mono&#39;,monospace;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;display:block;margin-bottom:8px">Cohort evidence</b>' + g.cohort + '</p>' +
+      '<p class="caveat"><b style="color:var(--amber);font-family:&#39;IBM Plex Mono&#39;,monospace;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;display:block;margin-bottom:8px;font-style:normal">WinX read</b>' + g.winx + '</p>' +
+      '</div><div class="verdict ' + g.verdict + '">' + g.verdictLabel + '</div></div>';
+  });
+  list.innerHTML = html;
+})();
+
+// ============================================================
+// SHELL: nav, presenter, scroll
+// ============================================================
+(function initShell(){
+  const body = document.body;
+  const presBtn = document.getElementById('presBtn');
+  const secInd = document.getElementById('secInd');
+  const navLinks = Array.from(document.querySelectorAll('.topbar .nav a[data-sec]'));
+  const sections = ['hero','graveyard','capital','failure-modes','four-assets','cohort','voice','alignment','delta'];
+  const secLabels = ['I','II','III','IV','V','VI','VII','VIII','IX'];
+
+  function togglePres(){
+    body.classList.toggle('presenter');
+    presBtn.classList.toggle('on');
+    presBtn.textContent = body.classList.contains('presenter') ? 'Read' : 'Present';
+  }
+  presBtn.addEventListener('click', togglePres);
+
+  function currentSec(){
+    let cur = 0;
+    for (let i = 0; i < sections.length; i++){
+      const el = document.getElementById(sections[i]);
+      if (!el) continue;
+      const r = el.getBoundingClientRect();
+      if (r.top <= 96) cur = i;
+    }
+    return cur;
+  }
+  function jump(dir){
+    const idx = currentSec();
+    const nx = Math.max(0, Math.min(sections.length-1, idx+dir));
+    document.getElementById(sections[nx]).scrollIntoView({behavior:'smooth', block:'start'});
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === 'p' || e.key === 'P') togglePres();
+    else if (e.key === 'j' || e.key === 'J') { e.preventDefault(); jump(1); }
+    else if (e.key === 'k' || e.key === 'K') { e.preventDefault(); jump(-1); }
+    else if (e.key === 'f' || e.key === 'F') { if (body.classList.contains('presenter')) { e.preventDefault(); if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen(); } }
+  });
+
+  const topbar = document.getElementById('topbar');
+  function onScroll(){
+    if (window.scrollY > 12) topbar.classList.add('scrolled'); else topbar.classList.remove('scrolled');
+    const idx = currentSec();
+    navLinks.forEach((a, i) => { a.classList.toggle('active', i === idx); });
+    secInd.textContent = secLabels[idx] + ' / IX';
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  navLinks.forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const id = a.getAttribute('data-sec');
+      document.getElementById(id).scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
